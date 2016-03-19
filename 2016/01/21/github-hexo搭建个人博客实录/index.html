@@ -20,7 +20,7 @@
 <meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSuccPage1.png">
 <meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSucc.png">
 <meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexoGithubIndex.png">
-<meta property="og:updated_time" content="2016-03-19T03:30:33.000Z">
+<meta property="og:updated_time" content="2016-03-19T04:07:23.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="github+hexo搭建个人博客实录">
 <meta name="twitter:description" content="安装过程中遇到不少问题，具体的步骤就不详细介绍了，主要记录遇到的坑，以及没有解决的问题。">
@@ -284,7 +284,7 @@
 </ol>
 <p>从原理上来说，hexo使用hexo——deploy_git进行发布管理。但是其实这个deploy_git本质上还是使用原生git来管理的。<br>deploy_git将public文件夹的文件一如.deploy_git文件夹，然后调用原生git上传到git服务器。<br>这一点，我们从博客主目录（就是hexo init 那个文件夹）文件夹目录结构也可以看出来。</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">  deploy:</span><br><span class="line">type: git</span><br><span class="line">repository: git@github.com:whisper1225/whisper1225.github.io.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
-<p>第一次错误是type后面必须有空格，我没有。。。<br>第二次是permission deny,public key ，unknown host之类的什么。<br>我检查了user/.ssh文件夹下的knownhost文件，发现部署了几次之后，notepad++提示known_hosts有变动，然后好像添加了一行什么的。然后就好了 hexo d  -g 依然失败，报错很类似但是没有了没有known_hosts。总之push不成功。有人说是git版本不对，我觉得他扯犊子，我平时都是可以的。但是我还是试了下，直接用最新的git2.7 push成功。这脸打得疼啊，火燎火燎的。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSucc.png" alt=""></p>
+<p>第一次错误是type后面必须有空格，我没有。。。<br>//而且这个type如果你使用的是github的git管理工具这个地方应该填github<br>第二次是permission deny,public key ，unknown host之类的什么。<br>我检查了user/.ssh文件夹下的knownhost文件，发现部署了几次之后，notepad++提示known_hosts有变动，然后好像添加了一行什么的。然后就好了 hexo d  -g 依然失败，报错很类似但是没有了没有known_hosts。总之push不成功。有人说是git版本不对，我觉得他扯犊子，我平时都是可以的。但是我还是试了下，直接用最新的git2.7 push成功。这脸打得疼啊，火燎火燎的。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSucc.png" alt=""></p>
 <blockquote>
 <p><strong>没有解决的问题：</strong>关于hexo d部署应该是调用原生git直接add commit 然后合并提交。但是我不知道怎么使用参数来commit “xxx” 注解。想向github提交的时候能够用git直接管理。<br>其原理就是hexo在执行hexo generate时会在本地先把博客生成的一套静态站点放到public文件夹中，在执行hexo deploy时将其完全复制（文件夹结构都是一样的）到.deploy文件夹中并push。<br>如果直接使用git bash管理，可以直接向服务器提交public文件夹内的代码，问题解决。</p>
 </blockquote>
@@ -296,7 +296,10 @@
 <ol>
 <li>对于yilia主题还有一些文章的排序（现有的好像是按照时间顺序进行排序），置顶等功能也很重要，好像主题作者说要完成。</li>
 <li>发布到github是生成的静态文件，但有时候需要源markdown文件。我是用笨办法，以主文件夹下的source文件夹建立一个仓库，对应github上的hexosource仓库。<br>知乎网友各显神通，提出各种解决方法。<br><a href="https://www.zhihu.com/question/21193762" target="_blank" rel="external">https://www.zhihu.com/question/21193762</a></li>
-<li>我们有些经常写的页面有很多的共性的部分，对于这个网站的模板功能，还是很有用的。<br><a href="http://www.tuicool.com/articles/YneiAzy" target="_blank" rel="external">http://www.tuicool.com/articles/YneiAzy</a></li>
+<li><p>我们有些经常写的页面有很多的共性的部分，对于这个网站的模板功能，还是很有用的。<br><a href="http://www.tuicool.com/articles/YneiAzy" target="_blank" rel="external">http://www.tuicool.com/articles/YneiAzy</a></p>
+</li>
+<li><p>g参数生成源文件的htmla文件是针对所有的源文件，假如我新添一个文件，能不能对这一个文件指定g.</p>
+</li>
 </ol>
 <h2 id="七、参考教程"><a href="#七、参考教程" class="headerlink" title="七、参考教程"></a><strong>七、参考教程</strong></h2><p>安装之前找了一堆教程，现在安装成功之后回头来看有一些靠谱的教程。而且这次顺手注册了个七牛，这丫的居然要我手机号、支付宝号、身份证。<strong>而且还要我授权提取支付宝信息</strong>，但是我还填写了，谁让我穷啊。</p>
 <ol>
