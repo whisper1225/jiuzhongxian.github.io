@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>github+hexo搭建个人博客实录 | 酒中仙的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="安装过程中遇到不少问题，具体的步骤就不详细介绍了，主要记录遇到的坑，以及没有解决的问题。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="github+hexo搭建个人博客实录">
+<meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/21/github-hexo搭建个人博客实录/index.html">
+<meta property="og:site_name" content="酒中仙的博客">
+<meta property="og:description" content="安装过程中遇到不少问题，具体的步骤就不详细介绍了，主要记录遇到的坑，以及没有解决的问题。">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_mirrorhttps.png">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexo_containHexoFile.png">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexo_noexecuteFile.png">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hasExecuteFile.png">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexoRunOk.png">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSuccPage1.png">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSucc.png">
+<meta property="og:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexoGithubIndex.png">
+<meta property="og:updated_time" content="2016-03-19T03:30:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="github+hexo搭建个人博客实录">
+<meta name="twitter:description" content="安装过程中遇到不少问题，具体的步骤就不详细介绍了，主要记录遇到的坑，以及没有解决的问题。">
+<meta name="twitter:image" content="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_mirrorhttps.png">
+  
+    <link rel="alternative" href="/atom.xml" title="酒中仙的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.jpg">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_rabbit_headImage.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">whisper</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">为往圣继绝学 虽不能至 心向往之</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						<li>Links</li>
+						
+						
+						<li>Über</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="#" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="#" title="rss">rss</a>
+					        
+								<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/android-studio/" style="font-size: 10px;">android studio</a> <a href="/tags/hexo和github搭建博客/" style="font-size: 10px;">hexo和github搭建博客</a> <a href="/tags/个人资料管理/" style="font-size: 10px;">个人资料管理</a> <a href="/tags/入门笔记/" style="font-size: 10px;">入门笔记</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/前端笔记/" style="font-size: 10px;">前端笔记</a> <a href="/tags/后台错误/" style="font-size: 10px;">后台错误</a> <a href="/tags/备忘/" style="font-size: 10px;">备忘</a> <a href="/tags/目录层级结构划分方式/" style="font-size: 10px;">目录层级结构划分方式</a> <a href="/tags/笔记/" style="font-size: 10px;">笔记</a> <a href="/tags/编码/" style="font-size: 10px;">编码</a> <a href="/tags/背景错位/" style="font-size: 10px;">背景错位</a> <a href="/tags/错误记录/" style="font-size: 10px;">错误记录</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">whisper</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_rabbit_headImage.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">whisper</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">为往圣继绝学 虽不能至 心向往之</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="#" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="#" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-github-hexo搭建个人博客实录" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/01/21/github-hexo搭建个人博客实录/" class="article-date">
+  	<time datetime="2016-01-21T05:03:24.000Z" itemprop="datePublished">2016-01-21</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      github+hexo搭建个人博客实录
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo和github搭建博客/">hexo和github搭建博客</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>安装过程中遇到不少问题，具体的步骤就不详细介绍了，主要记录遇到的坑，以及没有解决的问题。<br><a id="more"></a></p>
+<h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a><strong>一、前言</strong></h2><p>之前有两篇博客莫名被csdn给删除了，一时兴起，想想要不搭建一个个人博客。于是选择了比较常见的github+hexo。<br>自己的电脑是mac air，由于以前驱动一些硬件的需要，安装了windows，后来一直没有换回来。搞github +  hexo，前途凶险。看小伙伴的搭建过程，感觉还是在mac 系统下安装应该更加省事。当然网最重要，网一定要好。</p>
+<blockquote>
+<p>这是自己的搭建个人博客的第一篇，正好记录搭建过程，纪念一下。</p>
+</blockquote>
+<h2 id="二、安装支持软件和新建仓库"><a href="#二、安装支持软件和新建仓库" class="headerlink" title="二、安装支持软件和新建仓库"></a><strong>二、安装支持软件和新建仓库</strong></h2><h3 id="1、安装node-js和git"><a href="#1、安装node-js和git" class="headerlink" title="1、安装node.js和git"></a><strong>1、安装node.js和git</strong></h3><p>安装之后最好在命令窗口测试一下；git版本还是有讲究的，这个后面再说。</p>
+<h3 id="2、建立github-io项目"><a href="#2、建立github-io项目" class="headerlink" title="2、建立github.io项目"></a><strong>2、建立github.io项目</strong></h3><p>注意名字和github名称一致，这个影响到后来难呢过不能通过username.github.io访问的问题-<br>生成ssh key 添加公钥到github上。可以使用 ssh -T git@github.com测试–》Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理，输入下面的代码                 进行个人信息的设置，把名称和邮箱替换成你自己的，名字必须是你的真名，而不是GitHub的昵称。<br>    $ git config –global user.name “name”//用户名<br>    $ git config –global user.email  “your eamil”//填写自己的邮箱</p>
+<h2 id="三-、安装hexo"><a href="#三-、安装hexo" class="headerlink" title="三 、安装hexo"></a><strong>三 、安装hexo</strong></h2><p>安装一般建立一个github文件目录，里面再建立一个hexo文件夹（名字随便可以叫hexo或者blog之类的）。后面很多操作都在此文件夹之下。</p>
+<h3 id="1-用npm安装hexo一般使用国内淘宝镜像（如果默认镜像能行就没什么问题）"><a href="#1-用npm安装hexo一般使用国内淘宝镜像（如果默认镜像能行就没什么问题）" class="headerlink" title="1. 用npm安装hexo一般使用国内淘宝镜像（如果默认镜像能行就没什么问题）"></a>1. 用npm安装hexo一般使用国内淘宝镜像（如果默认镜像能行就没什么问题）</h3><pre><code>npm install -g cnpm --registry=https://registry.npm.taobao.org
+但是我竟然连这个也安装不成功。我的网是可以科学上网的啊，不科学啊。
+应该说整个过程最麻烦的地方就在联网安装。这个在天朝真的没办法。如果这个不能安装，我们可以在每次npm命令之后指定这个淘宝镜像。
+</code></pre><h3 id="2-修改镜像地址"><a href="#2-修改镜像地址" class="headerlink" title="2. 修改镜像地址"></a>2. 修改镜像地址</h3><pre><code>安装了好多次，始终不能成功（当时都快哭了）。后来发现只要把协议改成http协议就能安装成功，而且速度很快（原理就不说了），这个是参考安卓的加速jcenter下载的解决办法。联网安装成功。
+</code></pre><p><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_mirrorhttps.png" alt=""></p>
+<h3 id="3-找不到hexo命令"><a href="#3-找不到hexo命令" class="headerlink" title="3. 找不到hexo命令"></a>3. 找不到hexo命令</h3><pre><code>但是使用命令hexo却提示没有这个命令，我看教程上大家都没有说这个，难道google第一页的教程都是window下安装的？
+</code></pre><p><strong>这个问题可能是命令行窗口没有报错，但是其实安装失败了，没有执行文件，要么就是安装成功，执行文件没有添加到环境变量。于是准备找到可执行文件，把其所父目录地址添加到环境变量</strong><br>我在下面的文件夹中用Everything检索到了几个和hexo相关的文件。但是没有找到相关的执行文件。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexo_containHexoFile.png" alt=""><br>明显已经安装了，hexo，但是威慑么在hexo文件夹下没有可执行文件了？？？<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexo_noexecuteFile.png" alt=""></p>
+<p>然后google，有人说必须启动在hexo（之前新建的）文件夹下面开管理员命令窗口。有人说得 npm cache clean（后来我才明白这个cache为什么这么重要，但是这个clean和我这个错误没有任何关系）。有人说版本问题，我clean重来不行，更换nodejs版本依旧不行。<br>找人帮忙，小伙伴说window下他当时安装是在nodejs的相关目录下，新建global_module和global_cache文件夹。然后安装时用-g参数指定到这个安装位置，然后将此文件夹添加到环境变量。这种做法是参考博客园 金玉石的一篇文章的（好像是叫这个名字）。但是依然不行啊。我哭瞎了，选择了放弃。</p>
+<h3 id="4-运行hexo成功"><a href="#4-运行hexo成功" class="headerlink" title="4. 运行hexo成功"></a>4. 运行hexo成功</h3><pre><code>吃过晚饭坐在桌前，看看电影，看着看着心里还是不舒坦，又想起这茬，不行我还得鼓捣。我把所有的东西全部卸载，不能卸载的手动清空。凭直觉，大部分人教程都是直接安装hexo，然后就能运行命令。第三条中说的建立的两个文件夹，如果我们不建，必然是安装在某一个目录下默认目录。这么多教程都没说这个问题，想必是可以不建的。
+</code></pre><p>我从零开始走了一遍，依然运行hexo找不到命令，我检索文件系统后发现在nod_cache目录最后居然有一个可执行文件。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hasExecuteFile.png" alt=""></p>
+<p>把改图顶上的位置添加到环境变量，everything is ok。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexoRunOk.png" alt=""></p>
+<blockquote>
+<p> 现在回顾一下，应该在我第三步，新建那两个文件夹时就已经成功了，但是潜意识觉得hexo可执行文件就在hexo文件夹中，但是没想到他居然散落在和各个module文件夹并列的位置。而且当时也很轴了，要是随便试试将node_cache添加到环境变量就ok了。主要是对</p>
+</blockquote>
+<h2 id="四、运行hexo"><a href="#四、运行hexo" class="headerlink" title="四、运行hexo"></a><strong>四、运行hexo</strong></h2><h3 id="1、步骤"><a href="#1、步骤" class="headerlink" title="1、步骤"></a><strong>1、步骤</strong></h3><p><strong>init–&gt;npm install 安装相关插件</strong>–》 hexo s -g 生成静态文件并且启动本地server–》用浏览器查看-》配置yml文件，指定git相关参数<br>可以在先hexo g 然后 hexo s -p 你的端口号指定端口，现在本地看看效果，然后推送到github上(至于能不能直接hexo s -p 4000 -g 这种形式就没试了)。<br>前面两步是新建博客目录（就是再开一个博客文件夹，不是指写一篇新博客）的步骤。</p>
+<h3 id="2、坑"><a href="#2、坑" class="headerlink" title="2、坑"></a><strong>2、坑</strong></h3><ol>
+<li>hexo s -g server失败：本来npm install 安装的插件够用了。但是好像是由于版本的原因，比如什么server和deplyoer之类的插件需要单独再次安装（之前由于各种错误，为了保险将nodejs的版本降得较低）。</li>
+<li><p>服务器成功启动了，成功启动的样子各个博客都有就不贴图了。但是浏览器localhost:4000无法访问。有人说要用127.0.0.1，有人说过十分钟就好了，当然也不排除这种可能,推酷上就分析了这个原因<a href="http://www.tuicool.com/articles/uE7FJba" target="_blank" rel="external">http://www.tuicool.com/articles/uE7FJba</a>。大部分情况都是端口占用，用netstar查看，是被就127.0.0.1和0.0.0.1使用，这个不太合理。我关机再起，一启动就被0.0.0.0占用。没道理啊，我还没开hexo服务器啊。<br>算了重启的时候指定端口，ok。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSuccPage1.png" alt=""></p>
+</li>
+<li><p>hexo创建并部署到github<br>a)创建：不要复制其他文件可能会有部分元素比如日期，tag之类的忘记修改。<br>b)部署：操作方法：最简单的就是在 hexo目录下9与.deploy_git）平行的那个目录下打开命令行，运行指令 hexo g -d。</p>
+<pre><code>&gt;这个命令应该是一个事务，部署失败，生成g也会回滚。
+</code></pre></li>
+</ol>
+<p>从原理上来说，hexo使用hexo——deploy_git进行发布管理。但是其实这个deploy_git本质上还是使用原生git来管理的。<br>deploy_git将public文件夹的文件一如.deploy_git文件夹，然后调用原生git上传到git服务器。<br>这一点，我们从博客主目录（就是hexo init 那个文件夹）文件夹目录结构也可以看出来。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">  deploy:</span><br><span class="line">type: git</span><br><span class="line">repository: git@github.com:whisper1225/whisper1225.github.io.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
+<p>第一次错误是type后面必须有空格，我没有。。。<br>第二次是permission deny,public key ，unknown host之类的什么。<br>我检查了user/.ssh文件夹下的knownhost文件，发现部署了几次之后，notepad++提示known_hosts有变动，然后好像添加了一行什么的。然后就好了 hexo d  -g 依然失败，报错很类似但是没有了没有known_hosts。总之push不成功。有人说是git版本不对，我觉得他扯犊子，我平时都是可以的。但是我还是试了下，直接用最新的git2.7 push成功。这脸打得疼啊，火燎火燎的。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexopushSucc.png" alt=""></p>
+<blockquote>
+<p><strong>没有解决的问题：</strong>关于hexo d部署应该是调用原生git直接add commit 然后合并提交。但是我不知道怎么使用参数来commit “xxx” 注解。想向github提交的时候能够用git直接管理。<br>其原理就是hexo在执行hexo generate时会在本地先把博客生成的一套静态站点放到public文件夹中，在执行hexo deploy时将其完全复制（文件夹结构都是一样的）到.deploy文件夹中并push。<br>如果直接使用git bash管理，可以直接向服务器提交public文件夹内的代码，问题解决。</p>
+</blockquote>
+<h2 id="五、装修"><a href="#五、装修" class="headerlink" title="五、装修"></a><strong>五、装修</strong></h2><p>请原谅我取了个这么土的词，<br><a href="https://www.zhihu.com/question/24422335" target="_blank" rel="external">https://www.zhihu.com/question/24422335</a><br>首推：yilia 没看太明白，可以用标签来代替一层分类。<br>然后有个对于这个的升级版带目录的，但是不好看了：<a href="http://hexo.trity.cc/2015/08/24/hexo%E5%8D%9A%E5%AE%A2%E6%8D%A2%E4%B8%BB%E9%A2%98--icarus" target="_blank" rel="external">http://hexo.trity.cc/2015/08/24/hexo%E5%8D%9A%E5%AE%A2%E6%8D%A2%E4%B8%BB%E9%A2%98--icarus</a><br>其次Pacman绚丽简洁，带分类。不亚于yilia。<br><img src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_hexoGithubIndex.png" alt=""></p>
+<blockquote>
+<p>对于模板的配置是这配置在主题的_config.yml文件夹下，不是配置在hexo init <folder>的文件夹下。</folder></p>
+</blockquote>
+<h2 id="六、总结"><a href="#六、总结" class="headerlink" title="六、总结"></a><strong>六、总结</strong></h2><p>之前所走的许多弯路，主要原因还是因为对nodejs和npm一无所知。对于hexo的使用也还有许多疑惑。</p>
+<ol>
+<li>对于yilia主题还有一些文章的排序（现有的好像是按照时间顺序进行排序），置顶等功能也很重要，好像主题作者说要完成。</li>
+<li>发布到github是生成的静态文件，但有时候需要源markdown文件。我是用笨办法，以主文件夹下的source文件夹建立一个仓库，对应github上的hexosource仓库。<br>知乎网友各显神通，提出各种解决方法。<br><a href="https://www.zhihu.com/question/21193762" target="_blank" rel="external">https://www.zhihu.com/question/21193762</a></li>
+<li>我们有些经常写的页面有很多的共性的部分，对于这个网站的模板功能，还是很有用的。<br><a href="http://www.tuicool.com/articles/YneiAzy" target="_blank" rel="external">http://www.tuicool.com/articles/YneiAzy</a></li>
+</ol>
+<h2 id="七、参考教程"><a href="#七、参考教程" class="headerlink" title="七、参考教程"></a><strong>七、参考教程</strong></h2><p>安装之前找了一堆教程，现在安装成功之后回头来看有一些靠谱的教程。而且这次顺手注册了个七牛，这丫的居然要我手机号、支付宝号、身份证。<strong>而且还要我授权提取支付宝信息</strong>，但是我还填写了，谁让我穷啊。</p>
+<ol>
+<li><a href="http://blog.csdn.net/jzooo/article/details/46781805" target="_blank" rel="external">自带软件下载链接，这个其实没那么重要，但是不能一次安装成功的前提下，还是很重要的</a></li>
+<li><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">这个很全面，从域名到装修一条龙</a></li>
+<li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">这个是补充的，之前因为这篇博客页面太丑，没细看</a><br>但是这个介绍了一个网站所需要的各个方面，包括搜索引擎优化。吐血推荐！</li>
+<li><a href="http://www.voidking.com/2015/05/31/deve-hexo-theme-optimize/#添加头像" target="_blank" rel="external">主题优化方面，亮点是右边的那个文章目录toc因为文件夹结构的变化，我没有照着做出来</a></li>
+</ol>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/01/24/android-studio-常见错误记录/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          android studio 常见错误记录(持续更新)
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="github-hexo搭建个人博客实录" data-title="github+hexo搭建个人博客实录" data-url="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/21/github-hexo搭建个人博客实录/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 whisper
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
