@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java-static-再理解/index.html">
 <meta property="og:site_name" content="酒中仙的博客">
 <meta property="og:description" content="java 中的static到底表示什么意思被static修饰的方法能不能被子类重写，为什么？">
-<meta property="og:updated_time" content="2016-03-21T08:19:39.000Z">
+<meta property="og:updated_time" content="2016-03-21T08:58:05.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java static 再理解">
 <meta name="twitter:description" content="java 中的static到底表示什么意思被static修饰的方法能不能被子类重写，为什么？">
@@ -243,6 +243,12 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>java 中的static到底表示什么意思<br>被static修饰的方法能不能被子类重写，为什么？<br><a id="more"></a></p>
+<h2 id="静态-VS-动态"><a href="#静态-VS-动态" class="headerlink" title="静态 VS 动态"></a><strong>静态 VS 动态</strong></h2><ol>
+<li>动态解析和静态解析<br>静态解析指的是在<strong>类加载</strong>阶段就将直接引用替换成为符号引用，与之相对应，动态解析就是在方法调用的时候将直接引用去替换符号引用。<blockquote>
+<p>可以实现这种静态解析的有静态方法、私有方法、实例构造器、父类方法</p>
+</blockquote>
+</li>
+</ol>
 <h2 id="static语义"><a href="#static语义" class="headerlink" title="static语义"></a><strong>static语义</strong></h2><p>java中的static关键字表示静态的意思，何为静态。我的理解就是在编译器编译期间就和具体的类型绑定了。使用对象引用和访问静态风阀知识Java设计者给程序员的自由。我们应该直接使用类名来访问静态方法，而不要使用对象引用来访问。</p>
 <p>这里涉及到类和对象引用的区别。方法如果和某个类绑定，那么就可以直接通过这个运行，但是如果方法是属于对象的，情况比较复杂。其实该类对象和该类子类的对象都是可以调用这个方法，这个是在运行时动态确定的。从这个意义上说是动态的，相对于之前的静态而言。</p>
 <h2 id="static方法能不能被子类重写"><a href="#static方法能不能被子类重写" class="headerlink" title="static方法能不能被子类重写"></a><strong>static方法能不能被子类重写</strong></h2><p>其实从语法上来说，java是并不会阻止你的，但是即使我们这样做了，我们仍然得不到预期的效果。</p>
