@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>前端小白历险记之基础杂记 | 酒中仙的博客</title>
+  <title>java中不带package和带package的编译运行方式[4~ | 酒中仙的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前端小白，上下求索。万丈高楼平地起，有些基础随手记之。">
+  <meta name="description" content="javac编译自动生成层级包">
 <meta property="og:type" content="article">
-<meta property="og:title" content="前端小白历险记之基础杂记">
-<meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/27/前端小白历险记/index.html">
+<meta property="og:title" content="java中不带package和带package的编译运行方式[4~">
+<meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java中不带package和带package的编译运行方式-4/index.html">
 <meta property="og:site_name" content="酒中仙的博客">
-<meta property="og:description" content="前端小白，上下求索。万丈高楼平地起，有些基础随手记之。">
-<meta property="og:updated_time" content="2016-03-19T03:30:32.000Z">
+<meta property="og:description" content="javac编译自动生成层级包">
+<meta property="og:updated_time" content="2016-03-21T09:31:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="前端小白历险记之基础杂记">
-<meta name="twitter:description" content="前端小白，上下求索。万丈高楼平地起，有些基础随手记之。">
+<meta name="twitter:title" content="java中不带package和带package的编译运行方式[4~">
+<meta name="twitter:description" content="javac编译自动生成层级包">
   
     <link rel="alternative" href="/atom.xml" title="酒中仙的博客" type="application/atom+xml">
   
@@ -205,11 +205,11 @@
 	</div>
 </nav>
 
-      <div class="body-wrap"><article id="post-前端小白历险记" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-java中不带package和带package的编译运行方式-4" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/01/27/前端小白历险记/" class="article-date">
-  	<time datetime="2016-01-26T16:25:02.000Z" itemprop="datePublished">2016-01-27</time>
+      <a href="/2016/03/21/java中不带package和带package的编译运行方式-4/" class="article-date">
+  	<time datetime="2016-03-21T09:28:11.000Z" itemprop="datePublished">2016-03-21</time>
 </a>
     </div>
   
@@ -222,7 +222,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      前端小白历险记之基础杂记
+      java中不带package和带package的编译运行方式[4~
     </h1>
   
 
@@ -231,7 +231,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/入门笔记/">入门笔记</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javac编译自动生成层级包/">javac编译自动生成层级包</a></li></ul>
 	</div>
 
         
@@ -242,11 +242,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>前端小白，上下求索。万丈高楼平地起，有些基础随手记之。<br><a id="more"></a></p>
+        <p> javac编译自动生成层级包<br><a id="more"></a><br>本文转自：<a href="http://www.biostatistic.net/home.php?mod=space&amp;uid=12734&amp;do=blog&amp;id=1952" target="_blank" rel="external">http://www.biostatistic.net/home.php?mod=space&amp;uid=12734&amp;do=blog&amp;id=1952</a></p>
+<p>va中不带package的程序和带package的程序编译的方式是不同的。<br>一、不带package的程序<br>建立个HelloWorld.java的文件，放入C:\,内容如下：<br>public class HelloWorld<br>{<br>   public static void main(String args[])<br>   //向屏幕上写字符串”HelloWorld!”<br>    {<br>      System.out.println(“HelloWorld!”);<br>    }<br>}<br>1.编译<br>      编译的指令是javac<br>      编译方式：文件根目录 javac 文件名.java<br>比如：这个文件名字：HelloWorld.java<br>          文件路径：C:\<br>      编译过程：<br>cmd 回车<br>cd \ 回车<br>javac HelloWorld.java 回车<br>注：此时c:\下将生成一个HelloWorld.class的文件。<br>2.运行<br>java HelloWorld 回车<br>注：HelloWorld没有后缀。<br>二、带package的程序<br>一般按照包的层次来做或者使用eclipse生成的带包的文件，如何用cmd编译运行呢？<br>编写一个类，它是按照包的层次编码的，如果此时想通过javac和java命令来编译运行，就需要如下来做：<br>在c:\net\test下建立一个HelloWorld.java的文件，放入C:\,内容如下：<br>package net.test;  //注意：这个第一行就是对包进行说明，其中net后面的点其实是目录的意思。<br>public class HelloWorld<br>{<br>   public static void main(String args[])<br>   //向屏幕上写字符串”HelloWorld!”<br>    {<br>      System.out.println(“HelloWorld!”);<br>    }<br>}<br>1.编译<br>      编译的指令是javac<br>      编译方式：文件根目录 javac 文件名.java<br>比如：文件名字：HelloWorld.java<br>          文件路径：c:\net\test\HelloWorld.java<br>          文件包名：net.test<br>编译过程：<br>cmd 回车<br>cd c:\net\test 回车<br>javac HelloWorld.java 回车   将生成一个HelloWorld.class的文件<br>或者，可以通过javac –d . 文件名.java  来生成package目录。</p>
 <ol>
-<li>html元素分为块级元素和内联元素。比如div、ul,li等等都是块级元素。但是我们可以让内联元素比如a元素通过display显示为块元素，可以总体点击。</li>
-<li>css元素的模型是盒模型，分为margin、border、padding、content。注意他们之间的背景影响关系。</li>
+<li>运行<br>运行时候需要注意了，不能文件的根目录，是到文件的包目录的上层目录——可以理解为工程目录下，然后运行，文件名前需要加上包名。<br>运行过程：<br>cmd 回车<br>C:\ 回车, 退回到根目录<br>java   net.test.HelloWorld 回车   </li>
 </ol>
+<p>一般有包名的情况大部分是通过IDE开发的！</p>
 
       
     </div>
@@ -256,18 +257,9 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/01/28/个人资料管理/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          个人资料管理
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/01/26/重温git/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">重温git</div>
+    <a href="/2016/03/21/java-static-再理解/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">java static 再理解</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -302,7 +294,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="前端小白历险记" data-title="前端小白历险记之基础杂记" data-url="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/27/前端小白历险记/"></div>
+	<div class="ds-thread" data-thread-key="java中不带package和带package的编译运行方式-4" data-title="java中不带package和带package的编译运行方式[4~" data-url="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java中不带package和带package的编译运行方式-4/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
