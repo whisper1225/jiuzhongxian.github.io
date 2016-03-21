@@ -4,17 +4,18 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>Tag: 前端 | 酒中仙的博客</title>
+  <title>java static 再理解 | 酒中仙的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="酒中仙的博客">
-<meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/tags/前端/index.html">
+  <meta name="description" content="java 中的static到底表示什么意思被static修饰的方法能不能被子类重写，为什么？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java static 再理解">
+<meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java-static-再理解/index.html">
 <meta property="og:site_name" content="酒中仙的博客">
-<meta property="og:description">
+<meta property="og:description" content="java 中的static到底表示什么意思被static修饰的方法能不能被子类重写，为什么？">
+<meta property="og:updated_time" content="2016-03-21T08:19:39.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="酒中仙的博客">
-<meta name="twitter:description">
+<meta name="twitter:title" content="java static 再理解">
+<meta name="twitter:description" content="java 中的static到底表示什么意思被static修饰的方法能不能被子类重写，为什么？">
   
     <link rel="alternative" href="/atom.xml" title="酒中仙的博客" type="application/atom+xml">
   
@@ -204,53 +205,112 @@
 	</div>
 </nav>
 
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-java-static-再理解" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/27/前端小白历险记/" class="archive-article-date">
-  	<time datetime="2016-01-26T16:25:02.000Z" itemprop="datePublished">Jan 27</time>
+    <div class="article-meta">
+      <a href="/2016/03/21/java-static-再理解/" class="article-date">
+  	<time datetime="2016-03-21T08:09:59.000Z" itemprop="datePublished">2016-03-21</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/27/前端小白历险记/">前端小白历险记之基础杂记</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      java static 再理解
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/入门笔记/">入门笔记</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/static-关键字/">static 关键字</a></li></ul>
 	</div>
 
-          
+        
 
-        </div>
         <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
+      </div>
+      
     
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>java 中的static到底表示什么意思<br>被static修饰的方法能不能被子类重写，为什么？<br><a id="more"></a></p>
+<h2 id="static语义"><a href="#static语义" class="headerlink" title="static语义"></a><strong>static语义</strong></h2><p>java中的static关键字表示静态的意思，何为静态。我的理解就是在编译器编译期间就和具体的类型绑定了。使用对象引用和访问静态风阀知识Java设计者给程序员的自由。我们应该直接使用类名来访问静态方法，而不要使用对象引用来访问。</p>
+<p>这里涉及到类和对象引用的区别。方法如果和某个类绑定，那么就可以直接通过这个运行，但是如果方法是属于对象的，情况比较复杂。其实该类对象和该类子类的对象都是可以调用这个方法，这个是在运行时动态确定的。从这个意义上说是动态的，相对于之前的静态而言。</p>
+<h2 id="static方法能不能被子类重写"><a href="#static方法能不能被子类重写" class="headerlink" title="static方法能不能被子类重写"></a><strong>static方法能不能被子类重写</strong></h2><p>其实从语法上来说，java是并不会阻止你的，但是即使我们这样做了，我们仍然得不到预期的效果。</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/03/19/aliyuntest/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">aliyuntest</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="java-static-再理解" data-title="java static 再理解" data-url="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java-static-再理解/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
 
 </div>
       <footer id="footer">
@@ -276,9 +336,9 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false
 	}
