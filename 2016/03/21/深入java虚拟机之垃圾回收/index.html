@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/深入java虚拟机之垃圾回收/index.html">
 <meta property="og:site_name" content="酒中仙的博客">
 <meta property="og:description" content="垃圾回收算法，垃圾回收器">
-<meta property="og:updated_time" content="2016-03-22T01:12:10.000Z">
+<meta property="og:updated_time" content="2016-03-22T01:20:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="深入java虚拟机之垃圾回收">
 <meta name="twitter:description" content="垃圾回收算法，垃圾回收器">
@@ -242,18 +242,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>垃圾回收算法，垃圾回收器<br><a id="more"></a><br>[TOC]</p>
-<h2 id="回收方式的选择"><a href="#回收方式的选择" class="headerlink" title="回收方式的选择"></a><strong>回收方式的选择</strong></h2><p>jvm有client和server两种模式，两种模式下选择的回收模式是不一样的。<br>此坑待填</p>
+        <p>&#x5783;&#x573E;&#x56DE;&#x6536;&#x7B97;&#x6CD5;&#xFF0C;&#x5783;&#x573E;&#x56DE;&#x6536;&#x5668;<br><a id="more"></a><br>&lt;%- toc(page.content,{<br>    class: &#x2018;post-toc&#x2019;,<br>    list_number: true<br>}) %&gt;</p>
+<h2 id="&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;"><a href="#&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;" class="headerlink" title="&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;"></a><strong>&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;</strong></h2><p>jvm&#x6709;client&#x548C;server&#x4E24;&#x79CD;&#x6A21;&#x5F0F;&#xFF0C;&#x4E24;&#x79CD;&#x6A21;&#x5F0F;&#x4E0B;&#x9009;&#x62E9;&#x7684;&#x56DE;&#x6536;&#x6A21;&#x5F0F;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;<br>&#x6B64;&#x5751;&#x5F85;&#x586B;</p>
 <blockquote>
-<p>发生在新生代的回收一般称为minor gc,发生在老年代的回收一般称为major回收。一般一次老年代的回收伴随着一次新生代的<br>回收。但是这也不是绝对的<br> <strong>full gc</strong><br> full gc是对新生代、老年代以及持久代的统一回收，由于是对整个空间的回收，因此比较慢，应该尽量减少full gc的次数</p>
-<h3 id="触发full-gc的情况"><a href="#触发full-gc的情况" class="headerlink" title=" 触发full gc的情况"></a><strong> 触发full gc的情况</strong></h3><ol>
-<li>老年代空间不足 （这个显而易见）</li>
-<li>永久带空间不足</li>
-<li>统计得到新生代minor gc时晋升到救生带的平均大小小于旧生代剩余空间</li>
-<li>直接调用System.gc，可以DisableExplicitGC来禁止<br>其他还有xxx等等</li>
+<p>&#x53D1;&#x751F;&#x5728;&#x65B0;&#x751F;&#x4EE3;&#x7684;&#x56DE;&#x6536;&#x4E00;&#x822C;&#x79F0;&#x4E3A;minor gc,&#x53D1;&#x751F;&#x5728;&#x8001;&#x5E74;&#x4EE3;&#x7684;&#x56DE;&#x6536;&#x4E00;&#x822C;&#x79F0;&#x4E3A;major&#x56DE;&#x6536;&#x3002;&#x4E00;&#x822C;&#x4E00;&#x6B21;&#x8001;&#x5E74;&#x4EE3;&#x7684;&#x56DE;&#x6536;&#x4F34;&#x968F;&#x7740;&#x4E00;&#x6B21;&#x65B0;&#x751F;&#x4EE3;&#x7684;<br>&#x56DE;&#x6536;&#x3002;&#x4F46;&#x662F;&#x8FD9;&#x4E5F;&#x4E0D;&#x662F;&#x7EDD;&#x5BF9;&#x7684;<br> <strong>full gc</strong><br> full gc&#x662F;&#x5BF9;&#x65B0;&#x751F;&#x4EE3;&#x3001;&#x8001;&#x5E74;&#x4EE3;&#x4EE5;&#x53CA;&#x6301;&#x4E45;&#x4EE3;&#x7684;&#x7EDF;&#x4E00;&#x56DE;&#x6536;&#xFF0C;&#x7531;&#x4E8E;&#x662F;&#x5BF9;&#x6574;&#x4E2A;&#x7A7A;&#x95F4;&#x7684;&#x56DE;&#x6536;&#xFF0C;&#x56E0;&#x6B64;&#x6BD4;&#x8F83;&#x6162;&#xFF0C;&#x5E94;&#x8BE5;&#x5C3D;&#x91CF;&#x51CF;&#x5C11;full gc&#x7684;&#x6B21;&#x6570;</p>
+<h3 id="&#x89E6;&#x53D1;full-gc&#x7684;&#x60C5;&#x51B5;"><a href="#&#x89E6;&#x53D1;full-gc&#x7684;&#x60C5;&#x51B5;" class="headerlink" title=" &#x89E6;&#x53D1;full gc&#x7684;&#x60C5;&#x51B5;"></a><strong> &#x89E6;&#x53D1;full gc&#x7684;&#x60C5;&#x51B5;</strong></h3><ol>
+<li>&#x8001;&#x5E74;&#x4EE3;&#x7A7A;&#x95F4;&#x4E0D;&#x8DB3; &#xFF08;&#x8FD9;&#x4E2A;&#x663E;&#x800C;&#x6613;&#x89C1;&#xFF09;</li>
+<li>&#x6C38;&#x4E45;&#x5E26;&#x7A7A;&#x95F4;&#x4E0D;&#x8DB3;</li>
+<li>&#x7EDF;&#x8BA1;&#x5F97;&#x5230;&#x65B0;&#x751F;&#x4EE3;minor gc&#x65F6;&#x664B;&#x5347;&#x5230;&#x6551;&#x751F;&#x5E26;&#x7684;&#x5E73;&#x5747;&#x5927;&#x5C0F;&#x5C0F;&#x4E8E;&#x65E7;&#x751F;&#x4EE3;&#x5269;&#x4F59;&#x7A7A;&#x95F4;</li>
+<li>&#x76F4;&#x63A5;&#x8C03;&#x7528;System.gc&#xFF0C;&#x53EF;&#x4EE5;DisableExplicitGC&#x6765;&#x7981;&#x6B62;<br>&#x5176;&#x4ED6;&#x8FD8;&#x6709;xxx&#x7B49;&#x7B49;</li>
 </ol>
 </blockquote>
-<h2 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a><strong>问题记录</strong></h2><h3 id="jit编译到底是什么"><a href="#jit编译到底是什么" class="headerlink" title="jit编译到底是什么"></a>jit编译到底是什么</h3>
+<h2 id="&#x95EE;&#x9898;&#x8BB0;&#x5F55;"><a href="#&#x95EE;&#x9898;&#x8BB0;&#x5F55;" class="headerlink" title="&#x95EE;&#x9898;&#x8BB0;&#x5F55;"></a><strong>&#x95EE;&#x9898;&#x8BB0;&#x5F55;</strong></h2><h3 id="jit&#x7F16;&#x8BD1;&#x5230;&#x5E95;&#x662F;&#x4EC0;&#x4E48;"><a href="#jit&#x7F16;&#x8BD1;&#x5230;&#x5E95;&#x662F;&#x4EC0;&#x4E48;" class="headerlink" title="jit&#x7F16;&#x8BD1;&#x5230;&#x5E95;&#x662F;&#x4EC0;&#x4E48;"></a>jit&#x7F16;&#x8BD1;&#x5230;&#x5E95;&#x662F;&#x4EC0;&#x4E48;</h3>
       
     </div>
     
