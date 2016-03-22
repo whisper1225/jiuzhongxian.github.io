@@ -118,7 +118,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/object-Object/" style="font-size: 10px;">[object Object]</a> <a href="/tags/android-studio/" style="font-size: 10px;">android studio</a> <a href="/tags/gc/" style="font-size: 10px;">gc</a> <a href="/tags/hexo和github搭建博客/" style="font-size: 10px;">hexo和github搭建博客</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/javac/" style="font-size: 10px;">javac</a> <a href="/tags/static-关键字/" style="font-size: 10px;">static 关键字</a> <a href="/tags/verbose/" style="font-size: 10px;">verbose</a> <a href="/tags/个人资料管理/" style="font-size: 10px;">个人资料管理</a> <a href="/tags/入门笔记/" style="font-size: 10px;">入门笔记</a> <a href="/tags/分析/" style="font-size: 10px;">分析</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/前端笔记/" style="font-size: 10px;">前端笔记</a> <a href="/tags/后台错误/" style="font-size: 10px;">后台错误</a> <a href="/tags/备忘/" style="font-size: 10px;">备忘</a> <a href="/tags/搭建阿里云云端hexo环境，随时随地可以记录了/" style="font-size: 10px;">搭建阿里云云端hexo环境，随时随地可以记录了</a> <a href="/tags/目录层级结构划分方式/" style="font-size: 10px;">目录层级结构划分方式</a> <a href="/tags/笔记/" style="font-size: 10px;">笔记</a> <a href="/tags/编码/" style="font-size: 10px;">编码</a> <a href="/tags/编译/" style="font-size: 10px;">编译</a> <a href="/tags/背景错位/" style="font-size: 10px;">背景错位</a> <a href="/tags/自动生成层级包/" style="font-size: 10px;">自动生成层级包</a> <a href="/tags/错误记录/" style="font-size: 10px;">错误记录</a>
+						<a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/object-Object/" style="font-size: 10px;">[object Object]</a> <a href="/tags/android-studio/" style="font-size: 10px;">android studio</a> <a href="/tags/gc/" style="font-size: 10px;">gc</a> <a href="/tags/hexo和github搭建博客/" style="font-size: 10px;">hexo和github搭建博客</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/javac/" style="font-size: 10px;">javac</a> <a href="/tags/static-关键字/" style="font-size: 10px;">static 关键字</a> <a href="/tags/verbose/" style="font-size: 10px;">verbose</a> <a href="/tags/个人资料管理/" style="font-size: 10px;">个人资料管理</a> <a href="/tags/入门笔记/" style="font-size: 10px;">入门笔记</a> <a href="/tags/分析/" style="font-size: 10px;">分析</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/前端笔记/" style="font-size: 10px;">前端笔记</a> <a href="/tags/后台错误/" style="font-size: 10px;">后台错误</a> <a href="/tags/垃圾回收/" style="font-size: 10px;">垃圾回收</a> <a href="/tags/备忘/" style="font-size: 10px;">备忘</a> <a href="/tags/序言/" style="font-size: 10px;">序言</a> <a href="/tags/搭建阿里云云端hexo环境，随时随地可以记录了/" style="font-size: 10px;">搭建阿里云云端hexo环境，随时随地可以记录了</a> <a href="/tags/深入java虚拟机/" style="font-size: 10px;">深入java虚拟机</a> <a href="/tags/目录层级结构划分方式/" style="font-size: 10px;">目录层级结构划分方式</a> <a href="/tags/笔记/" style="font-size: 10px;">笔记</a> <a href="/tags/编码/" style="font-size: 10px;">编码</a> <a href="/tags/编译/" style="font-size: 10px;">编译</a> <a href="/tags/背景错位/" style="font-size: 10px;">背景错位</a> <a href="/tags/自动生成层级包/" style="font-size: 10px;">自动生成层级包</a> <a href="/tags/错误记录/" style="font-size: 10px;">错误记录</a>
 					</div>
 				</section>
 				
@@ -205,6 +205,126 @@
 </nav>
 
       <div class="body-wrap">
+  
+    <article id="post-深入java虚拟机之序言" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/03/22/深入java虚拟机之序言/" class="article-date">
+  	<time datetime="2016-03-21T16:39:38.000Z" itemprop="datePublished">2016-03-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/22/深入java虚拟机之序言/">深入java虚拟机之序言</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<ol>
+<li>jdk、jre和jvm到底有什么关系<br>答：jvm是虚拟机，他的标准实现一个重要部分是执行引擎。jre包括jvm和核心库，jvm只有加载了这些核心库才能正常工作。<br>jdk是开发套件，包含一些常见的库和开发工具比如编译器，jps之类的各种小工具。</li>
+</ol>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/序言/">序言</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-深入java虚拟机之垃圾回收" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/03/21/深入java虚拟机之垃圾回收/" class="article-date">
+  	<time datetime="2016-03-21T15:45:55.000Z" itemprop="datePublished">2016-03-21</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/21/深入java虚拟机之垃圾回收/">深入java虚拟机之垃圾回收</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>垃圾回收算法，垃圾回收器<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/垃圾回收/">垃圾回收</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/深入java虚拟机/">深入java虚拟机</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2016/03/21/深入java虚拟机之垃圾回收/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-深入java虚拟机系列之工具使用篇" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -668,126 +788,6 @@
       
         <p class="article-more-link">
           <a  href="/2016/01/28/个人资料管理/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-前端小白历险记" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/27/前端小白历险记/" class="article-date">
-  	<time datetime="2016-01-26T16:25:02.000Z" itemprop="datePublished">2016-01-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/27/前端小白历险记/">前端小白历险记之基础杂记</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>前端小白，上下求索。万丈高楼平地起，有些基础随手记之。<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/入门笔记/">入门笔记</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/01/27/前端小白历险记/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-重温git" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/26/重温git/" class="article-date">
-  	<time datetime="2016-01-26T03:50:28.000Z" itemprop="datePublished">2016-01-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/26/重温git/">重温git</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>今日代码合并出现了一些问题，重温git又有一些收获，记录一下<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/01/26/重温git/#more">more >></a>
         </p>
       
       <div class="clearfix"></div>
