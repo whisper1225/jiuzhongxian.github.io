@@ -6,19 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>深入java虚拟机之垃圾回收 | 酒中仙的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="&amp;lt;%- toc(page.content, {        class: &amp;#x2018;post-toc&amp;#x2019;,        list_number: true    }) %&amp;gt;
-&amp;#x56DE;&amp;#x6536;&amp;#x65B9;&amp;#x5F0F;&amp;#x7684;&amp;#x9009;&amp;#x62E9;jvm&amp;#x6709;client&amp;#x548C;server&amp;#x4E24;&amp;">
+  <meta name="description" content="深入java虚拟机之垃圾回收">
 <meta property="og:type" content="article">
 <meta property="og:title" content="深入java虚拟机之垃圾回收">
 <meta property="og:url" content="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/深入java虚拟机之垃圾回收/index.html">
 <meta property="og:site_name" content="酒中仙的博客">
-<meta property="og:description" content="&amp;lt;%- toc(page.content, {        class: &amp;#x2018;post-toc&amp;#x2019;,        list_number: true    }) %&amp;gt;
-&amp;#x56DE;&amp;#x6536;&amp;#x65B9;&amp;#x5F0F;&amp;#x7684;&amp;#x9009;&amp;#x62E9;jvm&amp;#x6709;client&amp;#x548C;server&amp;#x4E24;&amp;">
-<meta property="og:updated_time" content="2016-03-22T01:34:06.000Z">
+<meta property="og:description" content="深入java虚拟机之垃圾回收">
+<meta property="og:updated_time" content="2016-03-22T13:37:25.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="深入java虚拟机之垃圾回收">
-<meta name="twitter:description" content="&amp;lt;%- toc(page.content, {        class: &amp;#x2018;post-toc&amp;#x2019;,        list_number: true    }) %&amp;gt;
-&amp;#x56DE;&amp;#x6536;&amp;#x65B9;&amp;#x5F0F;&amp;#x7684;&amp;#x9009;&amp;#x62E9;jvm&amp;#x6709;client&amp;#x548C;server&amp;#x4E24;&amp;">
+<meta name="twitter:description" content="深入java虚拟机之垃圾回收">
   
     <link rel="alternative" href="/atom.xml" title="酒中仙的博客" type="application/atom+xml">
   
@@ -247,9 +244,14 @@
       
 	  
 	  
+	<div id="toc" class="toc-article">
+		<strong class="toc-title">文章目录</strong>
+	<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#回收方式的选择"><span class="toc-number">1.</span> <span class="toc-text">回收方式的选择</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#触发full-gc的情况"><span class="toc-number">1.1.</span> <span class="toc-text"> 触发full gc的情况</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#问题记录"><span class="toc-number">2.</span> <span class="toc-text">问题记录</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#jit编译到底是什么"><span class="toc-number">2.1.</span> <span class="toc-text">jit编译到底是什么</span></a></li></ol></li></ol>
+	</div>
+
 	  
 	  
-        <p>&lt;%- toc(page.content, {<br>        class: &#x2018;post-toc&#x2019;,<br>        list_number: true<br>    }) %&gt;</p>
+        <p>&#x6DF1;&#x5165;java&#x865A;&#x62DF;&#x673A;&#x4E4B;&#x5783;&#x573E;&#x56DE;&#x6536;<br><a id="more"></a></p>
 <h2 id="&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;"><a href="#&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;" class="headerlink" title="&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;"></a><strong>&#x56DE;&#x6536;&#x65B9;&#x5F0F;&#x7684;&#x9009;&#x62E9;</strong></h2><p>jvm&#x6709;client&#x548C;server&#x4E24;&#x79CD;&#x6A21;&#x5F0F;&#xFF0C;&#x4E24;&#x79CD;&#x6A21;&#x5F0F;&#x4E0B;&#x9009;&#x62E9;&#x7684;&#x56DE;&#x6536;&#x6A21;&#x5F0F;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;<br>&#x6B64;&#x5751;&#x5F85;&#x586B;</p>
 <blockquote>
 <p>&#x53D1;&#x751F;&#x5728;&#x65B0;&#x751F;&#x4EE3;&#x7684;&#x56DE;&#x6536;&#x4E00;&#x822C;&#x79F0;&#x4E3A;minor gc,&#x53D1;&#x751F;&#x5728;&#x8001;&#x5E74;&#x4EE3;&#x7684;&#x56DE;&#x6536;&#x4E00;&#x822C;&#x79F0;&#x4E3A;major&#x56DE;&#x6536;&#x3002;&#x4E00;&#x822C;&#x4E00;&#x6B21;&#x8001;&#x5E74;&#x4EE3;&#x7684;&#x56DE;&#x6536;&#x4F34;&#x968F;&#x7740;&#x4E00;&#x6B21;&#x65B0;&#x751F;&#x4EE3;&#x7684;<br>&#x56DE;&#x6536;&#x3002;&#x4F46;&#x662F;&#x8FD9;&#x4E5F;&#x4E0D;&#x662F;&#x7EDD;&#x5BF9;&#x7684;<br> <strong>full gc</strong><br> full gc&#x662F;&#x5BF9;&#x65B0;&#x751F;&#x4EE3;&#x3001;&#x8001;&#x5E74;&#x4EE3;&#x4EE5;&#x53CA;&#x6301;&#x4E45;&#x4EE3;&#x7684;&#x7EDF;&#x4E00;&#x56DE;&#x6536;&#xFF0C;&#x7531;&#x4E8E;&#x662F;&#x5BF9;&#x6574;&#x4E2A;&#x7A7A;&#x95F4;&#x7684;&#x56DE;&#x6536;&#xFF0C;&#x56E0;&#x6B64;&#x6BD4;&#x8F83;&#x6162;&#xFF0C;&#x5E94;&#x8BE5;&#x5C3D;&#x91CF;&#x51CF;&#x5C11;full gc&#x7684;&#x6B21;&#x6570;</p>
