@@ -242,16 +242,21 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>java 中的static到底表示什么意思<br>被static修饰的方法能不能被子类重写，为什么？<br><a id="more"></a></p>
-<h2 id="静态-VS-动态"><a href="#静态-VS-动态" class="headerlink" title="静态 VS 动态"></a><strong>静态 VS 动态</strong></h2><ol>
-<li>动态解析和静态解析<br>静态解析指的是在<strong>类加载</strong>阶段就将直接引用替换成为符号引用，与之相对应，动态解析就是在方法调用的时候将直接引用去替换符号引用。<blockquote>
-<p>可以实现这种静态解析的有静态方法、私有方法、实例构造器、父类方法</p>
+
+	
+
+	
+
+        <p>java &#x4E2D;&#x7684;static&#x5230;&#x5E95;&#x8868;&#x793A;&#x4EC0;&#x4E48;&#x610F;&#x601D;<br>&#x88AB;static&#x4FEE;&#x9970;&#x7684;&#x65B9;&#x6CD5;&#x80FD;&#x4E0D;&#x80FD;&#x88AB;&#x5B50;&#x7C7B;&#x91CD;&#x5199;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#xFF1F;<br><a id="more"></a></p>
+<h2 id="&#x9759;&#x6001;-vs-&#x52A8;&#x6001;"><a href="#&#x9759;&#x6001;-VS-&#x52A8;&#x6001;" class="headerlink" title="&#x9759;&#x6001; VS &#x52A8;&#x6001;"></a><strong>&#x9759;&#x6001; VS &#x52A8;&#x6001;</strong></h2><ol>
+<li>&#x52A8;&#x6001;&#x89E3;&#x6790;&#x548C;&#x9759;&#x6001;&#x89E3;&#x6790;<br>&#x9759;&#x6001;&#x89E3;&#x6790;&#x6307;&#x7684;&#x662F;&#x5728;<strong>&#x7C7B;&#x52A0;&#x8F7D;</strong>&#x9636;&#x6BB5;&#x5C31;&#x5C06;&#x76F4;&#x63A5;&#x5F15;&#x7528;&#x66FF;&#x6362;&#x6210;&#x4E3A;&#x7B26;&#x53F7;&#x5F15;&#x7528;&#xFF0C;&#x4E0E;&#x4E4B;&#x76F8;&#x5BF9;&#x5E94;&#xFF0C;&#x52A8;&#x6001;&#x89E3;&#x6790;&#x5C31;&#x662F;&#x5728;&#x65B9;&#x6CD5;&#x8C03;&#x7528;&#x7684;&#x65F6;&#x5019;&#x5C06;&#x76F4;&#x63A5;&#x5F15;&#x7528;&#x53BB;&#x66FF;&#x6362;&#x7B26;&#x53F7;&#x5F15;&#x7528;&#x3002;<blockquote>
+<p>&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x8FD9;&#x79CD;&#x9759;&#x6001;&#x89E3;&#x6790;&#x7684;&#x6709;&#x9759;&#x6001;&#x65B9;&#x6CD5;&#x3001;&#x79C1;&#x6709;&#x65B9;&#x6CD5;&#x3001;&#x5B9E;&#x4F8B;&#x6784;&#x9020;&#x5668;&#x3001;&#x7236;&#x7C7B;&#x65B9;&#x6CD5;</p>
 </blockquote>
 </li>
 </ol>
-<h2 id="static语义"><a href="#static语义" class="headerlink" title="static语义"></a><strong>static语义</strong></h2><p>java中的static关键字表示静态的意思，何为静态。我的理解就是在编译器编译期间就和具体的类型绑定了。使用对象引用和访问静态风阀知识Java设计者给程序员的自由。我们应该直接使用类名来访问静态方法，而不要使用对象引用来访问。</p>
-<p>这里涉及到类和对象引用的区别。方法如果和某个类绑定，那么就可以直接通过这个运行，但是如果方法是属于对象的，情况比较复杂。其实该类对象和该类子类的对象都是可以调用这个方法，这个是在运行时动态确定的。从这个意义上说是动态的，相对于之前的静态而言。</p>
-<h2 id="static方法能不能被子类重写"><a href="#static方法能不能被子类重写" class="headerlink" title="static方法能不能被子类重写"></a><strong>static方法能不能被子类重写</strong></h2><p>其实从语法上来说，java是并不会阻止你的，但是即使我们这样做了，我们仍然得不到预期的效果。</p>
+<h2 id="static&#x8BED;&#x4E49;"><a href="#static&#x8BED;&#x4E49;" class="headerlink" title="static&#x8BED;&#x4E49;"></a><strong>static&#x8BED;&#x4E49;</strong></h2><p>java&#x4E2D;&#x7684;static&#x5173;&#x952E;&#x5B57;&#x8868;&#x793A;&#x9759;&#x6001;&#x7684;&#x610F;&#x601D;&#xFF0C;&#x4F55;&#x4E3A;&#x9759;&#x6001;&#x3002;&#x6211;&#x7684;&#x7406;&#x89E3;&#x5C31;&#x662F;&#x5728;&#x7F16;&#x8BD1;&#x5668;&#x7F16;&#x8BD1;&#x671F;&#x95F4;&#x5C31;&#x548C;&#x5177;&#x4F53;&#x7684;&#x7C7B;&#x578B;&#x7ED1;&#x5B9A;&#x4E86;&#x3002;&#x4F7F;&#x7528;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#x548C;&#x8BBF;&#x95EE;&#x9759;&#x6001;&#x98CE;&#x9600;&#x77E5;&#x8BC6;Java&#x8BBE;&#x8BA1;&#x8005;&#x7ED9;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x81EA;&#x7531;&#x3002;&#x6211;&#x4EEC;&#x5E94;&#x8BE5;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x7C7B;&#x540D;&#x6765;&#x8BBF;&#x95EE;&#x9759;&#x6001;&#x65B9;&#x6CD5;&#xFF0C;&#x800C;&#x4E0D;&#x8981;&#x4F7F;&#x7528;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#x6765;&#x8BBF;&#x95EE;&#x3002;</p>
+<p>&#x8FD9;&#x91CC;&#x6D89;&#x53CA;&#x5230;&#x7C7B;&#x548C;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#x7684;&#x533A;&#x522B;&#x3002;&#x65B9;&#x6CD5;&#x5982;&#x679C;&#x548C;&#x67D0;&#x4E2A;&#x7C7B;&#x7ED1;&#x5B9A;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x8FD0;&#x884C;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x65B9;&#x6CD5;&#x662F;&#x5C5E;&#x4E8E;&#x5BF9;&#x8C61;&#x7684;&#xFF0C;&#x60C5;&#x51B5;&#x6BD4;&#x8F83;&#x590D;&#x6742;&#x3002;&#x5176;&#x5B9E;&#x8BE5;&#x7C7B;&#x5BF9;&#x8C61;&#x548C;&#x8BE5;&#x7C7B;&#x5B50;&#x7C7B;&#x7684;&#x5BF9;&#x8C61;&#x90FD;&#x662F;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#xFF0C;&#x8FD9;&#x4E2A;&#x662F;&#x5728;&#x8FD0;&#x884C;&#x65F6;&#x52A8;&#x6001;&#x786E;&#x5B9A;&#x7684;&#x3002;&#x4ECE;&#x8FD9;&#x4E2A;&#x610F;&#x4E49;&#x4E0A;&#x8BF4;&#x662F;&#x52A8;&#x6001;&#x7684;&#xFF0C;&#x76F8;&#x5BF9;&#x4E8E;&#x4E4B;&#x524D;&#x7684;&#x9759;&#x6001;&#x800C;&#x8A00;&#x3002;</p>
+<h2 id="static&#x65B9;&#x6CD5;&#x80FD;&#x4E0D;&#x80FD;&#x88AB;&#x5B50;&#x7C7B;&#x91CD;&#x5199;"><a href="#static&#x65B9;&#x6CD5;&#x80FD;&#x4E0D;&#x80FD;&#x88AB;&#x5B50;&#x7C7B;&#x91CD;&#x5199;" class="headerlink" title="static&#x65B9;&#x6CD5;&#x80FD;&#x4E0D;&#x80FD;&#x88AB;&#x5B50;&#x7C7B;&#x91CD;&#x5199;"></a><strong>static&#x65B9;&#x6CD5;&#x80FD;&#x4E0D;&#x80FD;&#x88AB;&#x5B50;&#x7C7B;&#x91CD;&#x5199;</strong></h2><p>&#x5176;&#x5B9E;&#x4ECE;&#x8BED;&#x6CD5;&#x4E0A;&#x6765;&#x8BF4;&#xFF0C;java&#x662F;&#x5E76;&#x4E0D;&#x4F1A;&#x963B;&#x6B62;&#x4F60;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5373;&#x4F7F;&#x6211;&#x4EEC;&#x8FD9;&#x6837;&#x505A;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x4ECD;&#x7136;&#x5F97;&#x4E0D;&#x5230;&#x9884;&#x671F;&#x7684;&#x6548;&#x679C;&#x3002;</p>
 
       
     </div>

@@ -242,9 +242,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>深入java虚拟机实战，本栏记录一些分析工具的使用。持续记录<br><a id="more"></a></p>
-<h3 id="命令使用"><a href="#命令使用" class="headerlink" title="命令使用"></a><strong>命令使用</strong></h3><p>Java应用启动时，可以通过设置verbose参数来输出JVM的gc情况，命令如下：java -verbose:gc</p>
-<h3 id="日志分析"><a href="#日志分析" class="headerlink" title="日志分析"></a><strong>日志分析</strong></h3><p>使用该命令后输出如下：<br>[Full GC 1224K-&gt;1113K(123584K), 0.0120528 secs]<br>箭头（-&gt;）前后的数据1224K和1113K分别表示垃圾收集GC前后所有存活对象使用的内存容量，说明有1224K–1113K = 111K大小的对象被回收，括号内的数据 123584K为堆内存的总容量，收集所需的实际为 0.0120528秒。</p>
+
+	
+
+	
+
+        <p>&#x6DF1;&#x5165;java&#x865A;&#x62DF;&#x673A;&#x5B9E;&#x6218;&#xFF0C;&#x672C;&#x680F;&#x8BB0;&#x5F55;&#x4E00;&#x4E9B;&#x5206;&#x6790;&#x5DE5;&#x5177;&#x7684;&#x4F7F;&#x7528;&#x3002;&#x6301;&#x7EED;&#x8BB0;&#x5F55;<br><a id="more"></a></p>
+<h3 id="&#x547D;&#x4EE4;&#x4F7F;&#x7528;"><a href="#&#x547D;&#x4EE4;&#x4F7F;&#x7528;" class="headerlink" title="&#x547D;&#x4EE4;&#x4F7F;&#x7528;"></a><strong>&#x547D;&#x4EE4;&#x4F7F;&#x7528;</strong></h3><p>Java&#x5E94;&#x7528;&#x542F;&#x52A8;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8BBE;&#x7F6E;verbose&#x53C2;&#x6570;&#x6765;&#x8F93;&#x51FA;JVM&#x7684;gc&#x60C5;&#x51B5;&#xFF0C;&#x547D;&#x4EE4;&#x5982;&#x4E0B;&#xFF1A;java -verbose:gc</p>
+<h3 id="&#x65E5;&#x5FD7;&#x5206;&#x6790;"><a href="#&#x65E5;&#x5FD7;&#x5206;&#x6790;" class="headerlink" title="&#x65E5;&#x5FD7;&#x5206;&#x6790;"></a><strong>&#x65E5;&#x5FD7;&#x5206;&#x6790;</strong></h3><p>&#x4F7F;&#x7528;&#x8BE5;&#x547D;&#x4EE4;&#x540E;&#x8F93;&#x51FA;&#x5982;&#x4E0B;&#xFF1A;<br>[Full GC 1224K-&gt;1113K(123584K), 0.0120528 secs]<br>&#x7BAD;&#x5934;&#xFF08;-&gt;&#xFF09;&#x524D;&#x540E;&#x7684;&#x6570;&#x636E;1224K&#x548C;1113K&#x5206;&#x522B;&#x8868;&#x793A;&#x5783;&#x573E;&#x6536;&#x96C6;GC&#x524D;&#x540E;&#x6240;&#x6709;&#x5B58;&#x6D3B;&#x5BF9;&#x8C61;&#x4F7F;&#x7528;&#x7684;&#x5185;&#x5B58;&#x5BB9;&#x91CF;&#xFF0C;&#x8BF4;&#x660E;&#x6709;1224K&#x2013;1113K = 111K&#x5927;&#x5C0F;&#x7684;&#x5BF9;&#x8C61;&#x88AB;&#x56DE;&#x6536;&#xFF0C;&#x62EC;&#x53F7;&#x5185;&#x7684;&#x6570;&#x636E; 123584K&#x4E3A;&#x5806;&#x5185;&#x5B58;&#x7684;&#x603B;&#x5BB9;&#x91CF;&#xFF0C;&#x6536;&#x96C6;&#x6240;&#x9700;&#x7684;&#x5B9E;&#x9645;&#x4E3A; 0.0120528&#x79D2;&#x3002;</p>
 
       
     </div>
