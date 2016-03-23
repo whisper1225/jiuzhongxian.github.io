@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /2016/
+Allow: /about/
+Allow: /page/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /fancybox/
+Disallow: /tags/
+
+Sitemap: http://whisper1225.github.io/sitemap.xml
