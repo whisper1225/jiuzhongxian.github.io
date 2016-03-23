@@ -11,3 +11,4 @@ Disallow: /img/
 Disallow: /fancybox/
 Disallow: /tags/
 
+Sitemap: http://whisper1225.github.io/sitemap.xml
