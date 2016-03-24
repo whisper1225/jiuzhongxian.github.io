@@ -4,9 +4,9 @@
   <subtitle>为往圣继绝学 虽不能至 心向往之</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://github.com/whisper1225/jiuzhongxian.github.io/"/>
-  <updated>2016-03-23T09:55:44.000Z</updated>
-  <id>https://github.com/whisper1225/jiuzhongxian.github.io/</id>
+  <link href="http://whisper1225.github.io/"/>
+  <updated>2016-03-24T03:10:51.000Z</updated>
+  <id>http://whisper1225.github.io/</id>
   
   <author>
     <name>whisper</name>
@@ -16,9 +16,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo seo 优化过程中的问题</title>
+    <link href="http://whisper1225.github.io/2016/03/24/hexo-seo-%E4%BC%98%E5%8C%96%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://whisper1225.github.io/2016/03/24/hexo-seo-优化过程中的问题/</id>
+    <published>2016-03-24T03:07:03.000Z</published>
+    <updated>2016-03-24T03:10:51.000Z</updated>
+    
+    <content type="html">&lt;p&gt;seo&amp;#x4F18;&amp;#x5316;&amp;#x771F;&amp;#x7684;&amp;#x662F;&amp;#x95E8;&amp;#x5927;&amp;#x5B66;&amp;#x95EE;&amp;#xFF0C;&amp;#x7F51;&amp;#x4E0A;&amp;#x4E5F;&amp;#x6709;&amp;#x597D;&amp;#x591A;&amp;#x8D44;&amp;#x6599;&amp;#xFF0C;&amp;#x5177;&amp;#x4F53;&amp;#x8FC7;&amp;#x7A0B;&amp;#x5C31;&amp;#x4E0D;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E86;&amp;#x3002;&amp;#x53EA;&amp;#x662F;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E00;&amp;#x4E0B;&amp;#x5728;&amp;#x8FD9;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x5751;&amp;#x3002;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;google-analysis&quot;&gt;&lt;a href=&quot;#google-analysis&quot; class=&quot;headerlink&quot; title=&quot;google analysis&quot;&gt;&lt;/a&gt;google analysis&lt;/h2&gt;&lt;p&gt;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6CA1;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF0C;&amp;#x4E0D;&amp;#x77E5;&amp;#x9053;&amp;#x4E3A;&amp;#x548C;google&amp;#x63D0;&amp;#x793A;&amp;#x6211;site&amp;#x4E0A;&amp;#x7684;id&amp;#x548C;&amp;#x5B83;&amp;#x7684;&amp;#x4E0D;&amp;#x4E00;&amp;#x81F4;&amp;#x3002;&amp;#x6211;&amp;#x53C8;&amp;#x91CD;&amp;#x65B0;&amp;#x6DFB;&amp;#x52A0;&amp;#x4E86;&amp;#x4E00;&amp;#x6B21;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;sitemap&quot;&gt;&lt;a href=&quot;#sitemap&quot; class=&quot;headerlink&quot; title=&quot;sitemap&quot;&gt;&lt;/a&gt;sitemap&lt;/h2&gt;&lt;p&gt;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E0D;&amp;#x8868;&amp;#xFF0C;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;itemap&amp;#x751F;&amp;#x6210;&amp;#x51FA;&amp;#x9519;&lt;br&gt;&amp;#x5728;google &amp;#x63D0;&amp;#x4EA4;&amp;#x4E86;sitemapxml,&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x5171;&amp;#x6709;17&amp;#x4E2A;&amp;#x7AD9;&amp;#x70B9;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5168;&amp;#x90FD;&amp;#x62A5;&amp;#x9519;&amp;#x4E86;&amp;#x3002;&amp;#x4ED4;&amp;#x7EC6;&amp;#x67E5;&amp;#x770B;&amp;#x4E86;sitemap xml&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x53D1;&amp;#x73B0;&amp;#x5176;&amp;#x4E2D;&amp;#x7684;url&amp;#x5168;&amp;#x662F;&lt;br&gt;github.com/xxxx/yyy/github.io/xxx&amp;#x8FD9;&amp;#x79CD;&amp;#x5F62;&amp;#x5F0F;&amp;#x7684;&amp;#x3002;&lt;br&gt;&amp;#x6211;&amp;#x4EEC;&amp;#x4E4B;&amp;#x524D;&amp;#x5728;google site&amp;#x9A8C;&amp;#x8BC1;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x53EA;&amp;#x80FD;&amp;#x662F;&amp;#x9A8C;&amp;#x8BC1;xx.github.io&amp;#x8FD9;&amp;#x79CD;&amp;#xFF0C;&amp;#x65E0;&amp;#x6CD5;&amp;#x9A8C;&amp;#x8BC1;github.com&amp;#x3002;&amp;#x76F4;&amp;#x89C9;&amp;#x4E0A;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6587;&amp;#x4EF6;&amp;#x91CC;&amp;#x9762;&amp;#x7684;url&amp;#x5FC5;&amp;#x987B;&amp;#x662F;&amp;#x4E8C;&amp;#x7EA7;&amp;#x57DF;&amp;#x540D;xxx.github.io&amp;#x8FD9;&amp;#x79CD;&amp;#x3002;&lt;br&gt;&amp;#x95EE;&amp;#x9898;&amp;#x51FA;&amp;#x5728;&amp;#x751F;&amp;#x4EA7;&amp;#x6587;&amp;#x4EF6;&amp;#x8FD9;&amp;#x91CC;&amp;#xFF0C;&amp;#x7F51;&amp;#x4E0A;&amp;#x6709;&amp;#x4EBA;&amp;#x751F;&amp;#x6210;&amp;#x6B63;&amp;#x786E;&amp;#x7684;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x6211;&amp;#x7684;&amp;#x4E0D;&amp;#x6B63;&amp;#x786E;&amp;#x3002;&amp;#x5FC5;&amp;#x7136;&amp;#x662F;site&amp;#x63D2;&amp;#x4EF6;&amp;#x6839;&amp;#x636E;&amp;#x67D0;&amp;#x79CD;&amp;#x6211;&amp;#x4EEC;&amp;#x5728;&amp;#x672C;&amp;#x5730;&amp;#x914D;&amp;#x7F6E;&amp;#x7684;&amp;#x7AD9;&amp;#x70B9;&amp;#x4FE1;&amp;#x606F;&amp;#x6765;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#xFF0C;google&amp;#x4E86;&amp;#x4E00;&amp;#x4E0B;&amp;#xFF0C;&amp;#x679C;&amp;#x7136;&amp;#x662F;&amp;#x6839;&amp;#x636E;hexo&amp;#x6839;&amp;#x76EE;&amp;#x5F55;&amp;#x4E0B;&amp;#x9762;&amp;#x7684;_config.xml&amp;#x7684;url&amp;#x6765;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#x3002;&amp;#x6211;&amp;#x7684;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5730;&amp;#x65B9;&amp;#x7684;&amp;#x503C;&amp;#x5C31;&amp;#x662F;&amp;#x5E26;github.com&amp;#x8FD9;&amp;#x79CD;&amp;#x5F62;&amp;#x5F0F;&amp;#x3002;&lt;br&gt;&amp;#x81F3;&amp;#x6B64;&amp;#x95EE;&amp;#x9898;&amp;#x89E3;&amp;#x51B3;&lt;br&gt;&amp;#x751F;&amp;#x6210;&amp;#x51FA;&amp;#x6765;&amp;#x7684;sitemap.xml&amp;#x4E2D;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;url&amp;#x90FD;&amp;#x662F;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-24/38599656.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-24/2330874.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;#x7B2C;&amp;#x4E8C;&amp;#x5929;&amp;#x4E00;&amp;#x770B;&amp;#x8FD9;&amp;#x6837;&amp;#xFF0C;&amp;#x8FD9;&amp;#x662F;&amp;#x51E0;&amp;#x4E2A;&amp;#x610F;&amp;#x601D;&amp;#x554A;&amp;#xFF0C;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF1F;&amp;#xFF1F;&amp;#xFF1F;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;seo优化真的是门大学问，网上也有好多资料，具体过程就不记录了。只是记录一下在这过程中遇到的坑。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://whisper1225.github.io/tags/hexo/"/>
+    
+      <category term="seo" scheme="http://whisper1225.github.io/tags/seo/"/>
+    
+      <category term="优化" scheme="http://whisper1225.github.io/tags/%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>深入java虚拟机读书笔记之执行子系统</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/23/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%89%A7%E8%A1%8C%E5%AD%90%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/23/深入java虚拟机读书笔记之执行子系统/</id>
+    <link href="http://whisper1225.github.io/2016/03/23/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%89%A7%E8%A1%8C%E5%AD%90%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://whisper1225.github.io/2016/03/23/深入java虚拟机读书笔记之执行子系统/</id>
     <published>2016-03-23T09:53:13.000Z</published>
     <updated>2016-03-23T09:55:44.000Z</updated>
     
@@ -102,22 +138,22 @@
     </summary>
     
     
-      <category term="java" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/java/"/>
+      <category term="java" scheme="http://whisper1225.github.io/tags/java/"/>
     
-      <category term="虚拟机" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <category term="虚拟机" scheme="http://whisper1225.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
-      <category term="jvm" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/jvm/"/>
+      <category term="jvm" scheme="http://whisper1225.github.io/tags/jvm/"/>
     
-      <category term="读书笔记" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://whisper1225.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="执行子系统" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E6%89%A7%E8%A1%8C%E5%AD%90%E7%B3%BB%E7%BB%9F/"/>
+      <category term="执行子系统" scheme="http://whisper1225.github.io/tags/%E6%89%A7%E8%A1%8C%E5%AD%90%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
   <entry>
     <title>深入java虚拟机之序言</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/22/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B9%8B%E5%BA%8F%E8%A8%80/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/22/深入java虚拟机之序言/</id>
+    <link href="http://whisper1225.github.io/2016/03/22/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B9%8B%E5%BA%8F%E8%A8%80/"/>
+    <id>http://whisper1225.github.io/2016/03/22/深入java虚拟机之序言/</id>
     <published>2016-03-21T16:39:38.000Z</published>
     <updated>2016-03-22T13:34:47.000Z</updated>
     
@@ -134,14 +170,14 @@
     </summary>
     
     
-      <category term="序言" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%BA%8F%E8%A8%80/"/>
+      <category term="序言" scheme="http://whisper1225.github.io/tags/%E5%BA%8F%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title>深入java虚拟机之垃圾回收</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B9%8B%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/深入java虚拟机之垃圾回收/</id>
+    <link href="http://whisper1225.github.io/2016/03/21/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B9%8B%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    <id>http://whisper1225.github.io/2016/03/21/深入java虚拟机之垃圾回收/</id>
     <published>2016-03-21T15:45:55.000Z</published>
     <updated>2016-03-22T13:37:25.000Z</updated>
     
@@ -165,16 +201,16 @@
     </summary>
     
     
-      <category term="深入java虚拟机" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <category term="深入java虚拟机" scheme="http://whisper1225.github.io/tags/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
-      <category term="垃圾回收" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+      <category term="垃圾回收" scheme="http://whisper1225.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
     
   </entry>
   
   <entry>
     <title>深入java虚拟机系列之工具使用篇</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B3%BB%E5%88%97%E4%B9%8B%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%AF%87/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/深入java虚拟机系列之工具使用篇/</id>
+    <link href="http://whisper1225.github.io/2016/03/21/%E6%B7%B1%E5%85%A5java%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B3%BB%E5%88%97%E4%B9%8B%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%AF%87/"/>
+    <id>http://whisper1225.github.io/2016/03/21/深入java虚拟机系列之工具使用篇/</id>
     <published>2016-03-21T15:23:32.000Z</published>
     <updated>2016-03-21T15:37:36.000Z</updated>
     
@@ -190,18 +226,18 @@
     </summary>
     
     
-      <category term="gc" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/gc/"/>
+      <category term="gc" scheme="http://whisper1225.github.io/tags/gc/"/>
     
-      <category term="verbose" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/verbose/"/>
+      <category term="verbose" scheme="http://whisper1225.github.io/tags/verbose/"/>
     
-      <category term="分析" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%88%86%E6%9E%90/"/>
+      <category term="分析" scheme="http://whisper1225.github.io/tags/%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>java中不带package和带package的编译运行方式</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java%E4%B8%AD%E4%B8%8D%E5%B8%A6package%E5%92%8C%E5%B8%A6package%E7%9A%84%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F-4/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java中不带package和带package的编译运行方式-4/</id>
+    <link href="http://whisper1225.github.io/2016/03/21/java%E4%B8%AD%E4%B8%8D%E5%B8%A6package%E5%92%8C%E5%B8%A6package%E7%9A%84%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F-4/"/>
+    <id>http://whisper1225.github.io/2016/03/21/java中不带package和带package的编译运行方式-4/</id>
     <published>2016-03-21T09:28:11.000Z</published>
     <updated>2016-03-21T15:35:22.000Z</updated>
     
@@ -221,18 +257,18 @@
     </summary>
     
     
-      <category term="javac" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/javac/"/>
+      <category term="javac" scheme="http://whisper1225.github.io/tags/javac/"/>
     
-      <category term="编译" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E7%BC%96%E8%AF%91/"/>
+      <category term="编译" scheme="http://whisper1225.github.io/tags/%E7%BC%96%E8%AF%91/"/>
     
-      <category term="自动生成层级包" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%B1%82%E7%BA%A7%E5%8C%85/"/>
+      <category term="自动生成层级包" scheme="http://whisper1225.github.io/tags/%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%B1%82%E7%BA%A7%E5%8C%85/"/>
     
   </entry>
   
   <entry>
     <title>java static 再理解</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java-static-%E5%86%8D%E7%90%86%E8%A7%A3/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/21/java-static-再理解/</id>
+    <link href="http://whisper1225.github.io/2016/03/21/java-static-%E5%86%8D%E7%90%86%E8%A7%A3/"/>
+    <id>http://whisper1225.github.io/2016/03/21/java-static-再理解/</id>
     <published>2016-03-21T08:09:59.000Z</published>
     <updated>2016-03-21T08:58:05.000Z</updated>
     
@@ -255,16 +291,16 @@
     </summary>
     
     
-      <category term="java" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/java/"/>
+      <category term="java" scheme="http://whisper1225.github.io/tags/java/"/>
     
-      <category term="static 关键字" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/static-%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <category term="static 关键字" scheme="http://whisper1225.github.io/tags/static-%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     
   </entry>
   
   <entry>
     <title>aliyuntest</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/19/aliyuntest/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/19/aliyuntest/</id>
+    <link href="http://whisper1225.github.io/2016/03/19/aliyuntest/"/>
+    <id>http://whisper1225.github.io/2016/03/19/aliyuntest/</id>
     <published>2016-03-19T03:46:33.000Z</published>
     <updated>2016-03-19T04:11:20.000Z</updated>
     
@@ -281,16 +317,16 @@
     </summary>
     
     
-      <category term="[object Object]" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/object-Object/"/>
+      <category term="[object Object]" scheme="http://whisper1225.github.io/tags/object-Object/"/>
     
-      <category term="搭建阿里云云端hexo环境，随时随地可以记录了" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E6%90%AD%E5%BB%BA%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%91%E7%AB%AFhexo%E7%8E%AF%E5%A2%83%EF%BC%8C%E9%9A%8F%E6%97%B6%E9%9A%8F%E5%9C%B0%E5%8F%AF%E4%BB%A5%E8%AE%B0%E5%BD%95%E4%BA%86/"/>
+      <category term="搭建阿里云云端hexo环境，随时随地可以记录了" scheme="http://whisper1225.github.io/tags/%E6%90%AD%E5%BB%BA%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%91%E7%AB%AFhexo%E7%8E%AF%E5%A2%83%EF%BC%8C%E9%9A%8F%E6%97%B6%E9%9A%8F%E5%9C%B0%E5%8F%AF%E4%BB%A5%E8%AE%B0%E5%BD%95%E4%BA%86/"/>
     
   </entry>
   
   <entry>
     <title>关于编码的碎碎念</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/05/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/03/05/关于编码的碎碎念/</id>
+    <link href="http://whisper1225.github.io/2016/03/05/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>http://whisper1225.github.io/2016/03/05/关于编码的碎碎念/</id>
     <published>2016-03-05T10:24:09.000Z</published>
     <updated>2016-03-19T03:30:33.000Z</updated>
     
@@ -318,16 +354,16 @@
     </summary>
     
     
-      <category term="编码" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E7%BC%96%E7%A0%81/"/>
+      <category term="编码" scheme="http://whisper1225.github.io/tags/%E7%BC%96%E7%A0%81/"/>
     
-      <category term="Java" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/Java/"/>
+      <category term="Java" scheme="http://whisper1225.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>前端学习之背景图错位</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/29/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%83%8C%E6%99%AF%E5%9B%BE%E9%94%99%E4%BD%8D/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/29/前端学习之背景图错位/</id>
+    <link href="http://whisper1225.github.io/2016/01/29/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%83%8C%E6%99%AF%E5%9B%BE%E9%94%99%E4%BD%8D/"/>
+    <id>http://whisper1225.github.io/2016/01/29/前端学习之背景图错位/</id>
     <published>2016-01-29T03:01:58.000Z</published>
     <updated>2016-03-19T03:30:32.000Z</updated>
     
@@ -344,16 +380,16 @@
     </summary>
     
     
-      <category term="前端笔记" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="http://whisper1225.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="背景错位" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E8%83%8C%E6%99%AF%E9%94%99%E4%BD%8D/"/>
+      <category term="背景错位" scheme="http://whisper1225.github.io/tags/%E8%83%8C%E6%99%AF%E9%94%99%E4%BD%8D/"/>
     
   </entry>
   
   <entry>
     <title>后台错误备忘</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/28/%E5%90%8E%E5%8F%B0%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/28/后台碎碎念/</id>
+    <link href="http://whisper1225.github.io/2016/01/28/%E5%90%8E%E5%8F%B0%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>http://whisper1225.github.io/2016/01/28/后台碎碎念/</id>
     <published>2016-01-28T10:53:59.000Z</published>
     <updated>2016-03-19T03:30:33.000Z</updated>
     
@@ -370,16 +406,16 @@
     </summary>
     
     
-      <category term="后台错误" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%90%8E%E5%8F%B0%E9%94%99%E8%AF%AF/"/>
+      <category term="后台错误" scheme="http://whisper1225.github.io/tags/%E5%90%8E%E5%8F%B0%E9%94%99%E8%AF%AF/"/>
     
-      <category term="备忘" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%A4%87%E5%BF%98/"/>
+      <category term="备忘" scheme="http://whisper1225.github.io/tags/%E5%A4%87%E5%BF%98/"/>
     
   </entry>
   
   <entry>
     <title>个人资料管理</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/28/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E7%AE%A1%E7%90%86/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/28/个人资料管理/</id>
+    <link href="http://whisper1225.github.io/2016/01/28/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E7%AE%A1%E7%90%86/"/>
+    <id>http://whisper1225.github.io/2016/01/28/个人资料管理/</id>
     <published>2016-01-28T01:38:31.000Z</published>
     <updated>2016-03-19T03:30:33.000Z</updated>
     
@@ -393,16 +429,16 @@
     </summary>
     
     
-      <category term="个人资料管理" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E7%AE%A1%E7%90%86/"/>
+      <category term="个人资料管理" scheme="http://whisper1225.github.io/tags/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E7%AE%A1%E7%90%86/"/>
     
-      <category term="目录层级结构划分方式" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E7%9B%AE%E5%BD%95%E5%B1%82%E7%BA%A7%E7%BB%93%E6%9E%84%E5%88%92%E5%88%86%E6%96%B9%E5%BC%8F/"/>
+      <category term="目录层级结构划分方式" scheme="http://whisper1225.github.io/tags/%E7%9B%AE%E5%BD%95%E5%B1%82%E7%BA%A7%E7%BB%93%E6%9E%84%E5%88%92%E5%88%86%E6%96%B9%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>前端小白历险记之基础杂记</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/27/%E5%89%8D%E7%AB%AF%E5%B0%8F%E7%99%BD%E5%8E%86%E9%99%A9%E8%AE%B0/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/27/前端小白历险记/</id>
+    <link href="http://whisper1225.github.io/2016/01/27/%E5%89%8D%E7%AB%AF%E5%B0%8F%E7%99%BD%E5%8E%86%E9%99%A9%E8%AE%B0/"/>
+    <id>http://whisper1225.github.io/2016/01/27/前端小白历险记/</id>
     <published>2016-01-26T16:25:02.000Z</published>
     <updated>2016-03-19T03:30:32.000Z</updated>
     
@@ -420,16 +456,16 @@
     </summary>
     
     
-      <category term="前端" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://whisper1225.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="入门笔记" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/"/>
+      <category term="入门笔记" scheme="http://whisper1225.github.io/tags/%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>重温git</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/26/%E9%87%8D%E6%B8%A9git/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/26/重温git/</id>
+    <link href="http://whisper1225.github.io/2016/01/26/%E9%87%8D%E6%B8%A9git/"/>
+    <id>http://whisper1225.github.io/2016/01/26/重温git/</id>
     <published>2016-01-26T03:50:28.000Z</published>
     <updated>2016-03-19T03:30:32.000Z</updated>
     
@@ -458,16 +494,16 @@
     </summary>
     
     
-      <category term="Git" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/Git/"/>
+      <category term="Git" scheme="http://whisper1225.github.io/tags/Git/"/>
     
-      <category term="笔记" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://whisper1225.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>android studio 常见错误记录(持续更新)</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/24/android-studio-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/24/android-studio-常见错误记录/</id>
+    <link href="http://whisper1225.github.io/2016/01/24/android-studio-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/"/>
+    <id>http://whisper1225.github.io/2016/01/24/android-studio-常见错误记录/</id>
     <published>2016-01-24T14:51:19.000Z</published>
     <updated>2016-03-19T03:30:33.000Z</updated>
     
@@ -487,16 +523,16 @@
     </summary>
     
     
-      <category term="android studio" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/android-studio/"/>
+      <category term="android studio" scheme="http://whisper1225.github.io/tags/android-studio/"/>
     
-      <category term="错误记录" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/"/>
+      <category term="错误记录" scheme="http://whisper1225.github.io/tags/%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>github+hexo搭建个人博客实录</title>
-    <link href="https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/21/github-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%AE%9E%E5%BD%95/"/>
-    <id>https://github.com/whisper1225/jiuzhongxian.github.io/2016/01/21/github-hexo搭建个人博客实录/</id>
+    <link href="http://whisper1225.github.io/2016/01/21/github-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%AE%9E%E5%BD%95/"/>
+    <id>http://whisper1225.github.io/2016/01/21/github-hexo搭建个人博客实录/</id>
     <published>2016-01-21T05:03:24.000Z</published>
     <updated>2016-03-23T11:40:41.000Z</updated>
     
@@ -567,13 +603,13 @@
     </summary>
     
     
-      <category term="hexo" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://whisper1225.github.io/tags/hexo/"/>
     
-      <category term="github" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/github/"/>
+      <category term="github" scheme="http://whisper1225.github.io/tags/github/"/>
     
-      <category term="搭建" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="搭建" scheme="http://whisper1225.github.io/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="个人博客" scheme="https://github.com/whisper1225/jiuzhongxian.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="个人博客" scheme="http://whisper1225.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
