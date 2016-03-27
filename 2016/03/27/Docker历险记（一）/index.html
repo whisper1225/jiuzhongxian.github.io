@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>Docker历险记（一） | 酒中仙的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="docker&amp;#x5B89;&amp;#x88C5;&amp;#x914D;&amp;#x7F6E; &amp;#x722C;&amp;#x5751;&amp;#x8BB0;&amp;lt;!-more-&amp;gt;
+&amp;#x5728;CentOs7&amp;#x4E2D;&amp;#x5B89;&amp;#x88C5;&amp;#x5B89;&amp;#x88C5;&amp;#x6761;&amp;#x4EF6; &amp;#x5185;&amp;#x6838;&amp;#x7248;&amp;#x672C;CentOs6&amp;#x6CE8;&amp;#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Docker历险记（一）">
+<meta property="og:url" content="http://whisper1225.github.io/2016/03/27/Docker历险记（一）/index.html">
+<meta property="og:site_name" content="酒中仙的博客">
+<meta property="og:description" content="docker&amp;#x5B89;&amp;#x88C5;&amp;#x914D;&amp;#x7F6E; &amp;#x722C;&amp;#x5751;&amp;#x8BB0;&amp;lt;!-more-&amp;gt;
+&amp;#x5728;CentOs7&amp;#x4E2D;&amp;#x5B89;&amp;#x88C5;&amp;#x5B89;&amp;#x88C5;&amp;#x6761;&amp;#x4EF6; &amp;#x5185;&amp;#x6838;&amp;#x7248;&amp;#x672C;CentOs6&amp;#x6CE8;&amp;#">
+<meta property="og:updated_time" content="2016-03-27T02:23:28.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Docker历险记（一）">
+<meta name="twitter:description" content="docker&amp;#x5B89;&amp;#x88C5;&amp;#x914D;&amp;#x7F6E; &amp;#x722C;&amp;#x5751;&amp;#x8BB0;&amp;lt;!-more-&amp;gt;
+&amp;#x5728;CentOs7&amp;#x4E2D;&amp;#x5B89;&amp;#x88C5;&amp;#x5B89;&amp;#x88C5;&amp;#x6761;&amp;#x4EF6; &amp;#x5185;&amp;#x6838;&amp;#x7248;&amp;#x672C;CentOs6&amp;#x6CE8;&amp;#">
+  
+    <link rel="alternative" href="/atom.xml" title="酒中仙的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.jpg">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_rabbit_headImage.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">whisper</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">为往圣继绝学 虽不能至 心向往之</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						<li>Links</li>
+						
+						
+						<li>Über</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="#" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="#" title="rss">rss</a>
+					        
+								<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/Android/" style="font-size: 10px;">Android</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/String/" style="font-size: 10px;">String</a> <a href="/tags/object-Object/" style="font-size: 10px;">[object Object]</a> <a href="/tags/android-studio/" style="font-size: 10px;">android studio</a> <a href="/tags/app/" style="font-size: 10px;">app</a> <a href="/tags/docker/" style="font-size: 10px;">docker</a> <a href="/tags/gc/" style="font-size: 10px;">gc</a> <a href="/tags/gif/" style="font-size: 10px;">gif</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/java/" style="font-size: 20px;">java</a> <a href="/tags/javac/" style="font-size: 10px;">javac</a> <a href="/tags/java基础/" style="font-size: 10px;">java基础</a> <a href="/tags/jvm/" style="font-size: 10px;">jvm</a> <a href="/tags/seo/" style="font-size: 10px;">seo</a> <a href="/tags/static-关键字/" style="font-size: 10px;">static 关键字</a> <a href="/tags/verbose/" style="font-size: 10px;">verbose</a> <a href="/tags/个人博客/" style="font-size: 10px;">个人博客</a> <a href="/tags/个人资料管理/" style="font-size: 10px;">个人资料管理</a> <a href="/tags/优化/" style="font-size: 10px;">优化</a> <a href="/tags/入门笔记/" style="font-size: 10px;">入门笔记</a> <a href="/tags/分析/" style="font-size: 10px;">分析</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/前端笔记/" style="font-size: 10px;">前端笔记</a> <a href="/tags/后台错误/" style="font-size: 10px;">后台错误</a> <a href="/tags/垃圾回收/" style="font-size: 10px;">垃圾回收</a> <a href="/tags/备忘/" style="font-size: 10px;">备忘</a> <a href="/tags/安装/" style="font-size: 10px;">安装</a> <a href="/tags/序言/" style="font-size: 10px;">序言</a> <a href="/tags/录制/" style="font-size: 10px;">录制</a> <a href="/tags/执行子系统/" style="font-size: 10px;">执行子系统</a> <a href="/tags/搭建/" style="font-size: 10px;">搭建</a> <a href="/tags/搭建阿里云云端hexo环境，随时随地可以记录了/" style="font-size: 10px;">搭建阿里云云端hexo环境，随时随地可以记录了</a> <a href="/tags/深入java虚拟机/" style="font-size: 10px;">深入java虚拟机</a> <a href="/tags/演示/" style="font-size: 10px;">演示</a> <a href="/tags/环境搭建/" style="font-size: 10px;">环境搭建</a> <a href="/tags/目录层级结构划分方式/" style="font-size: 10px;">目录层级结构划分方式</a> <a href="/tags/笔记/" style="font-size: 10px;">笔记</a> <a href="/tags/编码/" style="font-size: 10px;">编码</a> <a href="/tags/编译/" style="font-size: 10px;">编译</a> <a href="/tags/背景错位/" style="font-size: 10px;">背景错位</a> <a href="/tags/自动生成层级包/" style="font-size: 10px;">自动生成层级包</a> <a href="/tags/虚拟机/" style="font-size: 10px;">虚拟机</a> <a href="/tags/读书笔记/" style="font-size: 10px;">读书笔记</a> <a href="/tags/配置/" style="font-size: 10px;">配置</a> <a href="/tags/错误记录/" style="font-size: 10px;">错误记录</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">whisper</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="http://7xqbxa.com1.z0.glb.clouddn.com/github_recordHexo_rabbit_headImage.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">whisper</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">为往圣继绝学 虽不能至 心向往之</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="#" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="#" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-Docker历险记（一）" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/03/27/Docker历险记（一）/" class="article-date">
+  	<time datetime="2016-03-27T02:19:51.000Z" itemprop="datePublished">2016-03-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Docker历险记（一）
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/">docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/安装/">安装</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/环境搭建/">环境搭建</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/配置/">配置</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+	  
+	  
+	<div id="toc" class="toc-article">
+		<strong class="toc-title">文章目录</strong>
+	<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#在centos7中安装"><span class="toc-number">1.</span> <span class="toc-text">在CentOs7中安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#启动"><span class="toc-number">2.</span> <span class="toc-text">启动</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考资料"><span class="toc-number">3.</span> <span class="toc-text">参考资料</span></a></li></ol>
+	</div>
+
+	  
+	  
+        <p>docker&#x5B89;&#x88C5;&#x914D;&#x7F6E; &#x722C;&#x5751;&#x8BB0;<br>&lt;!-more-&gt;</p>
+<h2 id="&#x5728;centos7&#x4E2D;&#x5B89;&#x88C5;"><a href="#&#x5728;CentOs7&#x4E2D;&#x5B89;&#x88C5;" class="headerlink" title="&#x5728;CentOs7&#x4E2D;&#x5B89;&#x88C5;"></a><strong>&#x5728;CentOs7&#x4E2D;&#x5B89;&#x88C5;</strong></h2><p>&#x5B89;&#x88C5;&#x6761;&#x4EF6; &#x5185;&#x6838;&#x7248;&#x672C;CentOs6&#x6CE8;&#x610F;&#xFF0C;CentOs7&#x53EF;&#x4EE5;&#xFF0C;&#x800C;&#x4E14;CentOS7 &#x7CFB;&#x7EDF; CentOS-Extras &#x5E93;&#x4E2D;&#x5DF2;&#x5E26; Docker&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5B89;&#x88C5;&#x3002;</p>
+<blockquote>
+<p>&#x6211;&#x7684;&#x73AF;&#x5883;&#x5C31;&#x662F;&#x963F;&#x91CC;&#x4E91;&gt;CentOs7<br><a href="http://wiki.jikexueyuan.com/project/docker-technology-and-combat/centos.html" target="_blank" rel="external">http://wiki.jikexueyuan.com/project/docker-technology-and-combat/centos.html</a></p>
+<p><a href="https://mos.meituan.com/library/26/how-to-install-docker-on-centos/" target="_blank" rel="external">https://mos.meituan.com/library/26/how-to-install-docker-on-centos/</a></p>
+</blockquote>
+<p>&#x6309;&#x7167;&#x6781;&#x5BA2;&#x5B66;&#x9662;&#x6559;&#x7A0B;&#x5B89;&#x88C5;&#x5B89;&#x88C5;&#x62A5;&#x9519;&#xFF1A;</p>
+<blockquote>
+<p>centos7 docker &#x5B89;&#x88C5; file /usr/lib/systemd/system/blk-availability.service from install of device-mapper-7:1.02.107-5.el7_2.1.x86_64 conflicts with file from package lvm2-7:2.02.105-14.el7.x86_64</p>
+</blockquote>
+<p>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;<br>[root@localhost ~]# yum install lvm2 -y<br>[root@localhost ~]# yum install docker-io -y</p>
+<blockquote>
+<p><a href="http://www.roddypy.com/index.php/2016/03/11/centos7-yum-%E5%AE%89%E8%A3%85docker%E6%8A%A5%E9%94%99/" target="_blank" rel="external">http://www.roddypy.com/index.php/2016/03/11/centos7-yum-%E5%AE%89%E8%A3%85docker%E6%8A%A5%E9%94%99/</a></p>
+</blockquote>
+<h2 id="&#x542F;&#x52A8;"><a href="#&#x542F;&#x52A8;" class="headerlink" title="&#x542F;&#x52A8;"></a><strong>&#x542F;&#x52A8;</strong></h2><p>[root@localhost /]# systemctl start docker.service<br>Job for docker.service failed. See &#x2018;systemctl status docker.service&#x2019; and &#x2018;journalctl -xn&#x2019; for details.<br>[root@localhost /]# systemctl status docker.service<br>docker.service - Docker Application Container Engine<br>   Loaded: loaded (/usr/lib/systemd/system/docker.service; disabled)<br>   Active: failed (Result: start-limit) since Thu 2014-11-27 15:03:24 CST; 13s ago<br>     Docs: <a href="http://docs.docker.io" target="_blank" rel="external">http://docs.docker.io</a><br>  Process: 4559 ExecStart=/usr/bin/docker -d $OPTIONS $DOCKER_STORAGE_OPTIONS (code=exited, status=1/FAILURE)<br> Main PID: 4559 (code=exited, status=1/FAILURE)</p>
+<p>Nov 27 15:03:24 localhost.localdomain systemd[1]: docker.service: main proces&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: Failed to start Docker Appl&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: Unit docker.service entered&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: docker.service holdoff time&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: Stopping Docker Application&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: Starting Docker Application&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: docker.service start reques&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: Failed to start Docker Appl&#x2026;<br>Nov 27 15:03:24 localhost.localdomain systemd[1]: Unit docker.service entered&#x2026;<br>Hint: Some lines were ellipsized, use -l to show in full.</p>
+<blockquote>
+<p>&#x6B65;&#x6B65;&#x60CA;&#x5FC3;&#x554A;&#xFF0C;&#x90FD;&#x662F;&#x5751;</p>
+</blockquote>
+<p>&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#xFF1A;&#x53C2;&#x8003;<br><a href="https://segmentfault.com/q/1010000002392472" target="_blank" rel="external">https://segmentfault.com/q/1010000002392472</a>&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x6700;&#x540E;&#x4E00;&#x6761;&#x5EFA;&#x8BAE;&#xFF0C;&#x4FEE;&#x6539;selinux&#x7EA7;&#x522B;&#xFF0C;&#x7136;&#x540E;reboot&#x3002;ok&#x641E;&#x5B9A;&#x3002;<br>&#x5728;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x4E2D;&#x53D1;&#x73B0;&#x5176;&#x4ED6;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF0C;&#x4E0D;&#x77E5;&#x662F;&#x5426;&#x6709;&#x6548;&#xFF1A;</p>
+<ol>
+<li><a href="http://www.cnblogs.com/amoyzhu/p/5261393.html" target="_blank" rel="external">http://www.cnblogs.com/amoyzhu/p/5261393.html</a></li>
+<li><a href="http://www.jixuege.com/?id=49&amp;utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="external">http://www.jixuege.com/?id=49&amp;utm_source=tuicool&amp;utm_medium=referral</a></li>
+<li><a href="http://www.centoscn.com/image-text/config/2015/0718/5877.html?spm=5176.ask1832.yqaskinfo1.13.QTDRz1" target="_blank" rel="external">http://www.centoscn.com/image-text/config/2015/0718/5877.html?spm=5176.ask1832.yqaskinfo1.13.QTDRz1</a></li>
+</ol>
+<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a href="#&#x53C2;&#x8003;&#x8D44;&#x6599;" class="headerlink" title="&#x53C2;&#x8003;&#x8D44;&#x6599;"></a><strong>&#x53C2;&#x8003;&#x8D44;&#x6599;</strong></h2><ol>
+<li><a href="https://mos.meituan.com/library/26/how-to-install-docker-on-centos/" target="_blank" rel="external">https://mos.meituan.com/library/26/how-to-install-docker-on-centos/</a></li>
+<li><a href="http://wiki.jikexueyuan.com/project/docker-technology-and-combat/pull.html" target="_blank" rel="external">http://wiki.jikexueyuan.com/project/docker-technology-and-combat/pull.html</a></li>
+</ol>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/03/27/Java基础之String类/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Java基础之String类
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/03/27/Android-App-录制GIF演示动画/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Android App 录制GIF演示动画</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Docker历险记（一）" data-title="Docker历险记（一）" data-url="http://whisper1225.github.io/2016/03/27/Docker历险记（一）/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 whisper
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+
+<script>
+	var yiliaConfig = {
+		fancybox: false,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-72672206-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
