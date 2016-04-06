@@ -42,11 +42,13 @@
     <link href="http://whisper1225.github.io/2016/04/06/%E7%BC%96%E7%A8%8B%E6%9D%82%E7%A2%8E%E8%AE%B0%E5%BD%95/"/>
     <id>http://whisper1225.github.io/2016/04/06/编程杂碎记录/</id>
     <published>2016-04-06T04:05:20.000Z</published>
-    <updated>2016-04-06T04:07:01.000Z</updated>
+    <updated>2016-04-06T13:49:44.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#x7F16;&amp;#x7A0B;&amp;#x6742;&amp;#x788E;&amp;#x8BB0;&amp;#x5F55;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&amp;#x5982;&amp;#x4F55;&amp;#x533A;&amp;#x5206;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684;jdk&amp;#x662F;sun&amp;#x8FD8;&amp;#x662F;openjdk&amp;#xFF1F;&lt;br&gt; &amp;#x7B54;&amp;#xFF1A;&amp;#x76F4;&amp;#x63A5;java -version,&amp;#x5982;&amp;#x679C;&amp;#x662F;sun&amp;#x90A3;&amp;#x4E48;&amp;#x4F1A;&amp;#x663E;&amp;#x793A;java xx&amp;#xFF0C;&amp;#x53CD;&amp;#x4E4B;&amp;#x5219;&amp;#x662F;openjdk&lt;/li&gt;
+&lt;li&gt;jdk&amp;#x7684;server&amp;#x6A21;&amp;#x5F0F;&amp;#x548C;client&amp;#x6A21;&amp;#x5F0F;&amp;#x5230;&amp;#x5E95;&amp;#x6709;&amp;#x4EC0;&amp;#x4E48;&amp;#x533A;&amp;#x522B;&amp;#xFF1F;&lt;br&gt; &amp;#x7B54;&amp;#xFF1A;client&amp;#x52A0;&amp;#x8F7D;&amp;#x5FEB;&amp;#xFF0C;server&amp;#x52A0;&amp;#x8F7D;&amp;#x6CA1;&amp;#x6709;client&amp;#x5FEB;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x8FD0;&amp;#x884C;&amp;#x8F83;&amp;#x5FEB;&amp;#x3002;&amp;#x684C;&amp;#x9762;&amp;#x5E94;&amp;#x7528;&amp;#x4F7F;&amp;#x7528;client&amp;#x6A21;&amp;#x5F0F;&amp;#xFF0C;&amp;#x670D;&amp;#x52A1;&amp;#x5668;&amp;#x7A0B;&amp;#x5E8F;&amp;#x4F7F;&amp;#x7528;server&amp;#x3002;&amp;#x5206;&amp;#x522B;&amp;#x5BF9;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x5E94;&amp;#x7528;&amp;#x573A;&amp;#x666F;&amp;#x505A;&amp;#x4E86;&amp;#x4F18;&amp;#x5316;&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;Linux&amp;#x4E0D;&amp;#x540C;&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x914D;&amp;#x7F6E;&amp;#x7684;&amp;#x73AF;&amp;#x5883;&amp;#x53D8;&amp;#x91CF;&amp;#x5177;&amp;#x4F53;&amp;#x6709;&amp;#x4EC0;&amp;#x4E48;&amp;#x533A;&amp;#x522B;&amp;#xFF1F;&lt;br&gt; &amp;#x7B54;&amp;#xFF1A;&amp;#x5728;bash&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;export&amp;#x8FD9;&amp;#x79CD;&amp;#x65B9;&amp;#x5F0F;&amp;#x53EA;&amp;#x5BF9;&amp;#x5F53;&amp;#x524D;shell&amp;#x6709;&amp;#x6548;&amp;#xFF0C;&amp;#x8FD9;&amp;#x91CC;&amp;#x5C31;&amp;#x4E0D;&amp;#x8BF4;&amp;#x4E86;&amp;#x3002;&lt;br&gt;&amp;#x4E00;&amp;#x822C;&amp;#x5E38;&amp;#x89C1;&amp;#x7684;&amp;#x5C31;&amp;#x662F;&amp;#x5728;/etc/profile&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x6DFB;&amp;#x52A0;&amp;#x73AF;&amp;#x5883;&amp;#x53D8;&amp;#x91CF;&amp;#x6216;&amp;#x8005;&amp;#x5728;~/.bashrc&amp;#x4E2D;&amp;#x6DFB;&amp;#x52A0;&amp;#x3002;&lt;br&gt;&amp;#x533A;&amp;#x522B;&amp;#x662F;&amp;#x5728;etc&amp;#x4E2D;&amp;#x4FEE;&amp;#x6539;&amp;#x662F;&amp;#x5BF9;&amp;#x6240;&amp;#x6709;&amp;#x7528;&amp;#x6237;&amp;#x751F;&amp;#x6548;(&amp;#x6240;&amp;#x6709;&amp;#x7528;&amp;#x6237;&amp;#x767B;&amp;#x5F55;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x90FD;&amp;#x4F1A;&amp;#x88AB;&amp;#x8BFB;&amp;#x53D6;&amp;#x4E00;&amp;#x6B21;)&amp;#xFF0C;&lt;br&gt;bashrc&amp;#x5219;&amp;#x662F;&amp;#x5728;&amp;#x5F53;&amp;#x524D;&amp;#x7528;&amp;#x6237;&amp;#x767B;&amp;#x5F55;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x8BFB;&amp;#x53D6;&amp;#x3002;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -104,13 +106,14 @@
     <link href="http://whisper1225.github.io/2016/04/05/mac%E5%AE%89%E8%A3%85%E8%AE%BE%E7%BD%AE%E5%A4%87%E5%BF%98/"/>
     <id>http://whisper1225.github.io/2016/04/05/mac安装设置备忘/</id>
     <published>2016-04-05T09:27:21.000Z</published>
-    <updated>2016-04-05T09:36:19.000Z</updated>
+    <updated>2016-04-06T13:29:41.000Z</updated>
     
     <content type="html">&lt;p&gt;mac Xos &amp;#x5B89;&amp;#x88C5;&amp;#x8BBE;&amp;#x7F6E;&amp;#x5907;&amp;#x5FD8;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&amp;#x5B89;&amp;#x88C5;chrome qq &amp;#x7F51;&amp;#x6613;&amp;#x4E91;&amp;#x97F3;&amp;#x4E50; &amp;#x90AE;&amp;#x4EF6;&amp;#x5BA2;&amp;#x6237;&amp;#x7AEF; &amp;#x6211;&amp;#x662F;&amp;#x4F7F;&amp;#x7528;&amp;#x9ED8;&amp;#x8BA4;&amp;#x7684;&lt;/li&gt;
 &lt;li&gt;item2 zsh oh-my-zsh&lt;/li&gt;
 &lt;li&gt;ssh username@host for example root@xx.xx.xx.com&lt;/li&gt;
+&lt;li&gt;&amp;#x5982;&amp;#x4F55;&amp;#x9700;&amp;#x8981;&amp;#x4F20;&amp;#x8F93;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x4F7F;&amp;#x7528;scp&amp;#x547D;&amp;#x4EE4;&amp;#xFF0C;&amp;#x683C;&amp;#x5F0F; scp ~/local/file user@remote:~/file&amp;#xFF0C;remote&amp;#x4EE3;&amp;#x8868;&amp;#x8FDC;&amp;#x7A0B;&amp;#x5730;&amp;#x5740;&amp;#x3002;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
