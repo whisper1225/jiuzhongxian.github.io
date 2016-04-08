@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://whisper1225.github.io/2016/04/07/Hadoop%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://whisper1225.github.io/2016/04/08/Hadoop%E7%B3%BB%E5%88%97%E4%B9%8BHive/</loc>
     
-    <lastmod>2016-04-07T03:19:42.000Z</lastmod>
+    <lastmod>2016-04-08T08:00:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://whisper1225.github.io/2016/04/07/Hadoop%E7%B3%BB%E5%88%97%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2016-04-08T07:58:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://whisper1225.github.io/2016/04/08/%E5%A4%A9%E9%97%AE/</loc>
+    
+    <lastmod>2016-04-08T07:42:03.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://whisper1225.github.io/2016/04/07/Linux%E6%9D%82%E8%AE%B0/</loc>
     
-    <lastmod>2016-04-07T01:36:19.000Z</lastmod>
+    <lastmod>2016-04-08T06:18:31.000Z</lastmod>
     
   </url>
   
@@ -198,7 +212,7 @@
   </url>
   
   <url>
-    <loc>http://whisper1225.github.io/2016/01/24/android-studio-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://whisper1225.github.io/2016/01/28/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E7%AE%A1%E7%90%86/</loc>
     
     <lastmod>2016-03-19T03:30:33.000Z</lastmod>
     
@@ -212,14 +226,14 @@
   </url>
   
   <url>
-    <loc>http://whisper1225.github.io/2016/03/05/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
+    <loc>http://whisper1225.github.io/2016/01/24/android-studio-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2016-03-19T03:30:33.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://whisper1225.github.io/2016/01/28/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E7%AE%A1%E7%90%86/</loc>
+    <loc>http://whisper1225.github.io/2016/03/05/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     
     <lastmod>2016-03-19T03:30:33.000Z</lastmod>
     
