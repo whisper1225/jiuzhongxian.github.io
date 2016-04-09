@@ -48,7 +48,7 @@
     <link href="http://whisper1225.github.io/2016/04/08/%E5%A4%A9%E9%97%AE/"/>
     <id>http://whisper1225.github.io/2016/04/08/天问/</id>
     <published>2016-04-08T02:08:07.000Z</published>
-    <updated>2016-04-08T07:42:03.000Z</updated>
+    <updated>2016-04-08T15:52:46.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#x95EE;&amp;#x9898;&amp;#x96C6;&amp;#x9526;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;hadoop&amp;#x7BC7;&quot;&gt;&lt;a href=&quot;#Hadoop&amp;#x7BC7;&quot; class=&quot;headerlink&quot; title=&quot;Hadoop&amp;#x7BC7;&quot;&gt;&lt;/a&gt;Hadoop&amp;#x7BC7;&lt;/h2&gt;&lt;ol&gt;
@@ -58,6 +58,7 @@
 &lt;li&gt;pkg&amp;#x683C;&amp;#x5F0F;&amp;#x7684;&amp;#x600E;&amp;#x4E48;&amp;#x5B89;&amp;#x88C5;&lt;/li&gt;
 &lt;li&gt;reduceTask&amp;#x4EFB;&amp;#x52A1;&amp;#x4E2A;&amp;#x6570;&amp;#x600E;&amp;#x4E48;&amp;#x7406;&amp;#x89E3;&amp;#x3002;&amp;#x5206;&amp;#x533A;&amp;#x4E2A;&amp;#x6570;&amp;#x5C06;&amp;#x4F1A;&amp;#x51B3;&amp;#x5B9A;reduce&amp;#x7684;&amp;#x4E2A;&amp;#x6570;&amp;#x3002;&amp;#x5982;&amp;#x679C;&amp;#x6CA1;&amp;#x6709;&amp;#x8BBE;&amp;#x7F6E;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5206;&amp;#x533A;&amp;#x90A3;&amp;#x4E48;&amp;#xFF0C;&amp;#x9ED8;&amp;#x8BA4;reduceTask&amp;#x4E2A;&amp;#x6570;&amp;#x5C06;&amp;#x4F1A;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x3002;&amp;#x8FD9;&amp;#x4E48;&amp;#x7406;&amp;#x89E3;&amp;#x6B63;&amp;#x786E;&amp;#x5417;&amp;#xFF1F;&amp;#x8FD9;&amp;#x79CD;&amp;#x60C5;&amp;#x51B5;&amp;#x4E0B;&amp;#x5982;&amp;#x679C;&amp;#x6211;&amp;#x4EEC;&amp;#x5728;&amp;#x7A0B;&amp;#x5E8F;&amp;#x4E2D;&amp;#x663E;&amp;#x793A;&amp;#x7684;&amp;#x8BBE;&amp;#x7F6E;NumReduceTasks&amp;#x6570;&amp;#x76EE;&amp;#x3002;&amp;#x6700;&amp;#x7EC8;&amp;#x662F;&amp;#x4EE5;&amp;#x8FD9;&amp;#x4E2A;&amp;#x4E3A;&amp;#x51C6;&amp;#xFF1F;&lt;/li&gt;
 &lt;li&gt;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;Mapres&amp;#x53EA;&amp;#x9002;&amp;#x5408;&amp;#x5904;&amp;#x7406;&amp;#x4E00;&amp;#x4E9B;&amp;#x6279;&amp;#x91CF;&amp;#x4EFB;&amp;#x52A1; Hive&amp;#x57FA;&amp;#x4E8E;mapred&amp;#x548C;hdfs&amp;#x2014;&amp;#x2014;&amp;#x300B;Hive&amp;#x6267;&amp;#x884C;&amp;#x65F6;&amp;#x95F4;&amp;#x957F;&amp;#xFF0C;&amp;#x5C31;&amp;#x7B97;&amp;#x5728;&amp;#x5C0F;&amp;#x7684;&amp;#x8868;&amp;#x5728;Hive&amp;#x4E0A;&amp;#x6267;&amp;#x884C;&amp;#x67E5;&amp;#x8BE2;&amp;#xFF0C;&amp;#x65F6;&amp;#x95F4;&amp;#x4E5F;&amp;#x662F;&amp;#x5206;&amp;#x7EA7;&amp;#x522B;&amp;#x7684;&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;ad_hoc&amp;#x95EE;&amp;#x9898;&amp;#x5230;&amp;#x5E95;&amp;#x662F;&amp;#x4EC0;&amp;#x4E48;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -77,7 +78,7 @@
     <link href="http://whisper1225.github.io/2016/04/07/Linux%E6%9D%82%E8%AE%B0/"/>
     <id>http://whisper1225.github.io/2016/04/07/Linux杂记/</id>
     <published>2016-04-07T01:20:08.000Z</published>
-    <updated>2016-04-08T06:18:31.000Z</updated>
+    <updated>2016-04-09T13:26:18.000Z</updated>
     
     <content type="html">&lt;p&gt;Linux &amp;#x6742;&amp;#x8BB0;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -87,6 +88,9 @@
 &lt;li&gt;&amp;#x963F;&amp;#x91CC;&amp;#x4E91;&amp;#x4E70;&amp;#x8FC7;&amp;#x6765;&amp;#x4E4B;&amp;#x540E;&amp;#x7684;&amp;#x4E3B;&amp;#x673A;&amp;#x540D;&amp;#x662F;&amp;#x4E00;&amp;#x4E32;&amp;#x5B57;&amp;#x7B26;&amp;#xFF0C;&amp;#x5F3A;&amp;#x8FEB;&amp;#x75C7;&amp;#x60A3;&amp;#x8005;&amp;#x662F;&amp;#x7EDD;&amp;#x5BF9;&amp;#x4E0D;&amp;#x5141;&amp;#x8BB8;&amp;#x7684;&amp;#x3002;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x5728;/etc/sysconnfig/network &amp;#x5982;&amp;#x679C;&amp;#x60F3;&amp;#x8981;&amp;#x4E0D;&amp;#x91CD;&amp;#x542F;&amp;#x751F;&amp;#x6548;&amp;#xFF0C;&amp;#x9700;&amp;#x8981;sysctl kernel.hostname=youname&amp;#x6307;&amp;#x4EE4;&amp;#x3002;&amp;#x7136;&amp;#x540E;&amp;#x91CD;&amp;#x542F;&amp;#x56DE;&amp;#x8BDD;.&lt;/li&gt;
 &lt;li&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x4EE5;&amp;#x666E;&amp;#x901A;&amp;#x7528;&amp;#x6237;&amp;#x4FEE;&amp;#x6539; &amp;#x4E86;&amp;#x4E00;&amp;#x4E2A;root&amp;#x8D26;&amp;#x53F7;&amp;#x521B;&amp;#x5EFA;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x663E;&amp;#x793A;&amp;#x53EA;&amp;#x8BFB;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x4F7F;&amp;#x7528;:!q&amp;#x600E;&amp;#x4E48;&amp;#x4E5F;&amp;#x65E0;&amp;#x6CD5;&amp;#x9000;&amp;#x51FA;&amp;#x3002;&amp;#x90C1;&amp;#x95F7;&amp;#x4E86;&amp;#x597D;&amp;#x4E45;&amp;#xFF0C;&amp;#x624D;&amp;#x53D1;&amp;#x73B0;&amp;#x662F;&amp;#x81EA;&amp;#x5DF1;&amp;#x5199;&amp;#x53CD;&amp;#x4E86;&lt;/li&gt;
 &lt;li&gt;&amp;#x865A;&amp;#x62DF;&amp;#x673A;&amp;#x7684;&amp;#x53C2;&amp;#x6570;&amp;#x914D;&amp;#x7F6E;&amp;#x53EF;&amp;#x4EE5;&amp;#x5927;&amp;#x4E8E;&amp;#x7269;&amp;#x7406;&amp;#x673A;&amp;#x7684;&amp;#x3002;&amp;#x53EA;&amp;#x662F;&amp;#x5B9E;&amp;#x9645;&amp;#x4F7F;&amp;#x7528;&amp;#x4E0D;&amp;#x53EF;&amp;#x80FD;&amp;#x8D85;&amp;#x8FC7;&amp;#x3002;&amp;#x5728;&amp;#x770B;&amp;#x8096;&amp;#x658C;&amp;#x7684;Hadoop&amp;#x89C6;&amp;#x9891;&amp;#x53D1;&amp;#x73B0;&amp;#x8FD9;&amp;#x4E2A;&amp;#x95EE;&amp;#x9898;&amp;#x3002;ps:&amp;#x5728;Google&amp;#x641C;&amp;#x7D22;&amp;#x201D;vmware &amp;#x521B;&amp;#x5EFA;&amp;#x591A;&amp;#x4E2A;&amp;#x865A;&amp;#x62DF;&amp;#x673A; &amp;#x914D;&amp;#x7F6E;&amp;#x4E4B;&amp;#x548C; &amp;#x80FD;&amp;#x591F;&amp;#x5927;&amp;#x4E8E;&amp;#x7269;&amp;#x7406;&amp;#x673A;&amp;#x5417;&amp;#x201D; &amp;#x5B8C;&amp;#x5168;&amp;#x4E0D;&amp;#x77E5;&amp;#x6240;&amp;#x4E91;&amp;#x3002;&amp;#x767E;&amp;#x5EA6;&amp;#x627E;&amp;#x5230;&amp;#x7B54;&amp;#x6848;&amp;#x4E86;&amp;#x3002;&amp;#x767E;&amp;#x5EA6;&amp;#x8FD8;&amp;#x4E0D;&amp;#x662F;&amp;#x5B8C;&amp;#x5168;&amp;#x6CA1;&amp;#x7528;&amp;#x554A;,&amp;#x54C8;&amp;#x54C8;&lt;/li&gt;
+&lt;li&gt;ping  ICMP&amp;#x534F;&amp;#x8BAE;&amp;#xFF0C;&lt;/li&gt;
+&lt;li&gt;&lt;font color=&quot;red&quot;&gt;&amp;#x8DF3;&amp;#x5230;&amp;#x6700;&amp;#x540E;&amp;#x4E00;&amp;#x884C; shift + g&lt;/font&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -253,10 +257,10 @@
   
   <entry>
     <title>mac安装设置备忘</title>
-    <link href="http://whisper1225.github.io/2016/04/05/mac%E5%AE%89%E8%A3%85%E8%AE%BE%E7%BD%AE%E5%A4%87%E5%BF%98/"/>
-    <id>http://whisper1225.github.io/2016/04/05/mac安装设置备忘/</id>
+    <link href="http://whisper1225.github.io/2016/04/05/mac%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98/"/>
+    <id>http://whisper1225.github.io/2016/04/05/mac使用备忘/</id>
     <published>2016-04-05T09:27:21.000Z</published>
-    <updated>2016-04-06T13:29:41.000Z</updated>
+    <updated>2016-04-09T13:22:50.000Z</updated>
     
     <content type="html">&lt;p&gt;mac Xos &amp;#x5B89;&amp;#x88C5;&amp;#x8BBE;&amp;#x7F6E;&amp;#x5907;&amp;#x5FD8;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -264,6 +268,7 @@
 &lt;li&gt;item2 zsh oh-my-zsh&lt;/li&gt;
 &lt;li&gt;ssh username@host for example root@xx.xx.xx.com&lt;/li&gt;
 &lt;li&gt;&amp;#x5982;&amp;#x4F55;&amp;#x9700;&amp;#x8981;&amp;#x4F20;&amp;#x8F93;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x4F7F;&amp;#x7528;scp&amp;#x547D;&amp;#x4EE4;&amp;#xFF0C;&amp;#x683C;&amp;#x5F0F; scp ~/local/file user@remote:~/file&amp;#xFF0C;remote&amp;#x4EE3;&amp;#x8868;&amp;#x8FDC;&amp;#x7A0B;&amp;#x5730;&amp;#x5740;&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;test&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
