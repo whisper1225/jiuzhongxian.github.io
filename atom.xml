@@ -74,40 +74,6 @@
   </entry>
   
   <entry>
-    <title>Linux杂记</title>
-    <link href="http://whisper1225.github.io/2016/04/07/Linux%E6%9D%82%E8%AE%B0/"/>
-    <id>http://whisper1225.github.io/2016/04/07/Linux杂记/</id>
-    <published>2016-04-07T01:20:08.000Z</published>
-    <updated>2016-04-09T13:26:18.000Z</updated>
-    
-    <content type="html">&lt;p&gt;Linux &amp;#x6742;&amp;#x8BB0;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;wget&amp;#x4E0B;&amp;#x8F7D; &amp;#x9ED8;&amp;#x8BA4;&amp;#x76EE;&amp;#x5F55;&amp;#x662F;&amp;#x5F53;&amp;#x524D;&amp;#x76EE;&amp;#x5F55;&amp;#xFF0C;&amp;#x6211;&amp;#x4EEC;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x6307;&amp;#x5B9A;&amp;#x5176;&amp;#x4ED6;&amp;#x76EE;&amp;#x5F55;&amp;#x3002;&lt;/li&gt;
-&lt;li&gt;scp&amp;#x547D;&amp;#x4EE4;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x4E0A;&amp;#x4F20;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x4E0B;&amp;#x8F7D;&amp;#x6587;&amp;#x4EF6; scp&amp;#x547D;&amp;#x4EE4;&amp;#x662F;&amp;#x5728;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x4E0A;&amp;#x62F7;&amp;#x8D1D;&amp;#x6587;&amp;#x4EF6; &amp;#x7B2C;&amp;#x4E00;&amp;#x4E2A;uri&amp;#x662F;&amp;#x672C;&amp;#x5730;uri(source),&amp;#x7B2C;&amp;#x4E8C;&amp;#x4E2A;&amp;#x662F;destination&lt;/li&gt;
-&lt;li&gt;ln -sf xx yy &amp;#x5C06;&amp;#x5DE6;&amp;#x8FB9;&amp;#x7684;&amp;#x94FE;&amp;#x63A5;&amp;#x5230;&amp;#x53F3;&amp;#x8FB9;&amp;#xFF0C;&amp;#x7C7B;&amp;#x4F3C;&amp;#x4E8E;mv &amp;#x53F3;&amp;#x8FB9;&amp;#x7684;&amp;#x9700;&amp;#x8981;&amp;#x53D6;&amp;#x4E2A;&amp;#x540D;&amp;#x5B57;&lt;/li&gt;
-&lt;li&gt;&amp;#x963F;&amp;#x91CC;&amp;#x4E91;&amp;#x4E70;&amp;#x8FC7;&amp;#x6765;&amp;#x4E4B;&amp;#x540E;&amp;#x7684;&amp;#x4E3B;&amp;#x673A;&amp;#x540D;&amp;#x662F;&amp;#x4E00;&amp;#x4E32;&amp;#x5B57;&amp;#x7B26;&amp;#xFF0C;&amp;#x5F3A;&amp;#x8FEB;&amp;#x75C7;&amp;#x60A3;&amp;#x8005;&amp;#x662F;&amp;#x7EDD;&amp;#x5BF9;&amp;#x4E0D;&amp;#x5141;&amp;#x8BB8;&amp;#x7684;&amp;#x3002;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x5728;/etc/sysconnfig/network &amp;#x5982;&amp;#x679C;&amp;#x60F3;&amp;#x8981;&amp;#x4E0D;&amp;#x91CD;&amp;#x542F;&amp;#x751F;&amp;#x6548;&amp;#xFF0C;&amp;#x9700;&amp;#x8981;sysctl kernel.hostname=youname&amp;#x6307;&amp;#x4EE4;&amp;#x3002;&amp;#x7136;&amp;#x540E;&amp;#x91CD;&amp;#x542F;&amp;#x56DE;&amp;#x8BDD;.&lt;/li&gt;
-&lt;li&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x4EE5;&amp;#x666E;&amp;#x901A;&amp;#x7528;&amp;#x6237;&amp;#x4FEE;&amp;#x6539; &amp;#x4E86;&amp;#x4E00;&amp;#x4E2A;root&amp;#x8D26;&amp;#x53F7;&amp;#x521B;&amp;#x5EFA;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x663E;&amp;#x793A;&amp;#x53EA;&amp;#x8BFB;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x4F7F;&amp;#x7528;:!q&amp;#x600E;&amp;#x4E48;&amp;#x4E5F;&amp;#x65E0;&amp;#x6CD5;&amp;#x9000;&amp;#x51FA;&amp;#x3002;&amp;#x90C1;&amp;#x95F7;&amp;#x4E86;&amp;#x597D;&amp;#x4E45;&amp;#xFF0C;&amp;#x624D;&amp;#x53D1;&amp;#x73B0;&amp;#x662F;&amp;#x81EA;&amp;#x5DF1;&amp;#x5199;&amp;#x53CD;&amp;#x4E86;&lt;/li&gt;
-&lt;li&gt;&amp;#x865A;&amp;#x62DF;&amp;#x673A;&amp;#x7684;&amp;#x53C2;&amp;#x6570;&amp;#x914D;&amp;#x7F6E;&amp;#x53EF;&amp;#x4EE5;&amp;#x5927;&amp;#x4E8E;&amp;#x7269;&amp;#x7406;&amp;#x673A;&amp;#x7684;&amp;#x3002;&amp;#x53EA;&amp;#x662F;&amp;#x5B9E;&amp;#x9645;&amp;#x4F7F;&amp;#x7528;&amp;#x4E0D;&amp;#x53EF;&amp;#x80FD;&amp;#x8D85;&amp;#x8FC7;&amp;#x3002;&amp;#x5728;&amp;#x770B;&amp;#x8096;&amp;#x658C;&amp;#x7684;Hadoop&amp;#x89C6;&amp;#x9891;&amp;#x53D1;&amp;#x73B0;&amp;#x8FD9;&amp;#x4E2A;&amp;#x95EE;&amp;#x9898;&amp;#x3002;ps:&amp;#x5728;Google&amp;#x641C;&amp;#x7D22;&amp;#x201D;vmware &amp;#x521B;&amp;#x5EFA;&amp;#x591A;&amp;#x4E2A;&amp;#x865A;&amp;#x62DF;&amp;#x673A; &amp;#x914D;&amp;#x7F6E;&amp;#x4E4B;&amp;#x548C; &amp;#x80FD;&amp;#x591F;&amp;#x5927;&amp;#x4E8E;&amp;#x7269;&amp;#x7406;&amp;#x673A;&amp;#x5417;&amp;#x201D; &amp;#x5B8C;&amp;#x5168;&amp;#x4E0D;&amp;#x77E5;&amp;#x6240;&amp;#x4E91;&amp;#x3002;&amp;#x767E;&amp;#x5EA6;&amp;#x627E;&amp;#x5230;&amp;#x7B54;&amp;#x6848;&amp;#x4E86;&amp;#x3002;&amp;#x767E;&amp;#x5EA6;&amp;#x8FD8;&amp;#x4E0D;&amp;#x662F;&amp;#x5B8C;&amp;#x5168;&amp;#x6CA1;&amp;#x7528;&amp;#x554A;,&amp;#x54C8;&amp;#x54C8;&lt;/li&gt;
-&lt;li&gt;ping  ICMP&amp;#x534F;&amp;#x8BAE;&amp;#xFF0C;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&quot;red&quot;&gt;&amp;#x8DF3;&amp;#x5230;&amp;#x6700;&amp;#x540E;&amp;#x4E00;&amp;#x884C; shift + g&lt;/font&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Linux 杂记&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="http://whisper1225.github.io/tags/Linux/"/>
-    
-      <category term="杂记" scheme="http://whisper1225.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>胡言乱语</title>
     <link href="http://whisper1225.github.io/2016/04/07/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
     <id>http://whisper1225.github.io/2016/04/07/胡言乱语/</id>
@@ -780,6 +746,42 @@
       <category term="gif" scheme="http://whisper1225.github.io/tags/gif/"/>
     
       <category term="演示" scheme="http://whisper1225.github.io/tags/%E6%BC%94%E7%A4%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo seo 优化过程中的问题</title>
+    <link href="http://whisper1225.github.io/2016/03/24/hexo-seo-%E4%BC%98%E5%8C%96%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://whisper1225.github.io/2016/03/24/hexo-seo-优化过程中的问题/</id>
+    <published>2016-03-24T03:07:03.000Z</published>
+    <updated>2016-03-24T03:10:51.000Z</updated>
+    
+    <content type="html">&lt;p&gt;seo&amp;#x4F18;&amp;#x5316;&amp;#x771F;&amp;#x7684;&amp;#x662F;&amp;#x95E8;&amp;#x5927;&amp;#x5B66;&amp;#x95EE;&amp;#xFF0C;&amp;#x7F51;&amp;#x4E0A;&amp;#x4E5F;&amp;#x6709;&amp;#x597D;&amp;#x591A;&amp;#x8D44;&amp;#x6599;&amp;#xFF0C;&amp;#x5177;&amp;#x4F53;&amp;#x8FC7;&amp;#x7A0B;&amp;#x5C31;&amp;#x4E0D;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E86;&amp;#x3002;&amp;#x53EA;&amp;#x662F;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E00;&amp;#x4E0B;&amp;#x5728;&amp;#x8FD9;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x5751;&amp;#x3002;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;google-analysis&quot;&gt;&lt;a href=&quot;#google-analysis&quot; class=&quot;headerlink&quot; title=&quot;google analysis&quot;&gt;&lt;/a&gt;google analysis&lt;/h2&gt;&lt;p&gt;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6CA1;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF0C;&amp;#x4E0D;&amp;#x77E5;&amp;#x9053;&amp;#x4E3A;&amp;#x548C;google&amp;#x63D0;&amp;#x793A;&amp;#x6211;site&amp;#x4E0A;&amp;#x7684;id&amp;#x548C;&amp;#x5B83;&amp;#x7684;&amp;#x4E0D;&amp;#x4E00;&amp;#x81F4;&amp;#x3002;&amp;#x6211;&amp;#x53C8;&amp;#x91CD;&amp;#x65B0;&amp;#x6DFB;&amp;#x52A0;&amp;#x4E86;&amp;#x4E00;&amp;#x6B21;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;sitemap&quot;&gt;&lt;a href=&quot;#sitemap&quot; class=&quot;headerlink&quot; title=&quot;sitemap&quot;&gt;&lt;/a&gt;sitemap&lt;/h2&gt;&lt;p&gt;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E0D;&amp;#x8868;&amp;#xFF0C;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;itemap&amp;#x751F;&amp;#x6210;&amp;#x51FA;&amp;#x9519;&lt;br&gt;&amp;#x5728;google &amp;#x63D0;&amp;#x4EA4;&amp;#x4E86;sitemapxml,&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x5171;&amp;#x6709;17&amp;#x4E2A;&amp;#x7AD9;&amp;#x70B9;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5168;&amp;#x90FD;&amp;#x62A5;&amp;#x9519;&amp;#x4E86;&amp;#x3002;&amp;#x4ED4;&amp;#x7EC6;&amp;#x67E5;&amp;#x770B;&amp;#x4E86;sitemap xml&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x53D1;&amp;#x73B0;&amp;#x5176;&amp;#x4E2D;&amp;#x7684;url&amp;#x5168;&amp;#x662F;&lt;br&gt;github.com/xxxx/yyy/github.io/xxx&amp;#x8FD9;&amp;#x79CD;&amp;#x5F62;&amp;#x5F0F;&amp;#x7684;&amp;#x3002;&lt;br&gt;&amp;#x6211;&amp;#x4EEC;&amp;#x4E4B;&amp;#x524D;&amp;#x5728;google site&amp;#x9A8C;&amp;#x8BC1;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x53EA;&amp;#x80FD;&amp;#x662F;&amp;#x9A8C;&amp;#x8BC1;xx.github.io&amp;#x8FD9;&amp;#x79CD;&amp;#xFF0C;&amp;#x65E0;&amp;#x6CD5;&amp;#x9A8C;&amp;#x8BC1;github.com&amp;#x3002;&amp;#x76F4;&amp;#x89C9;&amp;#x4E0A;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6587;&amp;#x4EF6;&amp;#x91CC;&amp;#x9762;&amp;#x7684;url&amp;#x5FC5;&amp;#x987B;&amp;#x662F;&amp;#x4E8C;&amp;#x7EA7;&amp;#x57DF;&amp;#x540D;xxx.github.io&amp;#x8FD9;&amp;#x79CD;&amp;#x3002;&lt;br&gt;&amp;#x95EE;&amp;#x9898;&amp;#x51FA;&amp;#x5728;&amp;#x751F;&amp;#x4EA7;&amp;#x6587;&amp;#x4EF6;&amp;#x8FD9;&amp;#x91CC;&amp;#xFF0C;&amp;#x7F51;&amp;#x4E0A;&amp;#x6709;&amp;#x4EBA;&amp;#x751F;&amp;#x6210;&amp;#x6B63;&amp;#x786E;&amp;#x7684;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x6211;&amp;#x7684;&amp;#x4E0D;&amp;#x6B63;&amp;#x786E;&amp;#x3002;&amp;#x5FC5;&amp;#x7136;&amp;#x662F;site&amp;#x63D2;&amp;#x4EF6;&amp;#x6839;&amp;#x636E;&amp;#x67D0;&amp;#x79CD;&amp;#x6211;&amp;#x4EEC;&amp;#x5728;&amp;#x672C;&amp;#x5730;&amp;#x914D;&amp;#x7F6E;&amp;#x7684;&amp;#x7AD9;&amp;#x70B9;&amp;#x4FE1;&amp;#x606F;&amp;#x6765;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#xFF0C;google&amp;#x4E86;&amp;#x4E00;&amp;#x4E0B;&amp;#xFF0C;&amp;#x679C;&amp;#x7136;&amp;#x662F;&amp;#x6839;&amp;#x636E;hexo&amp;#x6839;&amp;#x76EE;&amp;#x5F55;&amp;#x4E0B;&amp;#x9762;&amp;#x7684;_config.xml&amp;#x7684;url&amp;#x6765;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#x3002;&amp;#x6211;&amp;#x7684;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5730;&amp;#x65B9;&amp;#x7684;&amp;#x503C;&amp;#x5C31;&amp;#x662F;&amp;#x5E26;github.com&amp;#x8FD9;&amp;#x79CD;&amp;#x5F62;&amp;#x5F0F;&amp;#x3002;&lt;br&gt;&amp;#x81F3;&amp;#x6B64;&amp;#x95EE;&amp;#x9898;&amp;#x89E3;&amp;#x51B3;&lt;br&gt;&amp;#x751F;&amp;#x6210;&amp;#x51FA;&amp;#x6765;&amp;#x7684;sitemap.xml&amp;#x4E2D;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;url&amp;#x90FD;&amp;#x662F;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-24/38599656.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-24/2330874.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;#x7B2C;&amp;#x4E8C;&amp;#x5929;&amp;#x4E00;&amp;#x770B;&amp;#x8FD9;&amp;#x6837;&amp;#xFF0C;&amp;#x8FD9;&amp;#x662F;&amp;#x51E0;&amp;#x4E2A;&amp;#x610F;&amp;#x601D;&amp;#x554A;&amp;#xFF0C;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF1F;&amp;#xFF1F;&amp;#xFF1F;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;seo优化真的是门大学问，网上也有好多资料，具体过程就不记录了。只是记录一下在这过程中遇到的坑。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://whisper1225.github.io/tags/hexo/"/>
+    
+      <category term="seo" scheme="http://whisper1225.github.io/tags/seo/"/>
+    
+      <category term="优化" scheme="http://whisper1225.github.io/tags/%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   
