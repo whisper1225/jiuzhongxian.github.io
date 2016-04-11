@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-04-09T14:27:48.000Z</updated>
+  <updated>2016-04-11T01:37:00.000Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -20,18 +20,26 @@
     <link href="http://whisper1225.github.io/2016/04/09/%E4%BA%BA%E4%BA%BA%E9%83%BD%E6%98%AF%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"/>
     <id>http://whisper1225.github.io/2016/04/09/人人都是产品经理/</id>
     <published>2016-04-09T14:27:48.000Z</published>
-    <updated>2016-04-09T14:27:48.000Z</updated>
+    <updated>2016-04-11T01:37:00.000Z</updated>
     
-    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    <content type="html">&lt;p&gt;&amp;#x4EBA;&amp;#x4EBA;&amp;#x90FD;&amp;#x662F;&amp;#x4EA7;&amp;#x54C1;&amp;#x7ECF;&amp;#x7406;&lt;br&gt;&amp;#x5173;&amp;#x4E8E;&amp;#x4EA7;&amp;#x54C1;&amp;#x7684;&amp;#x80E1;&amp;#x601D;&amp;#x4E71;&amp;#x60F3;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x6709;&amp;#x9053;&amp;#x7EC8;&amp;#x7A76;&amp;#x662F;&amp;#x652F;&amp;#x6301;markdown&amp;#x4E86;&amp;#xFF0C;&amp;#x53EA;&amp;#x662F;mac&amp;#x5E76;&amp;#x4E0D;&amp;#x652F;&amp;#x6301;&amp;#xFF0C;&amp;#x800C;&amp;#x4E14;windowws&amp;#x7684;markdown&amp;#x505A;&amp;#x5F97;&amp;#x5F88;&amp;#x3002;&amp;#x3002;&amp;#x3002;:&lt;/li&gt;
+&lt;/ol&gt;
 </content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
+      &lt;p&gt;人人都是产品经理&lt;br&gt;关于产品的胡思乱想&lt;br&gt;
     
     </summary>
     
+    
+      <category term="记录" scheme="http://whisper1225.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="idea" scheme="http://whisper1225.github.io/tags/idea/"/>
+    
+      <category term="产品思维" scheme="http://whisper1225.github.io/tags/%E4%BA%A7%E5%93%81%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
