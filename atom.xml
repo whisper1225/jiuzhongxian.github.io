@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-04-08T08:00:13.000Z</updated>
+  <updated>2016-04-09T14:27:48.000Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人人都是产品经理</title>
+    <link href="http://whisper1225.github.io/2016/04/09/%E4%BA%BA%E4%BA%BA%E9%83%BD%E6%98%AF%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"/>
+    <id>http://whisper1225.github.io/2016/04/09/人人都是产品经理/</id>
+    <published>2016-04-09T14:27:48.000Z</published>
+    <updated>2016-04-09T14:27:48.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hadoop入门系列之Hive</title>
@@ -218,40 +238,6 @@
       <category term="旅游" scheme="http://whisper1225.github.io/tags/%E6%97%85%E6%B8%B8/"/>
     
       <category term="游记" scheme="http://whisper1225.github.io/tags/%E6%B8%B8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mac安装设置备忘</title>
-    <link href="http://whisper1225.github.io/2016/04/05/mac%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98/"/>
-    <id>http://whisper1225.github.io/2016/04/05/mac使用备忘/</id>
-    <published>2016-04-05T09:27:21.000Z</published>
-    <updated>2016-04-09T13:22:50.000Z</updated>
-    
-    <content type="html">&lt;p&gt;mac Xos &amp;#x5B89;&amp;#x88C5;&amp;#x8BBE;&amp;#x7F6E;&amp;#x5907;&amp;#x5FD8;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;#x5B89;&amp;#x88C5;chrome qq &amp;#x7F51;&amp;#x6613;&amp;#x4E91;&amp;#x97F3;&amp;#x4E50; &amp;#x90AE;&amp;#x4EF6;&amp;#x5BA2;&amp;#x6237;&amp;#x7AEF; &amp;#x6211;&amp;#x662F;&amp;#x4F7F;&amp;#x7528;&amp;#x9ED8;&amp;#x8BA4;&amp;#x7684;&lt;/li&gt;
-&lt;li&gt;item2 zsh oh-my-zsh&lt;/li&gt;
-&lt;li&gt;ssh username@host for example root@xx.xx.xx.com&lt;/li&gt;
-&lt;li&gt;&amp;#x5982;&amp;#x4F55;&amp;#x9700;&amp;#x8981;&amp;#x4F20;&amp;#x8F93;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x4F7F;&amp;#x7528;scp&amp;#x547D;&amp;#x4EE4;&amp;#xFF0C;&amp;#x683C;&amp;#x5F0F; scp ~/local/file user@remote:~/file&amp;#xFF0C;remote&amp;#x4EE3;&amp;#x8868;&amp;#x8FDC;&amp;#x7A0B;&amp;#x5730;&amp;#x5740;&amp;#x3002;&lt;/li&gt;
-&lt;li&gt;test&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;mac Xos 安装设置备忘&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="mac" scheme="http://whisper1225.github.io/tags/mac/"/>
-    
-      <category term="setup" scheme="http://whisper1225.github.io/tags/setup/"/>
-    
-      <category term="config" scheme="http://whisper1225.github.io/tags/config/"/>
-    
-      <category term="备忘" scheme="http://whisper1225.github.io/tags/%E5%A4%87%E5%BF%98/"/>
     
   </entry>
   
