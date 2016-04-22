@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-04-16T09:43:28.000Z</updated>
+  <updated>2016-04-22T07:54:07.000Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库杂记</title>
+    <link href="http://whisper1225.github.io/2016/04/22/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%82%E8%AE%B0/"/>
+    <id>http://whisper1225.github.io/2016/04/22/数据库杂记/</id>
+    <published>2016-04-22T02:09:43.000Z</published>
+    <updated>2016-04-22T07:54:07.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x5982;&amp;#x679C;sql &amp;#x522B;&amp;#x540D;&amp;#x9700;&amp;#x8981;&amp;#x5305;&amp;#x542B;&amp;#x4E2D;&amp;#x6587;&amp;#xFF0C;&amp;#x6700;&amp;#x5E38;&amp;#x89C1;&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#x5728;&amp;#x5355;&amp;#x4F4D;&amp;#x3002;&amp;#x6709;&amp;#x7F51;&amp;#x53CB;&amp;#x8BF4; &amp;#x53EF;&amp;#x4EE5;&amp;#x4F7F;&amp;#x7528;&amp;#x53CC;&amp;#x5F15;&amp;#x53F7;&amp;#x5305;&amp;#x88F9;&amp;#x8D77;&amp;#x6765;&amp;#x5C31;ok&amp;#xFF0C;&amp;#x6BD4;&amp;#x5982;&amp;#xFF1A; select Alone as &amp;#x201C;A(bcde)&amp;#x201D; from table where  &amp;#x5355;&amp;#x5F15;&amp;#x53F7;&amp;#x90FD;&amp;#x89E3;&amp;#x51B3;&amp;#x4E0D;&amp;#x4E86;&amp;#x95EE;&amp;#x9898;&amp;#xFF0C;&amp;#x5FC5;&amp;#x987B;&amp;#x53CC;&amp;#x5F15;&amp;#x53F7;&amp;#x3002;&amp;#x4F46;&amp;#x662F;hive&amp;#x4E2D;&amp;#x5355;&amp;#x5F15;&amp;#x53F7; &amp;#x53CC;&amp;#x5F15;&amp;#x53F7;&amp;#x90FD;&amp;#x4E0D;&amp;#x884C;&amp;#xFF08;hive&amp;#x60C5;&amp;#x51B5;&amp;#x4EB2;&amp;#x6D4B;&amp;#xFF09;&lt;/li&gt;
+&lt;li&gt;sql&amp;#x4E00;&amp;#x4E2A;&amp;#x67E5;&amp;#x8BE2;&amp;#x5185;&amp;#x90E8;&amp;#x5185;&amp;#x90E8;&amp;#x7684;&amp;#x522B;&amp;#x540D;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;order by&amp;#x540E;&amp;#x9762;&amp;#x4F7F;&amp;#x7528;&amp;#x4F46;&amp;#x662F; &amp;#x4E0D;&amp;#x80FD;&amp;#x518D;group having&amp;#x540E;&amp;#x9762;&amp;#x4F7F;&amp;#x7528; &amp;#x767E;&amp;#x5EA6;&amp;#x77E5;&amp;#x9053;&amp;#x67E5;&amp;#x8BE2;&lt;/li&gt;
+&lt;li&gt;&amp;#x8868;&amp;#x522B;&amp;#x540D;&amp;#x5728;&amp;#x5144;&amp;#x5F1F;&amp;#x67E5;&amp;#x8BE2; &amp;#x4E00;&amp;#x7EA7; &amp;#x8868;&amp;#x522B;&amp;#x540D;&amp;#x5728;&amp;#x7236;&amp;#x5B50;&amp;#x67E5;&amp;#x8BE2;&amp;#x4E4B;&amp;#x95F4;&amp;#x7684;&amp;#x53EF;&amp;#x7528;&amp;#x6027;&amp;#x95EE;&amp;#x9898;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x5982;&amp;#x679C;sql &amp;#x522B;&amp;#x540D;&amp;#x9700;&amp;#x8981;&amp;#x5305;&amp;#x542B;&amp;#x4E2D;&amp;#x6587;&amp;#xFF0C;&amp;#x6700;&amp;#x5E38;&amp;#x89
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>人人都是产品经理</title>
@@ -36,9 +62,9 @@
     </summary>
     
     
-      <category term="记录" scheme="http://whisper1225.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
-    
       <category term="idea" scheme="http://whisper1225.github.io/tags/idea/"/>
+    
+      <category term="记录" scheme="http://whisper1225.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
       <category term="产品思维" scheme="http://whisper1225.github.io/tags/%E4%BA%A7%E5%93%81%E6%80%9D%E7%BB%B4/"/>
     
@@ -208,11 +234,11 @@
     </summary>
     
     
+      <category term="记录" scheme="http://whisper1225.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
       <category term="编程" scheme="http://whisper1225.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
       <category term="杂碎" scheme="http://whisper1225.github.io/tags/%E6%9D%82%E7%A2%8E/"/>
-    
-      <category term="记录" scheme="http://whisper1225.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
@@ -741,42 +767,6 @@
       <category term="gif" scheme="http://whisper1225.github.io/tags/gif/"/>
     
       <category term="演示" scheme="http://whisper1225.github.io/tags/%E6%BC%94%E7%A4%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo seo 优化过程中的问题</title>
-    <link href="http://whisper1225.github.io/2016/03/24/hexo-seo-%E4%BC%98%E5%8C%96%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>http://whisper1225.github.io/2016/03/24/hexo-seo-优化过程中的问题/</id>
-    <published>2016-03-24T03:07:03.000Z</published>
-    <updated>2016-03-24T03:10:51.000Z</updated>
-    
-    <content type="html">&lt;p&gt;seo&amp;#x4F18;&amp;#x5316;&amp;#x771F;&amp;#x7684;&amp;#x662F;&amp;#x95E8;&amp;#x5927;&amp;#x5B66;&amp;#x95EE;&amp;#xFF0C;&amp;#x7F51;&amp;#x4E0A;&amp;#x4E5F;&amp;#x6709;&amp;#x597D;&amp;#x591A;&amp;#x8D44;&amp;#x6599;&amp;#xFF0C;&amp;#x5177;&amp;#x4F53;&amp;#x8FC7;&amp;#x7A0B;&amp;#x5C31;&amp;#x4E0D;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E86;&amp;#x3002;&amp;#x53EA;&amp;#x662F;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E00;&amp;#x4E0B;&amp;#x5728;&amp;#x8FD9;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x5751;&amp;#x3002;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;google-analysis&quot;&gt;&lt;a href=&quot;#google-analysis&quot; class=&quot;headerlink&quot; title=&quot;google analysis&quot;&gt;&lt;/a&gt;google analysis&lt;/h2&gt;&lt;p&gt;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6CA1;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF0C;&amp;#x4E0D;&amp;#x77E5;&amp;#x9053;&amp;#x4E3A;&amp;#x548C;google&amp;#x63D0;&amp;#x793A;&amp;#x6211;site&amp;#x4E0A;&amp;#x7684;id&amp;#x548C;&amp;#x5B83;&amp;#x7684;&amp;#x4E0D;&amp;#x4E00;&amp;#x81F4;&amp;#x3002;&amp;#x6211;&amp;#x53C8;&amp;#x91CD;&amp;#x65B0;&amp;#x6DFB;&amp;#x52A0;&amp;#x4E86;&amp;#x4E00;&amp;#x6B21;&amp;#x3002;&lt;/p&gt;
-&lt;h2 id=&quot;sitemap&quot;&gt;&lt;a href=&quot;#sitemap&quot; class=&quot;headerlink&quot; title=&quot;sitemap&quot;&gt;&lt;/a&gt;sitemap&lt;/h2&gt;&lt;p&gt;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E0D;&amp;#x8868;&amp;#xFF0C;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;itemap&amp;#x751F;&amp;#x6210;&amp;#x51FA;&amp;#x9519;&lt;br&gt;&amp;#x5728;google &amp;#x63D0;&amp;#x4EA4;&amp;#x4E86;sitemapxml,&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x5171;&amp;#x6709;17&amp;#x4E2A;&amp;#x7AD9;&amp;#x70B9;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5168;&amp;#x90FD;&amp;#x62A5;&amp;#x9519;&amp;#x4E86;&amp;#x3002;&amp;#x4ED4;&amp;#x7EC6;&amp;#x67E5;&amp;#x770B;&amp;#x4E86;sitemap xml&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x53D1;&amp;#x73B0;&amp;#x5176;&amp;#x4E2D;&amp;#x7684;url&amp;#x5168;&amp;#x662F;&lt;br&gt;github.com/xxxx/yyy/github.io/xxx&amp;#x8FD9;&amp;#x79CD;&amp;#x5F62;&amp;#x5F0F;&amp;#x7684;&amp;#x3002;&lt;br&gt;&amp;#x6211;&amp;#x4EEC;&amp;#x4E4B;&amp;#x524D;&amp;#x5728;google site&amp;#x9A8C;&amp;#x8BC1;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x53EA;&amp;#x80FD;&amp;#x662F;&amp;#x9A8C;&amp;#x8BC1;xx.github.io&amp;#x8FD9;&amp;#x79CD;&amp;#xFF0C;&amp;#x65E0;&amp;#x6CD5;&amp;#x9A8C;&amp;#x8BC1;github.com&amp;#x3002;&amp;#x76F4;&amp;#x89C9;&amp;#x4E0A;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6587;&amp;#x4EF6;&amp;#x91CC;&amp;#x9762;&amp;#x7684;url&amp;#x5FC5;&amp;#x987B;&amp;#x662F;&amp;#x4E8C;&amp;#x7EA7;&amp;#x57DF;&amp;#x540D;xxx.github.io&amp;#x8FD9;&amp;#x79CD;&amp;#x3002;&lt;br&gt;&amp;#x95EE;&amp;#x9898;&amp;#x51FA;&amp;#x5728;&amp;#x751F;&amp;#x4EA7;&amp;#x6587;&amp;#x4EF6;&amp;#x8FD9;&amp;#x91CC;&amp;#xFF0C;&amp;#x7F51;&amp;#x4E0A;&amp;#x6709;&amp;#x4EBA;&amp;#x751F;&amp;#x6210;&amp;#x6B63;&amp;#x786E;&amp;#x7684;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x6211;&amp;#x7684;&amp;#x4E0D;&amp;#x6B63;&amp;#x786E;&amp;#x3002;&amp;#x5FC5;&amp;#x7136;&amp;#x662F;site&amp;#x63D2;&amp;#x4EF6;&amp;#x6839;&amp;#x636E;&amp;#x67D0;&amp;#x79CD;&amp;#x6211;&amp;#x4EEC;&amp;#x5728;&amp;#x672C;&amp;#x5730;&amp;#x914D;&amp;#x7F6E;&amp;#x7684;&amp;#x7AD9;&amp;#x70B9;&amp;#x4FE1;&amp;#x606F;&amp;#x6765;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#xFF0C;google&amp;#x4E86;&amp;#x4E00;&amp;#x4E0B;&amp;#xFF0C;&amp;#x679C;&amp;#x7136;&amp;#x662F;&amp;#x6839;&amp;#x636E;hexo&amp;#x6839;&amp;#x76EE;&amp;#x5F55;&amp;#x4E0B;&amp;#x9762;&amp;#x7684;_config.xml&amp;#x7684;url&amp;#x6765;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#x3002;&amp;#x6211;&amp;#x7684;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5730;&amp;#x65B9;&amp;#x7684;&amp;#x503C;&amp;#x5C31;&amp;#x662F;&amp;#x5E26;github.com&amp;#x8FD9;&amp;#x79CD;&amp;#x5F62;&amp;#x5F0F;&amp;#x3002;&lt;br&gt;&amp;#x81F3;&amp;#x6B64;&amp;#x95EE;&amp;#x9898;&amp;#x89E3;&amp;#x51B3;&lt;br&gt;&amp;#x751F;&amp;#x6210;&amp;#x51FA;&amp;#x6765;&amp;#x7684;sitemap.xml&amp;#x4E2D;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;url&amp;#x90FD;&amp;#x662F;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-24/38599656.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-24/2330874.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;#x7B2C;&amp;#x4E8C;&amp;#x5929;&amp;#x4E00;&amp;#x770B;&amp;#x8FD9;&amp;#x6837;&amp;#xFF0C;&amp;#x8FD9;&amp;#x662F;&amp;#x51E0;&amp;#x4E2A;&amp;#x610F;&amp;#x601D;&amp;#x554A;&amp;#xFF0C;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF1F;&amp;#xFF1F;&amp;#xFF1F;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;seo优化真的是门大学问，网上也有好多资料，具体过程就不记录了。只是记录一下在这过程中遇到的坑。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="http://whisper1225.github.io/tags/hexo/"/>
-    
-      <category term="seo" scheme="http://whisper1225.github.io/tags/seo/"/>
-    
-      <category term="优化" scheme="http://whisper1225.github.io/tags/%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   
