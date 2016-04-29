@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-04-24T02:33:20.000Z</updated>
+  <updated>2016-04-27T10:47:48.000Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -16,9 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>业务知识碎碎念</title>
+    <link href="http://whisper1225.github.io/2016/04/27/%E4%B8%9A%E5%8A%A1%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>http://whisper1225.github.io/2016/04/27/业务知识碎碎念/</id>
+    <published>2016-04-27T10:46:16.000Z</published>
+    <updated>2016-04-27T10:47:48.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;sku&amp;#x4E0E;spu&lt;br&gt;&amp;#x5F71;&amp;#x54CD;&amp;#x5230;&amp;#x9500;&amp;#x552E;&amp;#x3001;&amp;#x5E93;&amp;#x5B58;&amp;#x7684;&amp;#x662F;sku&amp;#xFF0C;&lt;br&gt;spu&amp;#x662F;&amp;#x6807;&amp;#x51C6;&amp;#x54C1;&amp;#x7684;&amp;#x610F;&amp;#x601D;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;sku&amp;#x4E0E;spu&lt;br&gt;&amp;#x5F71;&amp;#x54CD;&amp;#x5230;&amp;#x9500;&amp;#x552E;&amp;#x3001;&amp;#x5E93;&amp;#x5B58;&amp;#x7684;&amp;#x662F;sku&amp;#xFF0C;&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>presto学习笔记</title>
-    <link href="http://whisper1225.github.io/2016/04/24/presto%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://whisper1225.github.io/2016/04/24/presto学习笔记/</id>
+    <link href="http://whisper1225.github.io/2016/04/24/prosto-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97/"/>
+    <id>http://whisper1225.github.io/2016/04/24/prosto-数据库系列/</id>
     <published>2016-04-24T02:22:16.000Z</published>
     <updated>2016-04-24T02:33:20.000Z</updated>
     
@@ -77,23 +101,43 @@
   
   <entry>
     <title>数据库系列之hive</title>
-    <link href="http://whisper1225.github.io/2016/04/22/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97%E4%B9%8Bhive/"/>
-    <id>http://whisper1225.github.io/2016/04/22/数据库系列之hive/</id>
+    <link href="http://whisper1225.github.io/2016/04/22/hive-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97/"/>
+    <id>http://whisper1225.github.io/2016/04/22/hive-数据库系列/</id>
     <published>2016-04-22T08:40:24.000Z</published>
-    <updated>2016-04-23T08:00:52.000Z</updated>
+    <updated>2016-04-29T05:44:55.000Z</updated>
     
-    <content type="html">&lt;ol&gt;
+    <content type="html">&lt;h1 id=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;a href=&quot;#&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;/a&gt;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h1&gt;&lt;h2 id=&quot;group-by-order-by&quot;&gt;&lt;a href=&quot;#group-by-order-by&quot; class=&quot;headerlink&quot; title=&quot;group by order by&quot;&gt;&lt;/a&gt;group by order by&lt;/h2&gt;&lt;p&gt;&amp;#x5173;&amp;#x4E8E;&amp;#x8FD9;&amp;#x4E9B;&amp;#x4EE5;&amp;#x53CA;&amp;#x5217;&amp;#x522B;&amp;#x540D;&amp;#x7684;&amp;#x8BA8;&amp;#x8BBA;&amp;#xFF0C;&amp;#x5728;&amp;#x5B98;&amp;#x65B9;wiki&amp;#x4E0A;&amp;#x5C31;&amp;#x6709;&amp;#x3002;&amp;#x5927;&amp;#x4F53;&amp;#x5C31;&amp;#x662F;&amp;#x6240;&amp;#x6709;&amp;#x4E0D;&amp;#x662F;&amp;#x805A;&amp;#x5408;&amp;#x51FD;&amp;#x6570;&amp;#x7684;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x4F7F;&amp;#x7528;&amp;#x4E86;&amp;#x51FD;&amp;#x6570;&amp;#x7684;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x5FC5;&amp;#x987B;&amp;#x548C;&amp;#x539F;&amp;#x5C01;&amp;#x4E0D;&amp;#x52A8;&amp;#x7684;&amp;#x4EE5;&amp;#x51FD;&amp;#x6570;&amp;#x7684;&amp;#x5F62;&amp;#x5F0F;&amp;#x51FA;&amp;#x73B0;&amp;#x5728;group&amp;#x4E2D;&amp;#xFF0C;&amp;#x540C;&amp;#x4E8B;&amp;#x4ED6;&amp;#x4EEC;&amp;#x5728;group &amp;#x4E2D;&amp;#x8FD8;&amp;#x4E0D;&amp;#x80FD;&amp;#x7528;&amp;#x522B;&amp;#x540D;&lt;/p&gt;
+&lt;h2 id=&quot;coalesce&quot;&gt;&lt;a href=&quot;#COALESCE&quot; class=&quot;headerlink&quot; title=&quot;COALESCE&quot;&gt;&lt;/a&gt;COALESCE&lt;/h2&gt;&lt;p&gt; COALESCE(T v1, T v2, &amp;#x2026;) &amp;#x8FD9;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x53EF;&amp;#x53D8;&amp;#x53C2;&amp;#x6570;&amp;#x5217;&amp;#x8868;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x4F5C;&amp;#x7528;&amp;#x5728;&amp;#x5F88;&amp;#x591A;&amp;#x7684;&amp;#x53C2;&amp;#x6570;&amp;#x4E0A;&amp;#x3002;&lt;br&gt;&amp;#x8FD4;&amp;#x56DE;&amp;#x53C2;&amp;#x6570;&amp;#x4E2D;&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x4E2A;&amp;#x975E;&amp;#x7A7A;&amp;#x503C;&amp;#xFF1B;&amp;#x5982;&amp;#x679C;&amp;#x6240;&amp;#x6709;&amp;#x503C;&amp;#x90FD;&amp;#x4E3A;NULL&amp;#xFF0C;&amp;#x90A3;&amp;#x4E48;&amp;#x8FD4;&amp;#x56DE;NULL&lt;br&gt;&amp;#x7279;&amp;#x6B8A;&amp;#x793A;&amp;#x4F8B;&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;select&lt;/span&gt; empno,ename,job,mgr,hiredate,sal, &lt;span class=&quot;keyword&quot;&gt;COALESCE&lt;/span&gt;(comm, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;),deptno &lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; emp;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x793A;&amp;#x4F8B;&amp;#x4E2D;&amp;#x7684;&amp;#x5176;&amp;#x5B9E;&amp;#x5C31;&amp;#x4F5C;&amp;#x7528;&amp;#x4E86;&amp;#x4E00;&amp;#x4E2A;&amp;#x503C;&amp;#xFF0C;&amp;#x610F;&amp;#x5473;&amp;#x7740;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x4E2A;&amp;#x6570;&amp;#x5C31;&amp;#x662F;comm&amp;#xFF0C;&amp;#x662F;&amp;#x4E0D;&amp;#x662F;&amp;#x975E;&amp;#x7A7A;&amp;#xFF0C;&amp;#x975E;&amp;#x7A7A;&amp;#x5C31;&amp;#x662F;&amp;#x672C;&amp;#x8EAB;&amp;#xFF0C;&amp;#x5426;&amp;#x5219;&amp;#x8FD4;&amp;#x56DE;&amp;#x96F6;&amp;#x3002;&amp;#x8FD9;&amp;#x79CD;&amp;#x5199;&amp;#x6CD5;case when &amp;#x66F4;&amp;#x52A0;&amp;#x7B80;&amp;#x6D01;&lt;/p&gt;
+&lt;h3 id=&quot;&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&quot;&gt;&lt;a href=&quot;#&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&quot;&gt;&lt;/a&gt;&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.whtt.cn/post-40.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/luogankun/p/4015280.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x91CD;&amp;#x70B9;&amp;#x770B;&amp;#xFF0C;&amp;#x6570;&amp;#x636E;&amp;#x793A;&amp;#x4F8B;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/longshenlmj/article/details/45339575&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
 &lt;li&gt;&amp;#x719F;&amp;#x6089;sql &amp;#x5230;hive&amp;#x7684;&amp;#x7F16;&amp;#x8BD1;&amp;#x8FC7;&amp;#x7A0B; &amp;#x548C; sql &amp;#x672C;&amp;#x8EAB;&amp;#x7684;&amp;#x6267;&amp;#x884C;&amp;#x987A;&amp;#x5E8F;&amp;#x3002;&amp;#x90FD;&amp;#x662F;&amp;#x4FDD;&amp;#x8BC1;&amp;#x4F18;&amp;#x5316;hivesql &amp;#x7684;&amp;#x5173;&amp;#x5065;&lt;/li&gt;
-&lt;li&gt;hive&amp;#x4E0E;&amp;#x4F20;&amp;#x7EDF;sql&amp;#x5E76;&amp;#x6CA1;&amp;#x6709;&amp;#x592A;&amp;#x591A;&amp;#x53D8;&amp;#x5316;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;li&gt;hive&amp;#x4E0E;&amp;#x4F20;&amp;#x7EDF;sql&amp;#x5E76;&amp;#x6CA1;&amp;#x6709;&amp;#x592A;&amp;#x591A;&amp;#x53D8;&amp;#x5316; &lt;/li&gt;
+&lt;li&gt;hive sql &amp;#x662F;&amp;#x4E0D;&amp;#x5C0A;&amp;#x59D3;ansi&amp;#x7684; &amp;#x548C; mysql&amp;#x6BD4;&amp;#x8F83;&amp;#x50CF;&lt;/li&gt;
+&lt;li&gt;hive &amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x4E0D;&amp;#x80FD;&amp;#x5F15;&amp;#x7528;&amp;#x522B;&amp;#x7684;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x7B14;&amp;#x540D;&amp;#xFF0C;sum&amp;#xFF08;xx)/alias &amp;#x62A5;&amp;#x9519;group by key&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
     <summary type="html">
     
-      &lt;ol&gt;
+      &lt;h1 id=&quot;语法细节&quot;&gt;&lt;a href=&quot;#语法细节&quot; class=&quot;headerlink&quot; title=&quot;语法细节&quot;&gt;&lt;/a&gt;语法细节&lt;/h1&gt;&lt;h2 id=&quot;group-by-order-by&quot;&gt;&lt;a href=&quot;#group-by-order-by&quot; class=&quot;headerlink&quot; title=&quot;group by order by&quot;&gt;&lt;/a&gt;group by order by&lt;/h2&gt;&lt;p&gt;关于这些以及列别名的讨论，在官方wiki上就有。大体就是所有不是聚合函数的查询列，包括使用了函数的查询列必须和原封不动的以函数的形式出现在group中，同事他们在group 中还不能用别名&lt;/p&gt;
+&lt;h2 id=&quot;COALESCE&quot;&gt;&lt;a href=&quot;#COALESCE&quot; class=&quot;headerlink&quot; title=&quot;COALESCE&quot;&gt;&lt;/a&gt;COALESCE&lt;/h2&gt;&lt;p&gt; COALESCE(T v1, T v2, …) 这是一个可变参数列表，可以作用在很多的参数上。&lt;br&gt;返回参数中的第一个非空值；如果所有值都为NULL，那么返回NULL&lt;br&gt;特殊示例&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;select&lt;/span&gt; empno,ename,job,mgr,hiredate,sal, &lt;span class=&quot;keyword&quot;&gt;COALESCE&lt;/span&gt;(comm, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;),deptno &lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; emp;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;示例中的其实就作用了一个值，意味着遇到的第一个数就是comm，是不是非空，非空就是本身，否则返回零。这种写法case when 更加简洁&lt;/p&gt;
+&lt;h3 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.whtt.cn/post-40.html&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/luogankun/p/4015280.html&quot;&gt;重点看，数据示例&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/longshenlmj/article/details/45339575&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
 &lt;li&gt;熟悉sql 到hive的编译过程 和 sql 本身的执行顺序。都是保证优化hivesql 的关健&lt;/li&gt;
-&lt;li&gt;hive与传统sql并没有太多变化
+&lt;li&gt;hive与传统sql并没有太多变化 &lt;/li&gt;
+&lt;li&gt;hive sql 是不尊姓ansi的 和 mysql比较像&lt;/li&gt;
+&lt;li&gt;hive 查询列不能引用别的查询列笔名，sum（xx)/alias 报错group by key
     
     </summary>
     
@@ -105,21 +149,24 @@
     <link href="http://whisper1225.github.io/2016/04/22/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%82%E8%AE%B0/"/>
     <id>http://whisper1225.github.io/2016/04/22/数据库杂记/</id>
     <published>2016-04-22T02:09:43.000Z</published>
-    <updated>2016-04-24T02:50:03.000Z</updated>
+    <updated>2016-04-25T09:41:36.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x6742;&amp;#x8BB0;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x8BED;&amp;#x6CD5;&amp;#x89C4;&amp;#x5219;&quot;&gt;&lt;a href=&quot;#&amp;#x57FA;&amp;#x672C;&amp;#x8BED;&amp;#x6CD5;&amp;#x89C4;&amp;#x5219;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x8BED;&amp;#x6CD5;&amp;#x89C4;&amp;#x5219;&quot;&gt;&lt;/a&gt;&amp;#x57FA;&amp;#x672C;&amp;#x8BED;&amp;#x6CD5;&amp;#x89C4;&amp;#x5219;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&amp;#x5982;&amp;#x679C;sql &amp;#x522B;&amp;#x540D;&amp;#x9700;&amp;#x8981;&amp;#x5305;&amp;#x542B;&amp;#x4E2D;&amp;#x6587;&amp;#xFF0C;&amp;#x6700;&amp;#x5E38;&amp;#x89C1;&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#x5728;&amp;#x5355;&amp;#x4F4D;&amp;#x3002;&amp;#x6709;&amp;#x7F51;&amp;#x53CB;&amp;#x8BF4; &amp;#x53EF;&amp;#x4EE5;&amp;#x4F7F;&amp;#x7528;&amp;#x53CC;&amp;#x5F15;&amp;#x53F7;&amp;#x5305;&amp;#x88F9;&amp;#x8D77;&amp;#x6765;&amp;#x5C31;ok&amp;#xFF0C;&amp;#x6BD4;&amp;#x5982;&amp;#xFF1A; select Alone as &amp;#x201C;A(bcde)&amp;#x201D; from table where  &amp;#x5355;&amp;#x5F15;&amp;#x53F7;&amp;#x90FD;&amp;#x89E3;&amp;#x51B3;&amp;#x4E0D;&amp;#x4E86;&amp;#x95EE;&amp;#x9898;&amp;#xFF0C;&amp;#x5FC5;&amp;#x987B;&amp;#x53CC;&amp;#x5F15;&amp;#x53F7;&amp;#x3002;&amp;#x4F46;&amp;#x662F;hive&amp;#x4E2D;&amp;#x5355;&amp;#x5F15;&amp;#x53F7; &amp;#x53CC;&amp;#x5F15;&amp;#x53F7;&amp;#x90FD;&amp;#x4E0D;&amp;#x884C;&amp;#xFF08;hive&amp;#x60C5;&amp;#x51B5;&amp;#x4EB2;&amp;#x6D4B;&amp;#xFF09;&lt;/li&gt;
 &lt;li&gt;sql&amp;#x4E00;&amp;#x4E2A;&amp;#x67E5;&amp;#x8BE2;&amp;#x5185;&amp;#x90E8;&amp;#x5185;&amp;#x90E8;&amp;#x7684;&amp;#x522B;&amp;#x540D;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;order by&amp;#x540E;&amp;#x9762;&amp;#x4F7F;&amp;#x7528;&amp;#x4F46;&amp;#x662F; &amp;#x4E0D;&amp;#x80FD;&amp;#x518D;group having&amp;#x540E;&amp;#x9762;&amp;#x4F7F;&amp;#x7528; &amp;#x767E;&amp;#x5EA6;&amp;#x77E5;&amp;#x9053;&amp;#x67E5;&amp;#x8BE2;&lt;/li&gt;
 &lt;li&gt;&amp;#x8868;&amp;#x522B;&amp;#x540D;&amp;#x5728;&amp;#x5144;&amp;#x5F1F;&amp;#x67E5;&amp;#x8BE2; &amp;#x4E00;&amp;#x7EA7; &amp;#x8868;&amp;#x522B;&amp;#x540D;&amp;#x5728;&amp;#x7236;&amp;#x5B50;&amp;#x67E5;&amp;#x8BE2;&amp;#x4E4B;&amp;#x95F4;&amp;#x7684;&amp;#x53EF;&amp;#x7528;&amp;#x6027;&amp;#x95EE;&amp;#x9898;&lt;/li&gt;
+&lt;li&gt;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x53EF;&amp;#x5426;&amp;#x4F7F;&amp;#x7528;&amp;#x5176;&amp;#x4ED6;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x7684;&amp;#x522B;&amp;#x540D; &amp;#x6BD4;&amp;#x5982; a b (a+b)&lt;h2 id=&quot;sql&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;a href=&quot;#sql&amp;#x4F18;&amp;#x5316;&quot; class=&quot;headerlink&quot; title=&quot;sql&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;/a&gt;sql&amp;#x4F18;&amp;#x5316;&lt;/h2&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;sql&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;a href=&quot;#sql&amp;#x4F18;&amp;#x5316;&quot; class=&quot;headerlink&quot; title=&quot;sql&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;/a&gt;sql&amp;#x4F18;&amp;#x5316;&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;a href=&quot;#&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;/a&gt;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h3&gt;&lt;ol&gt;
+&lt;h3 id=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;a href=&quot;#&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;/a&gt;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&amp;#x53EA;&amp;#x5217;&amp;#x51FA;&amp;#x8BE5;&amp;#x67E5;&amp;#x7684;&amp;#x5217;&lt;/li&gt;
 &lt;li&gt;&amp;#x4F7F;&amp;#x7528;count(1)&amp;#xFF0C;&amp;#x800C;&amp;#x4E0D;&amp;#x662F;count( * )&lt;/li&gt;
 &lt;li&gt;where  &amp;#x540E;&amp;#x9762;&amp;#x6761;&amp;#x4EF6;&amp;#x5982;&amp;#x679C;&amp;#x5728;&amp;#x90FD;&amp;#x6CA1;&amp;#x6709;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x6761;&amp;#x4EF6;&amp;#x4E0B;&amp;#xFF0C;&amp;#x4E2A;&amp;#x4EBA;&amp;#x89C9;&amp;#x5F97;&amp;#x5E94;&amp;#x8BE5;&amp;#x662F;&amp;#x626B;&amp;#x63CF;&amp;#x6B21;&amp;#x6570;&amp;#x4E00;&amp;#x6837;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5982;&amp;#x679C;&amp;#x5C06;&amp;#x6761;&amp;#x4EF6;&amp;#x9650;&amp;#x5236;&amp;#x975E;&amp;#x5E38;&amp;#x5F3A;&amp;#x5199;&amp;#x5728;&amp;#x524D;&amp;#x9762;&amp;#xFF0C;&amp;#x8BE5;&amp;#x6761;&amp;#x4EF6;&amp;#x5982;&amp;#x679C;&amp;#x4E0D;&amp;#x6EE1;&amp;#x8DB3;&amp;#xFF0C;&amp;#x540E;&amp;#x9762;&amp;#x7684;&amp;#x5C31;&amp;#x4E0D;&amp;#x7528;&amp;#x6BD4;&amp;#x8F83;&amp;#x4E86;&amp;#x3002;&amp;#x53EF;&amp;#x4EE5;&amp;#x6709;&amp;#x6548;&amp;#x51CF;&amp;#x5C11;&amp;#x6BD4;&amp;#x8F83;&amp;#x6B21;&amp;#x6570;&lt;/li&gt;
-&lt;li&gt;UNION &amp;#x64CD;&amp;#x4F5C;&amp;#x7B26;&amp;#x7528;&amp;#x4E8E;&amp;#x5408;&amp;#x5E76;&amp;#x4E24;&amp;#x4E2A;&amp;#x6216;&amp;#x591A;&amp;#x4E2A; SELECT &amp;#x8BED;&amp;#x53E5;&amp;#x7684;&amp;#x7ED3;&amp;#x679C;&amp;#x96C6;&amp;#x3002;&lt;br&gt;&amp;#x8BF7;&amp;#x6CE8;&amp;#x610F;&amp;#xFF0C;UNION &amp;#x5185;&amp;#x90E8;&amp;#x7684; SELECT &amp;#x8BED;&amp;#x53E5;&amp;#x5FC5;&amp;#x987B;&amp;#x62E5;&amp;#x6709;&amp;#x76F8;&amp;#x540C;&amp;#x6570;&amp;#x91CF;&amp;#x7684;&amp;#x5217;&amp;#x3002;&amp;#x5217;&amp;#x4E5F;&amp;#x5FC5;&amp;#x987B;&amp;#x62E5;&amp;#x6709;&amp;#x76F8;&amp;#x4F3C;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x7C7B;&amp;#x578B;&amp;#x3002;&amp;#x540C;&amp;#x65F6;&amp;#xFF0C;&amp;#x6BCF;&amp;#x6761; SELECT &amp;#x8BED;&amp;#x53E5;&amp;#x4E2D;&amp;#x7684;&amp;#x5217;&amp;#x7684;&amp;#x987A;&amp;#x5E8F;&amp;#x5FC5;&amp;#x987B;&amp;#x76F8;&amp;#x540C;&amp;#x3002;&lt;h3 id=&quot;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;a href=&quot;#&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;/a&gt;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;UNION &amp;#x64CD;&amp;#x4F5C;&amp;#x7B26;&amp;#x7528;&amp;#x4E8E;&amp;#x5408;&amp;#x5E76;&amp;#x4E24;&amp;#x4E2A;&amp;#x6216;&amp;#x591A;&amp;#x4E2A; SELECT &amp;#x8BED;&amp;#x53E5;&amp;#x7684;&amp;#x7ED3;&amp;#x679C;&amp;#x96C6;&amp;#x3002;&lt;br&gt;&amp;#x8BF7;&amp;#x6CE8;&amp;#x610F;&amp;#xFF0C;UNION &amp;#x5185;&amp;#x90E8;&amp;#x7684; SELECT &amp;#x8BED;&amp;#x53E5;&amp;#x5FC5;&amp;#x987B;&amp;#x62E5;&amp;#x6709;&amp;#x76F8;&amp;#x540C;&amp;#x6570;&amp;#x91CF;&amp;#x7684;&amp;#x5217;&amp;#x3002;&amp;#x5217;&amp;#x4E5F;&amp;#x5FC5;&amp;#x987B;&amp;#x62E5;&amp;#x6709;&amp;#x76F8;&amp;#x4F3C;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x7C7B;&amp;#x578B;&amp;#x3002;&amp;#x540C;&amp;#x65F6;&amp;#xFF0C;&amp;#x6BCF;&amp;#x6761; SELECT &amp;#x8BED;&amp;#x53E5;&amp;#x4E2D;&amp;#x7684;&amp;#x5217;&amp;#x7684;&amp;#x987A;&amp;#x5E8F;&amp;#x5FC5;&amp;#x987B;&amp;#x76F8;&amp;#x540C;&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x8981;&amp;#x4E0D;&amp;#x5728;select&amp;#x540E;&amp;#x9762;&amp;#x7684;&amp;#x805A;&amp;#x5408;&amp;#x51FD;&amp;#x6570;&amp;#x4E2D;&amp;#xFF0C;&amp;#x8981;&amp;#x4E48;&amp;#x5728;group by&amp;#x4E2D;&amp;#xFF0C;&amp;#x540C;&amp;#x65F6;group by&amp;#x4E2D;&amp;#x7684;&amp;#x5217;&amp;#x53EF;&amp;#x4EE5;&amp;#x4E0D;&amp;#x51FA;&amp;#x73B0;&amp;#x5728;select&amp;#x540E;&amp;#x9762;(&amp;#x7B49;&amp;#x5F85;&amp;#x9A8C;&amp;#x8BC1;)&lt;h3 id=&quot;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;a href=&quot;#&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&quot;&gt;&lt;/a&gt;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5C3D;&amp;#x91CF;&amp;#x4F7F;&amp;#x7528;&amp;#x7D22;&amp;#x5F15;&amp;#x7684;&amp;#x4F18;&amp;#x5316;&lt;/h3&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;&amp;#x5176;&amp;#x4ED6;&quot;&gt;&lt;a href=&quot;#&amp;#x5176;&amp;#x4ED6;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5176;&amp;#x4ED6;&quot;&gt;&lt;/a&gt;&amp;#x5176;&amp;#x4ED6;&lt;/h2&gt;&lt;p&gt;&amp;#x5373;&amp;#x5E2D;&amp;#x67E5;&amp;#x8BE2;&amp;#x662F;&amp;#x6307;&amp;#x90A3;&amp;#x4E9B;&amp;#x7528;&amp;#x6237;&amp;#x5728;&amp;#x4F7F;&amp;#x7528;&amp;#x7CFB;&amp;#x7EDF;&amp;#x65F6;&amp;#xFF0C;&amp;#x6839;&amp;#x636E;&amp;#x81EA;&amp;#x5DF1;&amp;#x5F53;&amp;#x65F6;&amp;#x7684;&amp;#x9700;&amp;#x6C42;&amp;#x5B9A;&amp;#x4E49;&amp;#x7684;&amp;#x67E5;&amp;#x8BE2;&amp;#x3002;&amp;#x5373;&amp;#x5E2D;&amp;#x67E5;&amp;#x8BE2;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#x65B9;&amp;#x5F0F;&amp;#x5F88;&amp;#x591A;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x6CE8;&amp;#x610F;&quot;&gt;&lt;a href=&quot;#&amp;#x6CE8;&amp;#x610F;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6CE8;&amp;#x610F;&quot;&gt;&lt;/a&gt;&amp;#x6CE8;&amp;#x610F;&lt;/h2&gt;&lt;p&gt;&amp;#x5C24;&amp;#x5176;&amp;#x9700;&amp;#x8981;&amp;#x6CE8;&amp;#x610F;&amp;#x7684;&amp;#x662F;&amp;#x5982;&amp;#x679C;&amp;#x6211;&amp;#x4EEC;&amp;#x805A;&amp;#x5408;&amp;#x51FD;&amp;#x6570;&amp;#x662F;&amp;#x4F5C;&amp;#x7528;&amp;#x5728;&amp;#x5217;&amp;#x4E0A;&amp;#x9762;&amp;#x7684; &amp;#x5343;&amp;#x4E07;&amp;#x4E0D;&amp;#x8981;&amp;#x5199;&amp;#x51FA; a, b,sum(a)+sum(b) &amp;#x7684;&amp;#x5E26;&amp;#x8BED;&amp;#x75C5;&amp;#x7684;sql&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -223,12 +270,13 @@
     <link href="http://whisper1225.github.io/2016/04/07/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
     <id>http://whisper1225.github.io/2016/04/07/胡言乱语/</id>
     <published>2016-04-06T16:57:06.000Z</published>
-    <updated>2016-04-06T17:03:00.000Z</updated>
+    <updated>2016-04-24T12:56:13.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#x80E1;&amp;#x8A00;&amp;#x4E71;&amp;#x8BED;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x5728;mac xos&amp;#x4E2D;&amp;#x5C45;&amp;#x7136;&amp;#x53D1;&amp;#x73B0;&amp;#x6709;&amp;#x9053;&amp;#x652F;&amp;#x6301;markdown&amp;#x4E86;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x771F;&amp;#x7684;&amp;#x505A;&amp;#x5F97;&amp;#x592A;&amp;#x4E11;&amp;#x4E86;&amp;#x3002;&amp;#x671F;&amp;#x5F85;&amp;#x6709;&amp;#x9053;&amp;#x4E91;&amp;#x7B14;&amp;#x8BB0;&amp;#x7684;markdown&amp;#x505A;&amp;#x5F97;&amp;#x8D8A;&amp;#x6765;&amp;#x8D8A;&amp;#x597D;&amp;#x770B;&lt;/li&gt;
 &lt;li&gt;hexo&amp;#x535A;&amp;#x5BA2;&amp;#x548C;CSDN&amp;#x7684;markdown&amp;#x90FD;&amp;#x662F;&amp;#x652F;&amp;#x6301;&amp;#x6269;&amp;#x5C55;&amp;#x8BED;&amp;#x6CD5;&amp;#x7684;&amp;#x3002;&amp;#x80FD;&amp;#x591F;&amp;#x76F4;&amp;#x63A5;&amp;#x5728;&amp;#x6587;&amp;#x672C;&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;&amp;#x67D0;&amp;#x4E9B;HTML&amp;#x4EE3;&amp;#x7801;&lt;/li&gt;
+&lt;li&gt;chrome&amp;#x4E2D;&amp;#x590D;&amp;#x5236;gif&amp;#x56FE;&amp;#x7247;&amp;#xFF0C;&amp;#x9009;&amp;#x4E2D;&amp;#x590D;&amp;#x5236;&amp;#xFF0C;&amp;#x4E00;&amp;#x822C;&amp;#x53EA;&amp;#x80FD;&amp;#x9009;&amp;#x4E2D;&amp;#x4E00;&amp;#x5E27;&amp;#xFF0C;&amp;#x6211;&amp;#x4EEC;&amp;#x53EF;&amp;#x901A;&amp;#x8FC7;&amp;#x62D6;&amp;#x52A8;&amp;#x65B9;&amp;#x5F0F;&amp;#x590D;&amp;#x5236;gif,&amp;#x4F46;&amp;#x662F;&amp;#x7531;&amp;#x4E8E;&amp;#x5176;&amp;#x4ED6;&amp;#x539F;&amp;#x56E0;&amp;#xFF0C;&amp;#x53EF;&amp;#x80FD;&amp;#x65E0;&amp;#x6CD5;&amp;#x5B8C;&amp;#x6574;&amp;#x590D;&amp;#x5236;GIF&amp;#x3002;&amp;#x5728;Firefox&amp;#x4E2D;&amp;#x6709;&amp;#x4E00;&amp;#x4E2A;&amp;#x811A;&amp;#x672C;&amp;#x53EF;&amp;#x4EE5; chrome&amp;#x4E2D;&amp;#x8C8C;&amp;#x4F3C;&amp;#x6CA1;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -337,7 +385,7 @@
     <link href="http://whisper1225.github.io/2016/04/05/%E5%8C%97%E4%BA%AC%E6%97%85%E6%B8%B8%E9%82%A3%E4%BA%9B%E4%BA%8B/"/>
     <id>http://whisper1225.github.io/2016/04/05/北京旅游那些事/</id>
     <published>2016-04-05T09:30:46.000Z</published>
-    <updated>2016-04-05T10:01:29.000Z</updated>
+    <updated>2016-04-24T12:53:13.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#x5317;&amp;#x4EAC;&amp;#x65C5;&amp;#x6E38;&amp;#x90A3;&amp;#x4E9B;&amp;#x4E8B;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;&amp;#x65C5;&amp;#x6E38;&amp;#x6742;&amp;#x8BB0;&quot;&gt;&lt;a href=&quot;#&amp;#x65C5;&amp;#x6E38;&amp;#x6742;&amp;#x8BB0;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x65C5;&amp;#x6E38;&amp;#x6742;&amp;#x8BB0;&quot;&gt;&lt;/a&gt;&amp;#x65C5;&amp;#x6E38;&amp;#x6742;&amp;#x8BB0;&lt;/h2&gt;&lt;ol&gt;
@@ -348,6 +396,7 @@
 &lt;li&gt;&amp;#x5982;&amp;#x679C;&amp;#x662F;&amp;#x90A3;&amp;#x79CD;&amp;#x50CF;&amp;#x957F;&amp;#x57CE;&amp;#x7684;&amp;#x8FDC;&amp;#x7684;&amp;#x5730;&amp;#x65B9;&amp;#xFF0C;&amp;#x4E00;&amp;#x5B9A;&amp;#x9700;&amp;#x8981;&amp;#x5E26;&amp;#x8DB3;&amp;#x5403;&amp;#x559D;&amp;#x3002;&amp;#x53BB;&amp;#x957F;&amp;#x57CE;s2&amp;#x505C;&amp;#x8F66;&amp;#x5730;&amp;#x65B9;&amp;#x5230;&amp;#x516B;&amp;#x8FBE;&amp;#x5CAD;&amp;#x8FD8;&amp;#x6709;&amp;#x5F88;&amp;#x957F;&amp;#x4E00;&amp;#x6BB5;&amp;#xFF0C;&amp;#x6700;&amp;#x597D;&amp;#x505A;&amp;#x516C;&amp;#x4EA4;&amp;#x6216;&amp;#x8005;&amp;#x5916;&amp;#x8FB9;&amp;#x7684;&amp;#x5BA2;&amp;#x8F66;&amp;#xFF08;&amp;#x4ED6;&amp;#x4EEC;&amp;#x771F;&amp;#x7684;&amp;#x4E0D;&amp;#x662F;&amp;#x9A97;&amp;#x5B50;&amp;#xFF09;&lt;/li&gt;
 &lt;li&gt;&amp;#x624B;&amp;#x673A;&amp;#x51FA;&amp;#x95E8;&amp;#x524D;&amp;#x4E00;&amp;#x5B9A;&amp;#x9700;&amp;#x8981;&amp;#x5145;&amp;#x597D;&amp;#x7535;&amp;#xFF0C;&amp;#x8D70;&amp;#x6563;&amp;#x4E86;&amp;#x53CA;&amp;#x65F6;&amp;#x8054;&amp;#x7CFB;&amp;#x3002;&lt;/li&gt;
 &lt;li&gt;&amp;#x62CD;&amp;#x7167;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x4E00;&amp;#x5B9A;&amp;#x4E0D;&amp;#x8981;&amp;#x8DEF;&amp;#x4EBA;&amp;#xFF0C;&amp;#x4E0D;&amp;#x8981;&amp;#x8DEF;&amp;#x4EBA;&amp;#xFF0C;&amp;#x4E0D;&amp;#x8981;&amp;#x8DEF;&amp;#x4EBA;&lt;/li&gt;
+&lt;li&gt;&amp;#x7FFB;&amp;#x6652;&amp;#x971C;&amp;#x8FD8;&amp;#x662F;&amp;#x5FC5;&amp;#x8981;&amp;#x7684;&amp;#xFF0C;&amp;#x5982;&amp;#x679C;&amp;#x9700;&amp;#x8981;&amp;#x5728;&amp;#x5916;&amp;#x9762;&amp;#x8FDE;&amp;#x7EED;&amp;#x6D6A;&amp;#x51E0;&amp;#x5929;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -693,38 +742,6 @@
       <category term="server did not ack" scheme="http://whisper1225.github.io/tags/server-did-not-ack/"/>
     
       <category term="错误" scheme="http://whisper1225.github.io/tags/%E9%94%99%E8%AF%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>android studio中直接运行java程序</title>
-    <link href="http://whisper1225.github.io/2016/03/27/android-studio%E4%B8%AD%E7%9B%B4%E6%8E%A5%E8%BF%90%E8%A1%8Cjava%E7%A8%8B%E5%BA%8F/"/>
-    <id>http://whisper1225.github.io/2016/03/27/android-studio中直接运行java程序/</id>
-    <published>2016-03-27T10:20:41.000Z</published>
-    <updated>2016-03-27T10:40:47.000Z</updated>
-    
-    <content type="html">&lt;p&gt;ndroid&amp;#x4E2D;&amp;#x76F4;&amp;#x63A5;&amp;#x8FD0;&amp;#x884C;java&amp;#x7A0B;&amp;#x5E8F;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;##&amp;#x95EE;&amp;#x9898;&lt;/p&gt;
-&lt;p&gt;&amp;#x641C;&amp;#x4E86;&amp;#x51E0;&amp;#x7BC7;&amp;#x535A;&amp;#x5BA2;&amp;#xFF0C;&amp;#x4E3B;&amp;#x8981;&amp;#x53C2;&amp;#x8003;&amp;#x8FD9;&amp;#x7BC7;&amp;#x535A;&amp;#x5BA2;&lt;a href=&quot;http://blog.csdn.net/xiaxiayige/article/details/46706949&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/xiaxiayige/article/details/46706949&lt;/a&gt;&lt;br&gt;&amp;#x4EE5;&amp;#x53CA;&amp;#x767E;&amp;#x5EA6;&amp;#x77E5;&amp;#x9053;&amp;#x7684;&lt;a href=&quot;http://zhidao.baidu.com/question/753270350874404684.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://zhidao.baidu.com/question/753270350874404684.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#x5F53;&amp;#x65F6;&amp;#x4EE5;&amp;#x4E3A;&amp;#x770B;&amp;#x5230;&amp;#x7B2C;&amp;#x4E8C;&amp;#x7BC7;&amp;#x535A;&amp;#x5BA2;&amp;#x4E2D;&amp;#x7684;&amp;#x6B65;&amp;#x9AA4;&amp;#x4E09;&amp;#x6709;&amp;#xFF1A;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151125110317741&quot; alt=&quot;&amp;#x5237;&amp;#x65B0;&amp;#x8BD5;&amp;#x8BD5;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;apply plugin: &amp;#x2018;application&amp;#x2019;&lt;/strong&gt;,&amp;#x4EE5;&amp;#x4E3A;&amp;#x662F;&amp;#x7B2C;&amp;#x4E00;&amp;#x7BC7;&amp;#x535A;&amp;#x4E3B;&amp;#x4E3A;&amp;#x4E86;&amp;#x535A;&amp;#x5BA2;&amp;#x7B80;&amp;#x6D01;&amp;#x5C31;&amp;#x6CA1;&amp;#x5199;&amp;#x8FD9;&amp;#x4E00;&amp;#x6B65;&amp;#x3002;&amp;#x5C31;&amp;#x4FEE;&amp;#x6539;&amp;#x4E86;gradle&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x6DFB;&amp;#x52A0;&amp;#x4E0A;&amp;#x4E86;&amp;#x8FD9;&amp;#x4E2A;&amp;#x3002;&amp;#x7ED3;&amp;#x679C;&amp;#x8FD0;&amp;#x884C;&amp;#x9047;&amp;#x5230;&amp;#x62A5;&amp;#x9519;&amp;#xFF1A;&lt;em&gt;apply plugin java Error:Gradle: A problem was found with the configuration of task &amp;#x2018;:javatest:startScripts&amp;#x2019;. &amp;gt; No value has been specified for property &amp;#x2018;mainClassName&amp;#x2019;.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#x67E5;&amp;#x4E86;&amp;#x4E00;&amp;#x4E0B;&amp;#xFF0C;stackoverflow&amp;#x5927;&amp;#x90E8;&amp;#x5206;&amp;#x90FD;&amp;#x662F;&amp;#x4F7F;&amp;#x7528;spring&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x624D;&amp;#x9047;&amp;#x5230;&amp;#x8FD9;&amp;#x4E2A;&amp;#x4E1C;&amp;#x897F;&amp;#xFF0C;&amp;#x548C;&amp;#x6211;&amp;#x8FD9;&amp;#x79CD;&amp;#x57FA;&amp;#x672C;&amp;#x4E0D;&amp;#x76F8;&amp;#x5173;&amp;#x554A;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;##&amp;#x641E;&amp;#x5B9A;&lt;br&gt;&amp;#x5728;&amp;#x5404;&amp;#x79CD;&amp;#x6298;&amp;#x817E;&amp;#x4E4B;&amp;#x540E;&amp;#xFF0C;&amp;#x51B3;&amp;#x5B9A;&amp;#x5220;&amp;#x9664;&amp;#x521A;&amp;#x624D;&amp;#x7684;module&amp;#xFF0C;&amp;#x91CD;&amp;#x65B0;&amp;#x6309;&amp;#x7167;&amp;#x6784;&amp;#x5EFA;&amp;#x4E00;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#xFF0C;&amp;#x8FD9;&amp;#x6B21;&amp;#x662F;&amp;#x5BF9;&amp;#x7167;&amp;#x535A;&amp;#x5BA2;&amp;#x4E00;&amp;#x5F04;&amp;#x7684;&amp;#xFF0C;&amp;#x5FD8;&amp;#x8BB0;&amp;#x4E86;&amp;#x8FD8;&amp;#x6709;&amp;#x767E;&amp;#x5EA6;&amp;#x77E5;&amp;#x9053;&amp;#x8FD9;&amp;#x7BC7;&amp;#x6587;&amp;#x7AE0;&amp;#x3002;&amp;#x5C1D;&amp;#x8BD5;&amp;#x8FD0;&amp;#x884C;&amp;#x4E00;&amp;#x4E0B;&amp;#x7ADF;&amp;#x7136;&amp;#x53EF;&amp;#x4EE5;&amp;#x4E86;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20151125110758499&quot; alt=&quot;&amp;#x5237;&amp;#x65B0;&amp;#x8BD5;&amp;#x8BD5;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#x4E24;&amp;#x76F8;&amp;#x5BF9;&amp;#x7167;&amp;#xFF0C;&amp;#x53D1;&amp;#x73B0;&amp;#x53BB;&amp;#x6389;&lt;strong&gt;apply plugin: &amp;#x2018;application&amp;#x2019;&lt;/strong&gt;,ok.&lt;br&gt;&amp;#x7F51;&amp;#x4E0A;&amp;#x8FD8;&amp;#x6709;&amp;#x4E9B;&amp;#x8D44;&amp;#x6599;&amp;#x8BF4;&amp;#x5F97;&amp;#x5F88;&amp;#x9EBB;&amp;#x70E6;&amp;#x7684;&amp;#xFF0C;&amp;#x5176;&amp;#x5B9E;&amp;#x4E0D;&amp;#x7528;&amp;#x7684;&amp;#xFF0C;&amp;#x5C31;&amp;#x53C2;&amp;#x7167;&amp;#x7B2C;&amp;#x4E00;&amp;#x7BC7;&amp;#x535A;&amp;#x5BA2;&amp;#x5C31;&amp;#x597D;&amp;#xFF0C;&amp;#x4E5F;&amp;#x4E0D;&amp;#x7528;&amp;#x4FEE;&amp;#x6539;gradle&amp;#x6587;&amp;#x4EF6;&amp;#x3002;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;ndroid中直接运行java程序&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="android" scheme="http://whisper1225.github.io/tags/android/"/>
-    
-      <category term="直接运行java程序" scheme="http://whisper1225.github.io/tags/%E7%9B%B4%E6%8E%A5%E8%BF%90%E8%A1%8Cjava%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   

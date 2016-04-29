@@ -4,17 +4,21 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>Archives: 2016 | 酒中仙的博客</title>
+  <title>数据库系列之hive | 酒中仙的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="java Android Geek 数据库">
-<meta property="og:type" content="website">
-<meta property="og:title" content="酒中仙的博客">
-<meta property="og:url" content="http://whisper1225.github.io/archives/2016/page/4/index.html">
+  <meta name="description" content="语法细节group by order by关于这些以及列别名的讨论，在官方wiki上就有。大体就是所有不是聚合函数的查询列，包括使用了函数的查询列必须和原封不动的以函数的形式出现在group中，同事他们在group 中还不能用别名
+COALESCE COALESCE(T v1, T v2, …) 这是一个可变参数列表，可以作用在很多的参数上。返回参数中的第一个非空值；如果所有值都为NULL，那么返">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据库系列之hive">
+<meta property="og:url" content="http://whisper1225.github.io/2016/04/22/hive-数据库系列/index.html">
 <meta property="og:site_name" content="酒中仙的博客">
-<meta property="og:description" content="java Android Geek 数据库">
+<meta property="og:description" content="语法细节group by order by关于这些以及列别名的讨论，在官方wiki上就有。大体就是所有不是聚合函数的查询列，包括使用了函数的查询列必须和原封不动的以函数的形式出现在group中，同事他们在group 中还不能用别名
+COALESCE COALESCE(T v1, T v2, …) 这是一个可变参数列表，可以作用在很多的参数上。返回参数中的第一个非空值；如果所有值都为NULL，那么返">
+<meta property="og:updated_time" content="2016-04-29T05:44:55.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="酒中仙的博客">
-<meta name="twitter:description" content="java Android Geek 数据库">
+<meta name="twitter:title" content="数据库系列之hive">
+<meta name="twitter:description" content="语法细节group by order by关于这些以及列别名的讨论，在官方wiki上就有。大体就是所有不是聚合函数的查询列，包括使用了函数的查询列必须和原封不动的以函数的形式出现在group中，同事他们在group 中还不能用别名
+COALESCE COALESCE(T v1, T v2, …) 这是一个可变参数列表，可以作用在很多的参数上。返回参数中的第一个非空值；如果所有值都为NULL，那么返">
   
     <link rel="alternative" href="/atom.xml" title="酒中仙的博客" type="application/atom+xml">
   
@@ -204,336 +208,135 @@
 	</div>
 </nav>
 
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-hive-数据库系列" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2016/04/22/hive-数据库系列/" class="article-date">
+  	<time datetime="2016-04-22T08:40:24.000Z" itemprop="datePublished">2016-04-22</time>
+</a>
+    </div>
   
+  <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      数据库系列之hive
+    </h1>
+  
+
+      </header>
       
+      <div class="article-info article-info-post">
+        
+        
+
+        <div class="clearfix"></div>
+      </div>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/03/21/java-static-再理解/" class="archive-article-date">
-  	<time datetime="2016-03-21T08:09:59.000Z" itemprop="datePublished">3月 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/03/21/java-static-再理解/">java static 再理解</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/static-关键字/">static 关键字</a></li></ul>
+    <div class="article-entry" itemprop="articleBody">
+      
+	  
+	  
+	<div id="toc" class="toc-article">
+		<strong class="toc-title">文章目录</strong>
+	<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#语法细节"><span class="toc-number">1.</span> <span class="toc-text">语法细节</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#group-by-order-by"><span class="toc-number">1.1.</span> <span class="toc-text">group by order by</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#coalesce"><span class="toc-number">1.2.</span> <span class="toc-text">COALESCE</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#参考资料"><span class="toc-number">1.2.1.</span> <span class="toc-text">参考资料</span></a></li></ol></li></ol></li></ol>
 	</div>
 
-          
+	  
+	  
+        <h1 id="&#x8BED;&#x6CD5;&#x7EC6;&#x8282;"><a href="#&#x8BED;&#x6CD5;&#x7EC6;&#x8282;" class="headerlink" title="&#x8BED;&#x6CD5;&#x7EC6;&#x8282;"></a>&#x8BED;&#x6CD5;&#x7EC6;&#x8282;</h1><h2 id="group-by-order-by"><a href="#group-by-order-by" class="headerlink" title="group by order by"></a>group by order by</h2><p>&#x5173;&#x4E8E;&#x8FD9;&#x4E9B;&#x4EE5;&#x53CA;&#x5217;&#x522B;&#x540D;&#x7684;&#x8BA8;&#x8BBA;&#xFF0C;&#x5728;&#x5B98;&#x65B9;wiki&#x4E0A;&#x5C31;&#x6709;&#x3002;&#x5927;&#x4F53;&#x5C31;&#x662F;&#x6240;&#x6709;&#x4E0D;&#x662F;&#x805A;&#x5408;&#x51FD;&#x6570;&#x7684;&#x67E5;&#x8BE2;&#x5217;&#xFF0C;&#x5305;&#x62EC;&#x4F7F;&#x7528;&#x4E86;&#x51FD;&#x6570;&#x7684;&#x67E5;&#x8BE2;&#x5217;&#x5FC5;&#x987B;&#x548C;&#x539F;&#x5C01;&#x4E0D;&#x52A8;&#x7684;&#x4EE5;&#x51FD;&#x6570;&#x7684;&#x5F62;&#x5F0F;&#x51FA;&#x73B0;&#x5728;group&#x4E2D;&#xFF0C;&#x540C;&#x4E8B;&#x4ED6;&#x4EEC;&#x5728;group &#x4E2D;&#x8FD8;&#x4E0D;&#x80FD;&#x7528;&#x522B;&#x540D;</p>
+<h2 id="coalesce"><a href="#COALESCE" class="headerlink" title="COALESCE"></a>COALESCE</h2><p> COALESCE(T v1, T v2, &#x2026;) &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x53EF;&#x53D8;&#x53C2;&#x6570;&#x5217;&#x8868;&#xFF0C;&#x53EF;&#x4EE5;&#x4F5C;&#x7528;&#x5728;&#x5F88;&#x591A;&#x7684;&#x53C2;&#x6570;&#x4E0A;&#x3002;<br>&#x8FD4;&#x56DE;&#x53C2;&#x6570;&#x4E2D;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x975E;&#x7A7A;&#x503C;&#xFF1B;&#x5982;&#x679C;&#x6240;&#x6709;&#x503C;&#x90FD;&#x4E3A;NULL&#xFF0C;&#x90A3;&#x4E48;&#x8FD4;&#x56DE;NULL<br>&#x7279;&#x6B8A;&#x793A;&#x4F8B;<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> empno,ename,job,mgr,hiredate,sal, <span class="keyword">COALESCE</span>(comm, <span class="number">0</span>),deptno <span class="keyword">from</span> emp;</span><br></pre></td></tr></table></figure></p>
+<p>&#x793A;&#x4F8B;&#x4E2D;&#x7684;&#x5176;&#x5B9E;&#x5C31;&#x4F5C;&#x7528;&#x4E86;&#x4E00;&#x4E2A;&#x503C;&#xFF0C;&#x610F;&#x5473;&#x7740;&#x9047;&#x5230;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x6570;&#x5C31;&#x662F;comm&#xFF0C;&#x662F;&#x4E0D;&#x662F;&#x975E;&#x7A7A;&#xFF0C;&#x975E;&#x7A7A;&#x5C31;&#x662F;&#x672C;&#x8EAB;&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;&#x96F6;&#x3002;&#x8FD9;&#x79CD;&#x5199;&#x6CD5;case when &#x66F4;&#x52A0;&#x7B80;&#x6D01;</p>
+<h3 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a href="#&#x53C2;&#x8003;&#x8D44;&#x6599;" class="headerlink" title="&#x53C2;&#x8003;&#x8D44;&#x6599;"></a>&#x53C2;&#x8003;&#x8D44;&#x6599;</h3><ol>
+<li><a href="http://www.whtt.cn/post-40.html" target="_blank" rel="external">1</a></li>
+<li><a href="http://www.cnblogs.com/luogankun/p/4015280.html" target="_blank" rel="external">&#x91CD;&#x70B9;&#x770B;&#xFF0C;&#x6570;&#x636E;&#x793A;&#x4F8B;</a></li>
+<li><a href="http://blog.csdn.net/longshenlmj/article/details/45339575" target="_blank" rel="external">3</a></li>
+</ol>
+<ol>
+<li>&#x719F;&#x6089;sql &#x5230;hive&#x7684;&#x7F16;&#x8BD1;&#x8FC7;&#x7A0B; &#x548C; sql &#x672C;&#x8EAB;&#x7684;&#x6267;&#x884C;&#x987A;&#x5E8F;&#x3002;&#x90FD;&#x662F;&#x4FDD;&#x8BC1;&#x4F18;&#x5316;hivesql &#x7684;&#x5173;&#x5065;</li>
+<li>hive&#x4E0E;&#x4F20;&#x7EDF;sql&#x5E76;&#x6CA1;&#x6709;&#x592A;&#x591A;&#x53D8;&#x5316; </li>
+<li>hive sql &#x662F;&#x4E0D;&#x5C0A;&#x59D3;ansi&#x7684; &#x548C; mysql&#x6BD4;&#x8F83;&#x50CF;</li>
+<li>hive &#x67E5;&#x8BE2;&#x5217;&#x4E0D;&#x80FD;&#x5F15;&#x7528;&#x522B;&#x7684;&#x67E5;&#x8BE2;&#x5217;&#x7B14;&#x540D;&#xFF0C;sum&#xFF08;xx)/alias &#x62A5;&#x9519;group by key<a id="more"></a>
+</li>
+</ol>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    
   </div>
-</article>
   
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/03/19/aliyuntest/" class="archive-article-date">
-  	<time datetime="2016-03-19T03:46:33.000Z" itemprop="datePublished">3月 19</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/03/19/aliyuntest/">aliyuntest</a>
-    </h1>
+    <a href="/2016/04/23/hbase-数据系列/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          数据库系列之hbase
+        
+      </div>
+    </a>
   
+  
+    <a href="/2016/04/22/数据库杂记/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">数据库杂记</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/object-Object/">[object Object]</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/搭建阿里云云端hexo环境，随时随地可以记录了/">搭建阿里云云端hexo环境，随时随地可以记录了</a></li></ul>
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/03/05/关于编码的碎碎念/" class="archive-article-date">
-  	<time datetime="2016-03-05T10:24:09.000Z" itemprop="datePublished">3月 5</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/03/05/关于编码的碎碎念/">关于编码的碎碎念</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/编码/">编码</a></li></ul>
-	</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/29/前端学习之背景图错位/" class="archive-article-date">
-  	<time datetime="2016-01-29T03:01:58.000Z" itemprop="datePublished">1月 29</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/29/前端学习之背景图错位/">前端学习之背景图错位</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端笔记/">前端笔记</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/背景错位/">背景错位</a></li></ul>
-	</div>
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="hive-数据库系列" data-title="数据库系列之hive" data-url="http://whisper1225.github.io/2016/04/22/hive-数据库系列/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/28/后台碎碎念/" class="archive-article-date">
-  	<time datetime="2016-01-28T10:53:59.000Z" itemprop="datePublished">1月 28</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/28/后台碎碎念/">后台错误备忘</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/后台错误/">后台错误</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/备忘/">备忘</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/28/个人资料管理/" class="archive-article-date">
-  	<time datetime="2016-01-28T01:38:31.000Z" itemprop="datePublished">1月 28</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/28/个人资料管理/">个人资料管理</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/个人资料管理/">个人资料管理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/目录层级结构划分方式/">目录层级结构划分方式</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/27/前端小白历险记/" class="archive-article-date">
-  	<time datetime="2016-01-26T16:25:02.000Z" itemprop="datePublished">1月 27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/27/前端小白历险记/">前端小白历险记之基础杂记</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/入门笔记/">入门笔记</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/26/重温git/" class="archive-article-date">
-  	<time datetime="2016-01-26T03:50:28.000Z" itemprop="datePublished">1月 26</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/26/重温git/">重温git</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/24/android-studio-常见错误记录/" class="archive-article-date">
-  	<time datetime="2016-01-24T14:51:19.000Z" itemprop="datePublished">1月 24</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/24/android-studio-常见错误记录/">android studio 常见错误记录(持续更新)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android-studio/">android studio</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/错误记录/">错误记录</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/01/21/github-hexo搭建个人博客实录/" class="archive-article-date">
-  	<time datetime="2016-01-21T05:03:24.000Z" itemprop="datePublished">1月 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/21/github-hexo搭建个人博客实录/">github+hexo搭建个人博客实录</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/个人博客/">个人博客</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/搭建/">搭建</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/archives/2016/page/3/">&laquo; Prev</a><a class="page-number" href="/archives/2016/">1</a><a class="page-number" href="/archives/2016/page/2/">2</a><a class="page-number" href="/archives/2016/page/3/">3</a><span class="page-number current">4</span>
-    </nav>
-  
 
 </div>
       <footer id="footer">
@@ -557,8 +360,8 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false

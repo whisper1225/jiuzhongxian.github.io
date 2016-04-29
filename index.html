@@ -206,10 +206,73 @@
 
       <div class="body-wrap">
   
-    <article id="post-presto学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-业务知识碎碎念" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/04/24/presto学习笔记/" class="article-date">
+      <a href="/2016/04/27/业务知识碎碎念/" class="article-date">
+  	<time datetime="2016-04-27T10:46:16.000Z" itemprop="datePublished">2016-04-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/27/业务知识碎碎念/">业务知识碎碎念</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+	  
+	  
+	<div id="toc" class="toc-article">
+		<strong class="toc-title">文章目录</strong>
+	
+	</div>
+
+	  
+	  
+        <a id="more"></a>
+<ol>
+<li>sku&#x4E0E;spu<br>&#x5F71;&#x54CD;&#x5230;&#x9500;&#x552E;&#x3001;&#x5E93;&#x5B58;&#x7684;&#x662F;sku&#xFF0C;<br>spu&#x662F;&#x6807;&#x51C6;&#x54C1;&#x7684;&#x610F;&#x601D;</li>
+</ol>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-prosto-数据库系列" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/24/prosto-数据库系列/" class="article-date">
   	<time datetime="2016-04-24T02:22:16.000Z" itemprop="datePublished">2016-04-24</time>
 </a>
     </div>
@@ -221,7 +284,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/24/presto学习笔记/">presto学习笔记</a>
+      <a class="article-title" href="/2016/04/24/prosto-数据库系列/">presto学习笔记</a>
     </h1>
   
 
@@ -245,7 +308,7 @@
 
       
         <p class="article-more-link">
-          <a  href="/2016/04/24/presto学习笔记/#more">more >></a>
+          <a  href="/2016/04/24/prosto-数据库系列/#more">more >></a>
         </p>
       
       <div class="clearfix"></div>
@@ -322,10 +385,10 @@
 
 
   
-    <article id="post-数据库系列之hive" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-hive-数据库系列" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/04/22/数据库系列之hive/" class="article-date">
+      <a href="/2016/04/22/hive-数据库系列/" class="article-date">
   	<time datetime="2016-04-22T08:40:24.000Z" itemprop="datePublished">2016-04-22</time>
 </a>
     </div>
@@ -337,7 +400,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/22/数据库系列之hive/">数据库系列之hive</a>
+      <a class="article-title" href="/2016/04/22/hive-数据库系列/">数据库系列之hive</a>
     </h1>
   
 
@@ -346,9 +409,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ol>
+        <h1 id="语法细节"><a href="#语法细节" class="headerlink" title="语法细节"></a>语法细节</h1><h2 id="group-by-order-by"><a href="#group-by-order-by" class="headerlink" title="group by order by"></a>group by order by</h2><p>关于这些以及列别名的讨论，在官方wiki上就有。大体就是所有不是聚合函数的查询列，包括使用了函数的查询列必须和原封不动的以函数的形式出现在group中，同事他们在group 中还不能用别名</p>
+<h2 id="COALESCE"><a href="#COALESCE" class="headerlink" title="COALESCE"></a>COALESCE</h2><p> COALESCE(T v1, T v2, …) 这是一个可变参数列表，可以作用在很多的参数上。<br>返回参数中的第一个非空值；如果所有值都为NULL，那么返回NULL<br>特殊示例<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> empno,ename,job,mgr,hiredate,sal, <span class="keyword">COALESCE</span>(comm, <span class="number">0</span>),deptno <span class="keyword">from</span> emp;</span><br></pre></td></tr></table></figure></p>
+<p>示例中的其实就作用了一个值，意味着遇到的第一个数就是comm，是不是非空，非空就是本身，否则返回零。这种写法case when 更加简洁</p>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ol>
+<li><a href="http://www.whtt.cn/post-40.html">1</a></li>
+<li><a href="http://www.cnblogs.com/luogankun/p/4015280.html">重点看，数据示例</a></li>
+<li><a href="http://blog.csdn.net/longshenlmj/article/details/45339575">3</a></li>
+</ol>
+<ol>
 <li>熟悉sql 到hive的编译过程 和 sql 本身的执行顺序。都是保证优化hivesql 的关健</li>
-<li>hive与传统sql并没有太多变化
+<li>hive与传统sql并没有太多变化 </li>
+<li>hive sql 是不尊姓ansi的 和 mysql比较像</li>
+<li>hive 查询列不能引用别的查询列笔名，sum（xx)/alias 报错group by key
       
     </div>
     
@@ -359,7 +432,7 @@
 
       
         <p class="article-more-link">
-          <a  href="/2016/04/22/数据库系列之hive/#more">more >></a>
+          <a  href="/2016/04/22/hive-数据库系列/#more">more >></a>
         </p>
       
       <div class="clearfix"></div>
@@ -704,60 +777,6 @@
       
         <p class="article-more-link">
           <a  href="/2016/04/07/Hadoop系列入门笔记/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Internet-downlaod-manager" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/06/Internet-downlaod-manager/" class="article-date">
-  	<time datetime="2016-04-06T06:22:29.000Z" itemprop="datePublished">2016-04-06</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/06/Internet-downlaod-manager/">Internet downlaod manager</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Internet download Manager<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/04/06/Internet-downlaod-manager/#more">more >></a>
         </p>
       
       <div class="clearfix"></div>
