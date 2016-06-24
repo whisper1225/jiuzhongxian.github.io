@@ -121,11 +121,11 @@
       <category term="大数据" scheme="http://whisper1225.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
     
+      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
       <category term="hive" scheme="http://whisper1225.github.io/tags/hive/"/>
     
       <category term="presto" scheme="http://whisper1225.github.io/tags/presto/"/>
-    
-      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="入门教程" scheme="http://whisper1225.github.io/tags/%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/"/>
     
@@ -158,11 +158,11 @@
       <category term="数据库" scheme="http://whisper1225.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
+      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
       <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="hbase" scheme="http://whisper1225.github.io/tags/hbase/"/>
-    
-      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
   </entry>
   
@@ -240,11 +240,11 @@
       <category term="数据库" scheme="http://whisper1225.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
+      <category term="小知识" scheme="http://whisper1225.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
+    
       <category term="杂记" scheme="http://whisper1225.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
     
       <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-      <category term="小知识" scheme="http://whisper1225.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   
@@ -468,9 +468,9 @@
       <category term="编程语言" scheme="http://whisper1225.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="编程" scheme="http://whisper1225.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="小知识" scheme="http://whisper1225.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="编程" scheme="http://whisper1225.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
