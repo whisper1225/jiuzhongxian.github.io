@@ -237,7 +237,7 @@
     <link href="http://whisper1225.github.io/2016/04/22/hive-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97/"/>
     <id>http://whisper1225.github.io/2016/04/22/hive-数据库系列/</id>
     <published>2016-04-22T08:40:24.000Z</published>
-    <updated>2016-06-24T08:11:43.000Z</updated>
+    <updated>2016-06-27T03:12:36.239Z</updated>
     
     <content type="html">&lt;p&gt;hive&amp;#x67B6;&amp;#x6784;&amp;#xFF0C;&amp;#x6267;&amp;#x884C;&amp;#x539F;&amp;#x7406;&amp;#x7565;&amp;#x8FC7;&amp;#xFF0C;&amp;#x53EA;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E0B;hive&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x5751;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;a href=&quot;#&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;/a&gt;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h1&gt;&lt;h2 id=&quot;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot;&gt;&lt;a href=&quot;#&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot;&gt;&lt;/a&gt;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&lt;/h2&gt;&lt;p&gt;&amp;#x50CF;between&amp;#x548C; &amp;gt;=&amp;#x4F5C;&amp;#x7528;&amp;#x7C7B;&amp;#x578B;&amp;#x662F;&amp;#x6240;&amp;#x6709;&amp;#x7C7B;&amp;#x578B;&lt;/p&gt;
@@ -263,6 +263,8 @@
       &lt;p&gt;hive架构，执行原理略过，只记录下hive中遇到的坑&lt;br&gt;
     
     </summary>
+    
+      <category term="数据库" scheme="http://whisper1225.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
       <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
