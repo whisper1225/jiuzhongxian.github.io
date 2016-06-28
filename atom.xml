@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-06-26T15:42:23.029Z</updated>
+  <updated>2016-06-28T11:19:04.753Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spark学习笔记</title>
+    <link href="http://whisper1225.github.io/2016/06/28/spark%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://whisper1225.github.io/2016/06/28/spark学习笔记/</id>
+    <published>2016-06-28T11:09:52.000Z</published>
+    <updated>2016-06-28T11:19:04.753Z</updated>
+    
+    <content type="html">&lt;p&gt;spark &amp;#x5B66;&amp;#x4E60;&amp;#x7B14;&amp;#x8BB0;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x6982;&amp;#x5FF5;&quot;&gt;&lt;a href=&quot;#&amp;#x57FA;&amp;#x672C;&amp;#x6982;&amp;#x5FF5;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x6982;&amp;#x5FF5;&quot;&gt;&lt;/a&gt;&amp;#x57FA;&amp;#x672C;&amp;#x6982;&amp;#x5FF5;&lt;/h1&gt;&lt;h2 id=&quot;&amp;#x73AF;&amp;#x5883;&amp;#x914D;&amp;#x7F6E;&quot;&gt;&lt;a href=&quot;#&amp;#x73AF;&amp;#x5883;&amp;#x914D;&amp;#x7F6E;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x73AF;&amp;#x5883;&amp;#x914D;&amp;#x7F6E;&quot;&gt;&lt;/a&gt;&amp;#x73AF;&amp;#x5883;&amp;#x914D;&amp;#x7F6E;&lt;/h2&gt;&lt;p&gt;&amp;#x662F;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;&amp;#x4E0D;&amp;#x5B89;&amp;#x88C5;Hadoop&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#x4E0B;&amp;#xFF0C;&amp;#x76F4;&amp;#x63A5;&amp;#x5355;&amp;#x51FB;&amp;#x8FD0;&amp;#x884C;spark&amp;#x3002;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x89C2;&amp;#x7684;&amp;#x611F;&amp;#x53D7;&amp;#x4E0B;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x6846;&amp;#x67B6;&amp;#x7ED3;&amp;#x6784;&quot;&gt;&lt;a href=&quot;#&amp;#x6846;&amp;#x67B6;&amp;#x7ED3;&amp;#x6784;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6846;&amp;#x67B6;&amp;#x7ED3;&amp;#x6784;&quot;&gt;&lt;/a&gt;&amp;#x6846;&amp;#x67B6;&amp;#x7ED3;&amp;#x6784;&lt;/h2&gt;&lt;p&gt;streaming MLlib sparkSql Graphx &lt;/p&gt;
+&lt;h2 id=&quot;rdd&amp;#x5F39;&amp;#x6027;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6570;&amp;#x636E;&amp;#x96C6;&quot;&gt;&lt;a href=&quot;#RDD&amp;#x5F39;&amp;#x6027;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6570;&amp;#x636E;&amp;#x96C6;&quot; class=&quot;headerlink&quot; title=&quot;RDD&amp;#x5F39;&amp;#x6027;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6570;&amp;#x636E;&amp;#x96C6;&quot;&gt;&lt;/a&gt;RDD&amp;#x5F39;&amp;#x6027;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6570;&amp;#x636E;&amp;#x96C6;&lt;/h2&gt;&lt;h2 id=&quot;taskstagejob&quot;&gt;&lt;a href=&quot;#task&amp;#xFF0C;stage-job&quot; class=&quot;headerlink&quot; title=&quot;task&amp;#xFF0C;stage,job&quot;&gt;&lt;/a&gt;task&amp;#xFF0C;stage,job&lt;/h2&gt;&lt;h1 id=&quot;&amp;#x4F5C;&amp;#x4E1A;&amp;#x8FD0;&amp;#x884C;&amp;#x6D41;&amp;#x7A0B;&quot;&gt;&lt;a href=&quot;#&amp;#x4F5C;&amp;#x4E1A;&amp;#x8FD0;&amp;#x884C;&amp;#x6D41;&amp;#x7A0B;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4F5C;&amp;#x4E1A;&amp;#x8FD0;&amp;#x884C;&amp;#x6D41;&amp;#x7A0B;&quot;&gt;&lt;/a&gt;&amp;#x4F5C;&amp;#x4E1A;&amp;#x8FD0;&amp;#x884C;&amp;#x6D41;&amp;#x7A0B;&lt;/h1&gt;&lt;p&gt;#&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;spark 学习笔记&lt;br&gt;
+    
+    </summary>
+    
+      <category term="大数据" scheme="http://whisper1225.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+      <category term="spark" scheme="http://whisper1225.github.io/tags/spark/"/>
+    
+  </entry>
   
   <entry>
     <title>提升命令行效率的Bash快捷键</title>
@@ -737,39 +765,6 @@
       <category term="Mysql" scheme="http://whisper1225.github.io/tags/Mysql/"/>
     
       <category term="Employmees示例" scheme="http://whisper1225.github.io/tags/Employmees%E7%A4%BA%E4%BE%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据库索引学习</title>
-    <link href="http://whisper1225.github.io/2016/03/28/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B4%A2%E5%BC%95%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://whisper1225.github.io/2016/03/28/数据库索引学习/</id>
-    <published>2016-03-28T07:03:20.000Z</published>
-    <updated>2016-06-24T09:15:56.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x7D22;&amp;#x5F15;&amp;#x53CA;&amp;#x5176;&amp;#x80CC;&amp;#x540E;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x7ED3;&amp;#x6784;&amp;#x548C;&amp;#x7B97;&amp;#x6CD5;&amp;#x5B66;&amp;#x4E60;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;&amp;#x5E8F;&amp;#x8A00;&quot;&gt;&lt;a href=&quot;#&amp;#x5E8F;&amp;#x8A00;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5E8F;&amp;#x8A00;&quot;&gt;&lt;/a&gt;&amp;#x5E8F;&amp;#x8A00;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x9700;&amp;#x8981;&amp;#x7D22;&amp;#x5F15;&lt;/li&gt;
-&lt;li&gt;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x7684;&amp;#x7D22;&amp;#x5F15;&amp;#x4E0D;&amp;#x7528;&amp;#x4E8C;&amp;#x53C9;&amp;#x67E5;&amp;#x627E;&amp;#x6811;&amp;#x800C;&amp;#x662F;&amp;#x4F7F;&amp;#x7528;B+tree&amp;#x4E4B;&amp;#x7C7B;&amp;#x7684;&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;数据库索引及其背后的数据结构和算法学习&lt;br&gt;
-    
-    </summary>
-    
-      <category term="数据库" scheme="http://whisper1225.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-      <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-      <category term="索引" scheme="http://whisper1225.github.io/tags/%E7%B4%A2%E5%BC%95/"/>
-    
-      <category term="数据结构" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="算法" scheme="http://whisper1225.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
