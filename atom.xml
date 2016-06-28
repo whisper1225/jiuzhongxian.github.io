@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-06-28T11:19:04.753Z</updated>
+  <updated>2016-06-28T11:59:43.380Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>函数式编程入门</title>
+    <link href="http://whisper1225.github.io/2016/06/28/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/"/>
+    <id>http://whisper1225.github.io/2016/06/28/函数式编程入门/</id>
+    <published>2016-06-28T11:57:08.000Z</published>
+    <updated>2016-06-28T11:59:43.380Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;#x51FD;&amp;#x6570;&amp;#x5F0F;&amp;#x7F16;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x53C2;&amp;#x8003;&amp;#x6587;&amp;#x7AE0;&quot;&gt;&lt;a href=&quot;#&amp;#x53C2;&amp;#x8003;&amp;#x6587;&amp;#x7AE0;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x53C2;&amp;#x8003;&amp;#x6587;&amp;#x7AE0;&quot;&gt;&lt;/a&gt;&amp;#x53C2;&amp;#x8003;&amp;#x6587;&amp;#x7AE0;&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2012/04/functional_programming.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.ruanyifeng.com/blog/2012/04/functional_programming.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/justinyhuang/Functional-Programming-For-The-Rest-of-Us-Cn/blob/master/FunctionalProgrammingForTheRestOfUs.cn.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/justinyhuang/Functional-Programming-For-The-Rest-of-Us-Cn/blob/master/FunctionalProgrammingForTheRestOfUs.cn.md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.75team.com/post/functional-how-far.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.75team.com/post/functional-how-far.html&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;函数式编&lt;br&gt;
+    
+    </summary>
+    
+      <category term="编程语言" scheme="http://whisper1225.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="函数式编程" scheme="http://whisper1225.github.io/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>spark学习笔记</title>
@@ -718,53 +744,6 @@
       <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="理论" scheme="http://whisper1225.github.io/tags/%E7%90%86%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>导入Mysql官方Employees示例记录</title>
-    <link href="http://whisper1225.github.io/2016/03/29/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97%E4%B9%8B%E5%AF%BC%E5%85%A5Mysql%E5%AE%98%E6%96%B9Employees%E7%A4%BA%E4%BE%8B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%AE%B0%E5%BD%95/"/>
-    <id>http://whisper1225.github.io/2016/03/29/数据库系列之导入Mysql官方Employees示例问题解决记录/</id>
-    <published>2016-03-29T03:15:05.000Z</published>
-    <updated>2016-06-24T09:10:36.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x7CFB;&amp;#x5217;&amp;#x4E4B;&amp;#x5BFC;&amp;#x5165;Mysql&amp;#x5B98;&amp;#x65B9;#Employmees&amp;#x793A;&amp;#x4F8B;&amp;#x95EE;&amp;#x9898;&amp;#x89E3;&amp;#x51B3;&amp;#x8BB0;&amp;#x5F55;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;&amp;#x524D;&amp;#x671F;&amp;#x51C6;&amp;#x5907;&quot;&gt;&lt;a href=&quot;#&amp;#x524D;&amp;#x671F;&amp;#x51C6;&amp;#x5907;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x524D;&amp;#x671F;&amp;#x51C6;&amp;#x5907;&quot;&gt;&lt;/a&gt;&amp;#x524D;&amp;#x671F;&amp;#x51C6;&amp;#x5907;&lt;/h3&gt;&lt;p&gt;&amp;#x4E0B;&amp;#x8F7D;&amp;#x76F8;&amp;#x5173;&amp;#x6587;&amp;#x4EF6;&amp;#x5E76;&amp;#x89E3;&amp;#x538B;&amp;#x7F29;,&amp;#x4ECE;&amp;#x5B98;&amp;#x7F51;&amp;#x53EF;&amp;#x4EE5;&amp;#x627E;&amp;#x5230;&amp;#x4E0B;&amp;#x8F7D;&amp;#x53CA;&amp;#x5176;&amp;#x8BF4;&amp;#x660E;&amp;#xFF0C;&amp;#x4E0B;&amp;#x8F7D;&amp;#x5728;github&amp;#x4E0B;&amp;#x8F7D;&lt;br&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-29/55087659.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;&amp;#x5BFC;&amp;#x5165;&amp;#x62A5;&amp;#x9519;&quot;&gt;&lt;a href=&quot;#&amp;#x5BFC;&amp;#x5165;&amp;#x62A5;&amp;#x9519;&amp;#xFF1A;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5BFC;&amp;#x5165;&amp;#x62A5;&amp;#x9519;&amp;#xFF1A;&quot;&gt;&lt;/a&gt;&amp;#x5BFC;&amp;#x5165;&amp;#x62A5;&amp;#x9519;&amp;#xFF1A;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-29/78403413.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;linux&amp;#x548C;mac&amp;#x4E0B;&amp;#x5F88;&amp;#x7B80;&amp;#x5355; mysql -uroot -p &amp;lt; employees.sql &amp;#x5373;&amp;#x53EF;&amp;#xFF0C;&amp;#x5728;window&amp;#x4E0B;&amp;#x8981;&amp;#x6CE8;&amp;#x610F;&amp;#x7684;&amp;#x8FD9;&amp;#x4E2A;&amp;#x8DEF;&amp;#x5F84;&amp;#x95EE;&amp;#x9898;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;&amp;#x62A5;&amp;#x9519;&amp;#x5904;&amp;#x7406;&quot;&gt;&lt;a href=&quot;#&amp;#x62A5;&amp;#x9519;&amp;#x5904;&amp;#x7406;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x62A5;&amp;#x9519;&amp;#x5904;&amp;#x7406;&quot;&gt;&lt;/a&gt;&amp;#x62A5;&amp;#x9519;&amp;#x5904;&amp;#x7406;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&amp;#x4FEE;&amp;#x6539;&amp;#x8DEF;&amp;#x5F84;&amp;#x4E3A;&amp;#x7EDD;&amp;#x5BF9;&amp;#x8DEF;&amp;#x5F84;&lt;br&gt;&lt;a href=&quot;http://blog.csdn.net/tangzhihaode/article/details/48688907&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x53C2;&amp;#x8003;&amp;#x6587;&amp;#x7AE0;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;&amp;#x5904;&amp;#x7406;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-29/22001312.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&amp;#x91CD;&amp;#x65B0;&amp;#x5BFC;&amp;#x5165;&amp;#x4F9D;&amp;#x7136;&amp;#x62A5;&amp;#x9519;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-29/26142182.jpg&quot; alt=&quot;&amp;#x5BFC;&amp;#x5165;&amp;#x6210;&amp;#x529F;&quot;&gt;&lt;br&gt;&amp;#x4F9D;&amp;#x7136;&amp;#x62A5;&amp;#x9519;&amp;#xFF0C;&amp;#x5982;&amp;#x4E0A;&amp;#x9762;&amp;#x7684;&amp;#x53C2;&amp;#x8003;&amp;#x6587;&amp;#x7AE0;&amp;#x6240;&amp;#x793A;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#x4EBA;&amp;#x5BB6;&amp;#x662F;&amp;#x6B63;&amp;#x786E;&amp;#x4E86;&amp;#x3002;&amp;#x6211;&amp;#x662F;&amp;#x5728;&amp;#x8D44;&amp;#x6E90;&amp;#x7BA1;&amp;#x7406;&amp;#x5668;&amp;#x5730;&amp;#x5740;&amp;#x680F;&amp;#x76F4;&amp;#x63A5;&amp;#x590D;&amp;#x5236;&amp;#x5730;&amp;#x5740;&amp;#xFF0C;&amp;#x662F;&amp;#x53CD;&amp;#x659C;&amp;#x6760;&amp;#x3002;&lt;br&gt;&amp;#x5168;&amp;#x90E8;&amp;#x66FF;&amp;#x6362;&amp;#x6210;&amp;#x6B63;&amp;#x659C;&amp;#x6746;&amp;#x3002;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;#x8BBE;&amp;#x7F6E;&amp;#x9ED8;&amp;#x8BA4;default_storage_engine&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Unknown system variable &amp;#x2018;storage_engine&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#x53C2;&amp;#x8003;&amp;#x6587;&amp;#x7AE0;&amp;#xFF1A;www.cnblogs.com/rgtv-wilkins/p/5147676.html&lt;br&gt;&lt;strong&gt;&amp;#x89E3;&amp;#x51B3;&amp;#x529E;&amp;#x6CD5;&amp;#xFF1A;&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;line &lt;span class=&quot;number&quot;&gt;38&lt;/span&gt; :set storage_engine = InnoDB;   &amp;#x6539;&amp;#x4E3A; set default_storage_engine = InnoDB;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;line &lt;span class=&quot;number&quot;&gt;44&lt;/span&gt; :select CONCAT(&lt;span class=&quot;string&quot;&gt;&amp;apos;storage engine: &amp;apos;&lt;/span&gt;, @@storage_engine) &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; INFO; &amp;#x6539;&amp;#x4E3A; select CONCAT(&lt;span class=&quot;string&quot;&gt;&amp;apos;storage engine: &amp;apos;&lt;/span&gt;, @@default_storage_engine) &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; INFO;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3 id=&quot;&amp;#x5BFC;&amp;#x5165;&amp;#x6210;&amp;#x529F;&quot;&gt;&lt;a href=&quot;#&amp;#x5BFC;&amp;#x5165;&amp;#x6210;&amp;#x529F;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5BFC;&amp;#x5165;&amp;#x6210;&amp;#x529F;&quot;&gt;&lt;/a&gt;&amp;#x5BFC;&amp;#x5165;&amp;#x6210;&amp;#x529F;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xqbxa.com1.z0.glb.clouddn.com/16-3-29/37814903.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;数据库系列之导入Mysql官方#Employmees示例问题解决记录&lt;br&gt;
-    
-    </summary>
-    
-      <category term="数据库" scheme="http://whisper1225.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-      <category term="错误记录" scheme="http://whisper1225.github.io/tags/%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/"/>
-    
-      <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-      <category term="Mysql" scheme="http://whisper1225.github.io/tags/Mysql/"/>
-    
-      <category term="Employmees示例" scheme="http://whisper1225.github.io/tags/Employmees%E7%A4%BA%E4%BE%8B/"/>
     
   </entry>
   
