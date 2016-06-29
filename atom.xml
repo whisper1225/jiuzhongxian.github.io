@@ -342,7 +342,7 @@
     <link href="http://whisper1225.github.io/2016/04/22/hive-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97/"/>
     <id>http://whisper1225.github.io/2016/04/22/hive-数据库系列/</id>
     <published>2016-04-22T08:40:24.000Z</published>
-    <updated>2016-06-27T03:12:36.239Z</updated>
+    <updated>2016-06-29T04:41:49.800Z</updated>
     
     <content type="html">&lt;p&gt;hive&amp;#x67B6;&amp;#x6784;&amp;#xFF0C;&amp;#x6267;&amp;#x884C;&amp;#x539F;&amp;#x7406;&amp;#x7565;&amp;#x8FC7;&amp;#xFF0C;&amp;#x53EA;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E0B;hive&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x5751;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;a href=&quot;#&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;/a&gt;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h1&gt;&lt;h2 id=&quot;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot;&gt;&lt;a href=&quot;#&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot;&gt;&lt;/a&gt;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&lt;/h2&gt;&lt;p&gt;&amp;#x50CF;between&amp;#x548C; &amp;gt;=&amp;#x4F5C;&amp;#x7528;&amp;#x7C7B;&amp;#x578B;&amp;#x662F;&amp;#x6240;&amp;#x6709;&amp;#x7C7B;&amp;#x578B;&lt;/p&gt;
@@ -354,13 +354,13 @@
 &lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/luogankun/p/4015280.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x91CD;&amp;#x70B9;&amp;#x770B;&amp;#xFF0C;&amp;#x6570;&amp;#x636E;&amp;#x793A;&amp;#x4F8B;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/longshenlmj/article/details/45339575&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;ol&gt;
+&lt;h2 id=&quot;&amp;#x5176;&amp;#x4ED6;&quot;&gt;&lt;a href=&quot;#&amp;#x5176;&amp;#x4ED6;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5176;&amp;#x4ED6;&quot;&gt;&lt;/a&gt;&amp;#x5176;&amp;#x4ED6;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&amp;#x719F;&amp;#x6089;sql &amp;#x5230;hive&amp;#x7684;&amp;#x7F16;&amp;#x8BD1;&amp;#x8FC7;&amp;#x7A0B; &amp;#x548C; sql &amp;#x672C;&amp;#x8EAB;&amp;#x7684;&amp;#x6267;&amp;#x884C;&amp;#x987A;&amp;#x5E8F;&amp;#x3002;&amp;#x90FD;&amp;#x662F;&amp;#x4FDD;&amp;#x8BC1;&amp;#x4F18;&amp;#x5316;hivesql &amp;#x7684;&amp;#x5173;&amp;#x5065;&lt;/li&gt;
 &lt;li&gt;hive&amp;#x4E0E;&amp;#x4F20;&amp;#x7EDF;sql&amp;#x5E76;&amp;#x6CA1;&amp;#x6709;&amp;#x592A;&amp;#x591A;&amp;#x53D8;&amp;#x5316;&lt;/li&gt;
 &lt;li&gt;hive sql &amp;#x662F;&amp;#x4E0D;&amp;#x5C0A;&amp;#x59D3;ansi&amp;#x7684; &amp;#x548C; mysql&amp;#x6BD4;&amp;#x8F83;&amp;#x50CF;&lt;/li&gt;
-&lt;li&gt;hive &amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x4E0D;&amp;#x80FD;&amp;#x5F15;&amp;#x7528;&amp;#x522B;&amp;#x7684;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x7B14;&amp;#x540D;&amp;#xFF0C;sum&amp;#xFF08;xx)/alias &amp;#x62A5;&amp;#x9519;group by key&lt;!--more--&gt;
-&lt;/li&gt;
+&lt;li&gt;hive &amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x4E0D;&amp;#x80FD;&amp;#x5F15;&amp;#x7528;&amp;#x522B;&amp;#x7684;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x7B14;&amp;#x540D;&amp;#xFF0C;sum&amp;#xFF08;xx)/alias &amp;#x62A5;&amp;#x9519;group by key&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;hive json&amp;#x89E3;&amp;#x6790;path $.xx &amp;#x5982;&amp;#x679C;&amp;#x7EE7;&amp;#x7EED;&amp;#x5F80;&amp;#x4E0B;&amp;#x53D6;&amp;#x9700;&amp;#x8981; &amp;#x5D4C;&amp;#x5957;get_json_object&lt;/p&gt;
 </content>
     
     <summary type="html">
