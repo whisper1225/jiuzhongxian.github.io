@@ -342,7 +342,7 @@
     <link href="http://whisper1225.github.io/2016/04/22/hive-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97/"/>
     <id>http://whisper1225.github.io/2016/04/22/hive-数据库系列/</id>
     <published>2016-04-22T08:40:24.000Z</published>
-    <updated>2016-06-29T04:41:49.800Z</updated>
+    <updated>2016-06-29T04:51:07.535Z</updated>
     
     <content type="html">&lt;p&gt;hive&amp;#x67B6;&amp;#x6784;&amp;#xFF0C;&amp;#x6267;&amp;#x884C;&amp;#x539F;&amp;#x7406;&amp;#x7565;&amp;#x8FC7;&amp;#xFF0C;&amp;#x53EA;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E0B;hive&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x5751;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;a href=&quot;#&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&quot;&gt;&lt;/a&gt;&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h1&gt;&lt;h2 id=&quot;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot;&gt;&lt;a href=&quot;#&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&quot;&gt;&lt;/a&gt;&amp;#x5173;&amp;#x952E;&amp;#x5B57;&lt;/h2&gt;&lt;p&gt;&amp;#x50CF;between&amp;#x548C; &amp;gt;=&amp;#x4F5C;&amp;#x7528;&amp;#x7C7B;&amp;#x578B;&amp;#x662F;&amp;#x6240;&amp;#x6709;&amp;#x7C7B;&amp;#x578B;&lt;/p&gt;
@@ -360,7 +360,7 @@
 &lt;li&gt;hive sql &amp;#x662F;&amp;#x4E0D;&amp;#x5C0A;&amp;#x59D3;ansi&amp;#x7684; &amp;#x548C; mysql&amp;#x6BD4;&amp;#x8F83;&amp;#x50CF;&lt;/li&gt;
 &lt;li&gt;hive &amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x4E0D;&amp;#x80FD;&amp;#x5F15;&amp;#x7528;&amp;#x522B;&amp;#x7684;&amp;#x67E5;&amp;#x8BE2;&amp;#x5217;&amp;#x7B14;&amp;#x540D;&amp;#xFF0C;sum&amp;#xFF08;xx)/alias &amp;#x62A5;&amp;#x9519;group by key&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;hive json&amp;#x89E3;&amp;#x6790;path $.xx &amp;#x5982;&amp;#x679C;&amp;#x7EE7;&amp;#x7EED;&amp;#x5F80;&amp;#x4E0B;&amp;#x53D6;&amp;#x9700;&amp;#x8981; &amp;#x5D4C;&amp;#x5957;get_json_object&lt;/p&gt;
+&lt;p&gt;hive json&amp;#x89E3;&amp;#x6790;path $.xx &amp;#x5982;&amp;#x679C;&amp;#x9700;&amp;#x8981;&amp;#x53D6;&amp;#x5185;&amp;#x5C42;&amp;#x6570;&amp;#x636E;  &amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#x5D4C;&amp;#x5957;get_json_object&amp;#xFF0C;&amp;#x76F4;&amp;#x63A5;$.xx.yy&amp;#x5373;&amp;#x53EF;&amp;#xFF0C;&amp;#x8FD9;&amp;#x4E00;&amp;#x70B9;&amp;#x5728;presto&amp;#x4E5F;&amp;#x662F;&amp;#x540C;&amp;#x6837;&amp;#x7684;&lt;/p&gt;
 </content>
     
     <summary type="html">
