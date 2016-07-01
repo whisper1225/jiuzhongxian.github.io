@@ -4,6 +4,14 @@
   
     
     <entry>
+      <title><![CDATA[爬虫学习笔记]]></title>
+      <url>http://whisper1225.github.io/2016/07/01/%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<p>&#x722C;&#x866B;&#x5B66;&#x4E60;<br><a id="more"></a></p>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;"><a href="#&#x53C2;&#x8003;&#x6587;&#x7AE0;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x7AE0;"></a>&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2><p><a href="http://geek.csdn.net/news/detail/85333" target="_blank" rel="external">&#x53CD;&#x722C;&#x866B;</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[kylin]]></title>
       <url>http://whisper1225.github.io/2016/06/30/kylin%E5%88%9D%E4%BD%93%E9%AA%8C/</url>
       <content type="html"><![CDATA[<p>&#x8BB0;&#x5F55;kyLin&#x5B66;&#x4E60;&#x8FC7;&#x7A0B;<br><a id="more"></a></p>
@@ -995,8 +1003,11 @@
 <li>&#x963F;&#x91CC;&#x4E91;&#x4E70;&#x8FC7;&#x6765;&#x4E4B;&#x540E;&#x7684;&#x4E3B;&#x673A;&#x540D;&#x662F;&#x4E00;&#x4E32;&#x5B57;&#x7B26;&#xFF0C;&#x5F3A;&#x8FEB;&#x75C7;&#x60A3;&#x8005;&#x662F;&#x7EDD;&#x5BF9;&#x4E0D;&#x5141;&#x8BB8;&#x7684;&#x3002;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728;/etc/sysconnfig/network &#x5982;&#x679C;&#x60F3;&#x8981;&#x4E0D;&#x91CD;&#x542F;&#x751F;&#x6548;&#xFF0C;&#x9700;&#x8981;sysctl kernel.hostname=youname&#x6307;&#x4EE4;&#x3002;&#x7136;&#x540E;&#x91CD;&#x542F;&#x56DE;&#x8BDD;.</li>
 <li>&#x4EE5;&#x666E;&#x901A;&#x7528;&#x6237;&#x4FEE;&#x6539;root&#x8D26;&#x53F7;&#x521B;&#x5EFA;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x663E;&#x793A;&#x53EA;&#x8BFB;&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528;:!q&#x4E5F;&#x65E0;&#x6CD5;&#x9000;&#x51FA;&#x3002;&#x90C1;&#x95F7;&#x4E86;&#x597D;&#x4E45;&#xFF0C;&#x624D;&#x53D1;&#x73B0;&#x662F;&#x81EA;&#x5DF1;&#x5199;&#x53CD;&#x4E86;&#x3002;<font color="red">&#x6CE8;&#x610F;&#x4E0D;&#x540C;&#x7528;&#x8D26;&#x53F7;&#x7528;&#x6237;&#x7684;&#x5E76;&#x53D1;&#x95EE;&#x9898;</font></li>
 <li>&#x8FD0;&#x884C;&#x67D0;&#x6761;&#x5386;&#x53F2;&#x547D;&#x4EE4; &#x9996;&#x5148;&#x4F7F;&#x7528; history &#x67E5;&#x770B;&#x5386;&#x53F2;&#x547D;&#x4EE4;&#x5217;&#x8868;&#xFF0C;&#x7136;&#x540E;&#x7528; !&#x5E8F;&#x53F7;&#x6765;&#x6267;&#x884C;&#x67D0;&#x6761;&#x547D;&#x4EE4;</li>
-<li>&#x975E;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;u&#xFF0C; &#x547D;&#x4EE4;&#x884C;&#x6A21;&#x5F0F;&#x4E0B; redo&#x8868;&#x793A;&#x91CD;&#x505A;</li>
+<li>&#x975E;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;u&#xFF0C; &#x547D;&#x4EE4;&#x884C;&#x6A21;&#x5F0F;&#x4E0B; redo&#x8868;&#x793A;&#x91CD;&#x505A;<h3 id="grep&#x547D;&#x4EE4;"><a href="#grep&#x547D;&#x4EE4;" class="headerlink" title="grep&#x547D;&#x4EE4;"></a>grep&#x547D;&#x4EE4;</h3>&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x67E5;&#x627E;<br>grep xx(&#x8981;&#x67E5;&#x627E;&#x7684;) hello.txt&#xFF08;&#x67E5;&#x627E;&#x6E90;&#xFF09;<br>&#x53C2;&#x6570;-i, &#x2013;ignore-case: &#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;<br>-n, &#x2013;line-number: &#x663E;&#x793A;&#x884C;&#x53F7;<br>-R, -r, &#x2013;recursive: &#x9012;&#x5F52;&#x641C;&#x7D22;&#x5B50;&#x76EE;&#x5F55;<br>-v, &#x2013;invert-match: &#x8F93;&#x51FA;&#x6CA1;&#x6709;&#x5339;&#x914D;&#x7684;&#x884C;</li>
 </ol>
+<blockquote>
+<p>&#x8FD9;&#x4E9B;&#x4E92;&#x76F8;&#x914D;&#x5408;&#xFF0C;&#x80FD;&#x591F;&#x5B9E;&#x73B0;&#x5F3A;&#x5927;&#x7684;&#x529F;&#x80FD;</p>
+</blockquote>
 <h2 id="&#x7F51;&#x7EDC;&#x7BA1;&#x7406;"><a href="#&#x7F51;&#x7EDC;&#x7BA1;&#x7406;" class="headerlink" title="&#x7F51;&#x7EDC;&#x7BA1;&#x7406;"></a>&#x7F51;&#x7EDC;&#x7BA1;&#x7406;</h2><p>ip&#x548C;dns</p>
 <blockquote>
 <p>&#x4FEE;&#x6539;dns &#x4E00;&#x822C;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x79D1;&#x5B66;&#x4E0A;&#x7F51; &#x6C38;&#x4E45;&#x4FEE;&#x6539;&#xFF1A;cd /etc/resolvconf/resolv.conf.d<br>vim base<br>&#x7F51;&#x7EDC;&#x4EE3;&#x7406;<br><a href="http://morning.work/page/2015-12/install-shadowsocks-on-centos-7.html" target="_blank" rel="external">http://morning.work/page/2015-12/install-shadowsocks-on-centos-7.html</a></p>
