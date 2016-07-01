@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-07-01T01:16:47.839Z</updated>
+  <updated>2016-07-01T04:57:58.819Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python工作学习必备模块</title>
+    <link href="http://whisper1225.github.io/2016/07/01/python%E5%B7%A5%E4%BD%9C%E5%AD%A6%E4%B9%A0%E5%BF%85%E5%A4%87%E6%A8%A1%E5%9D%97/"/>
+    <id>http://whisper1225.github.io/2016/07/01/python工作学习必备模块/</id>
+    <published>2016-07-01T04:57:05.000Z</published>
+    <updated>2016-07-01T04:57:58.819Z</updated>
+    
+    <content type="html">&lt;p&gt;python &amp;#x5E38;&amp;#x7528;&amp;#x6A21;&amp;#x5757;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;python 常用模块&lt;br&gt;
+    
+    </summary>
+    
+      <category term="编程语言" scheme="http://whisper1225.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="python" scheme="http://whisper1225.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>爬虫学习笔记</title>
@@ -667,36 +690,6 @@
     
     
       <category term="下载工具" scheme="http://whisper1225.github.io/tags/%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>编程基础杂记</title>
-    <link href="http://whisper1225.github.io/2016/04/06/%E7%BC%96%E7%A8%8B%E6%9D%82%E7%A2%8E%E8%AE%B0%E5%BD%95/"/>
-    <id>http://whisper1225.github.io/2016/04/06/编程杂碎记录/</id>
-    <published>2016-04-06T04:05:20.000Z</published>
-    <updated>2016-06-24T09:12:17.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x7F16;&amp;#x7A0B;&amp;#x6742;&amp;#x788E;&amp;#x8BB0;&amp;#x5F55;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;#x5982;&amp;#x4F55;&amp;#x533A;&amp;#x5206;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684;jdk&amp;#x662F;sun&amp;#x8FD8;&amp;#x662F;openjdk&amp;#xFF1F;&lt;br&gt; &amp;#x7B54;&amp;#xFF1A;&amp;#x76F4;&amp;#x63A5;java -version,&amp;#x5982;&amp;#x679C;&amp;#x662F;sun&amp;#x90A3;&amp;#x4E48;&amp;#x4F1A;&amp;#x663E;&amp;#x793A;java xx&amp;#xFF0C;&amp;#x53CD;&amp;#x4E4B;&amp;#x5219;&amp;#x662F;openjdk&lt;/li&gt;
-&lt;li&gt;jdk&amp;#x7684;server&amp;#x6A21;&amp;#x5F0F;&amp;#x548C;client&amp;#x6A21;&amp;#x5F0F;&amp;#x5230;&amp;#x5E95;&amp;#x6709;&amp;#x4EC0;&amp;#x4E48;&amp;#x533A;&amp;#x522B;&amp;#xFF1F;&lt;br&gt; &amp;#x7B54;&amp;#xFF1A;client&amp;#x52A0;&amp;#x8F7D;&amp;#x5FEB;&amp;#xFF0C;server&amp;#x52A0;&amp;#x8F7D;&amp;#x6CA1;&amp;#x6709;client&amp;#x5FEB;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x8FD0;&amp;#x884C;&amp;#x8F83;&amp;#x5FEB;&amp;#x3002;&amp;#x684C;&amp;#x9762;&amp;#x5E94;&amp;#x7528;&amp;#x4F7F;&amp;#x7528;client&amp;#x6A21;&amp;#x5F0F;&amp;#xFF0C;&amp;#x670D;&amp;#x52A1;&amp;#x5668;&amp;#x7A0B;&amp;#x5E8F;&amp;#x4F7F;&amp;#x7528;server&amp;#x3002;&amp;#x5206;&amp;#x522B;&amp;#x5BF9;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x5E94;&amp;#x7528;&amp;#x573A;&amp;#x666F;&amp;#x505A;&amp;#x4E86;&amp;#x4F18;&amp;#x5316;&amp;#x3002;&lt;/li&gt;
-&lt;li&gt;Linux&amp;#x4E0D;&amp;#x540C;&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x914D;&amp;#x7F6E;&amp;#x7684;&amp;#x73AF;&amp;#x5883;&amp;#x53D8;&amp;#x91CF;&amp;#x5177;&amp;#x4F53;&amp;#x6709;&amp;#x4EC0;&amp;#x4E48;&amp;#x533A;&amp;#x522B;&amp;#xFF1F;&lt;br&gt; &amp;#x7B54;&amp;#xFF1A;&amp;#x5728;bash&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;export&amp;#x8FD9;&amp;#x79CD;&amp;#x65B9;&amp;#x5F0F;&amp;#x53EA;&amp;#x5BF9;&amp;#x5F53;&amp;#x524D;shell&amp;#x6709;&amp;#x6548;&amp;#xFF0C;&amp;#x8FD9;&amp;#x91CC;&amp;#x5C31;&amp;#x4E0D;&amp;#x8BF4;&amp;#x4E86;&amp;#x3002;&lt;br&gt;&amp;#x4E00;&amp;#x822C;&amp;#x5E38;&amp;#x89C1;&amp;#x7684;&amp;#x5C31;&amp;#x662F;&amp;#x5728;/etc/profile&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x6DFB;&amp;#x52A0;&amp;#x73AF;&amp;#x5883;&amp;#x53D8;&amp;#x91CF;&amp;#x6216;&amp;#x8005;&amp;#x5728;~/.bashrc&amp;#x4E2D;&amp;#x6DFB;&amp;#x52A0;&amp;#x3002;&lt;br&gt;&amp;#x533A;&amp;#x522B;&amp;#x662F;&amp;#x5728;etc&amp;#x4E2D;&amp;#x4FEE;&amp;#x6539;&amp;#x662F;&amp;#x5BF9;&amp;#x6240;&amp;#x6709;&amp;#x7528;&amp;#x6237;&amp;#x751F;&amp;#x6548;(&amp;#x6240;&amp;#x6709;&amp;#x7528;&amp;#x6237;&amp;#x767B;&amp;#x5F55;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x90FD;&amp;#x4F1A;&amp;#x88AB;&amp;#x8BFB;&amp;#x53D6;&amp;#x4E00;&amp;#x6B21;)&amp;#xFF0C;&lt;br&gt;bashrc&amp;#x5219;&amp;#x662F;&amp;#x5728;&amp;#x5F53;&amp;#x524D;&amp;#x7528;&amp;#x6237;&amp;#x767B;&amp;#x5F55;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x8BFB;&amp;#x53D6;&amp;#x3002;&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;编程杂碎记录&lt;br&gt;
-    
-    </summary>
-    
-      <category term="编程语言" scheme="http://whisper1225.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="小知识" scheme="http://whisper1225.github.io/tags/%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
-    
-      <category term="编程" scheme="http://whisper1225.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
