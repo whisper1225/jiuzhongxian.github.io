@@ -66,13 +66,10 @@
     <link href="http://whisper1225.github.io/2016/07/01/python%E5%B7%A5%E4%BD%9C%E5%AD%A6%E4%B9%A0%E5%BF%85%E5%A4%87%E6%A8%A1%E5%9D%97/"/>
     <id>http://whisper1225.github.io/2016/07/01/python工作学习必备模块/</id>
     <published>2016-07-01T04:57:05.000Z</published>
-    <updated>2016-07-04T14:58:00.178Z</updated>
+    <updated>2016-07-04T16:39:25.484Z</updated>
     
     <content type="html">&lt;p&gt;python &amp;#x5E38;&amp;#x7528;&amp;#x6A21;&amp;#x5757;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;numpy&quot;&gt;&lt;a href=&quot;#NumPy&quot; class=&quot;headerlink&quot; title=&quot;NumPy&quot;&gt;&lt;/a&gt;NumPy&lt;/h2&gt;&lt;p&gt;&amp;#x5176;&amp;#x5B9E;NumPy&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x591A;&amp;#x7EF4;&amp;#x6570;&amp;#x7EC4;&amp;#x5BB9;&amp;#x5668;&amp;#xFF0C;&amp;#x53E6;&amp;#x5916;&amp;#x8FD8;&amp;#x63D0;&amp;#x4F9B;&amp;#x4E86;&amp;#x77E9;&amp;#x9635;&amp;#x8FD0;&amp;#x7B97;&lt;/p&gt;
-&lt;h2 id=&quot;pandas&quot;&gt;&lt;a href=&quot;#Pandas&quot; class=&quot;headerlink&quot; title=&quot;Pandas&quot;&gt;&lt;/a&gt;Pandas&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;&amp;#x5728;p2&amp;#x4E2D;&amp;#x76F4;&amp;#x63A5;&amp;#x4F7F;&amp;#x7528;pip install &amp;#x5B89;&amp;#x88C5;&amp;#x4F1A;&amp;#x5305;&amp;#x9519;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h1 id=&quot;&amp;#x5947;&amp;#x602A;&amp;#x8BED;&amp;#x6CD5;&quot;&gt;&lt;a href=&quot;#&amp;#x5947;&amp;#x602A;&amp;#x8BED;&amp;#x6CD5;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5947;&amp;#x602A;&amp;#x8BED;&amp;#x6CD5;&quot;&gt;&lt;/a&gt;&amp;#x5947;&amp;#x602A;&amp;#x8BED;&amp;#x6CD5;&lt;/h1&gt;&lt;p&gt;word = &amp;#x2018;hello&amp;#x2019;&lt;br&gt;word1 = &amp;#x2018;fjiegji%sfeg&amp;#x2019; % word  # &amp;#x8FD9;&amp;#x4E2A;&amp;#x5176;&amp;#x5B9E;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x8BED;&amp;#x53E5;&lt;br&gt;print word1&lt;/p&gt;
 </content>
     
     <summary type="html">
