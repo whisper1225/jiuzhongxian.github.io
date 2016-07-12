@@ -624,7 +624,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Docker历险记一]]></title>
+      <title><![CDATA[Docker历险记]]></title>
       <url>http://whisper1225.github.io/2016/03/27/Docker%E5%8E%86%E9%99%A9%E8%AE%B0%E4%B8%80/</url>
       <content type="html"><![CDATA[<p>docker&#x5B89;&#x88C5;&#x914D;&#x7F6E; &#x722C;&#x5751;&#x8BB0;<br><a id="more"></a></p>
 <h2 id="docker&#x6982;&#x5FF5;"><a href="#Docker&#x6982;&#x5FF5;" class="headerlink" title="Docker&#x6982;&#x5FF5;"></a>Docker&#x6982;&#x5FF5;</h2><ol>
@@ -632,6 +632,9 @@
 <li>Docker &#x548C;vm&#x76F8;&#x6BD4;&#x6709;&#x4EC0;&#x4E48;&#x4F18;&#x52BF;&#xFF0C;&#x5176;&#x5185;&#x5728;&#x539F;&#x56E0;&#x662F;&#x4EC0;&#x4E48;</li>
 <li>Docker &#x5BF9;&#x4E8E;&#x666E;&#x901A;&#x7A0B;&#x5E8F;&#x5458;&#x6709;&#x4EC0;&#x4E48;&#x4F5C;&#x7528;</li>
 </ol>
+<blockquote>
+<p><a href="http://bbs.jointforce.com/topic/17259" target="_blank" rel="external">docker&#x901A;&#x4FD7;&#x89E3;&#x91CA;</a></p>
+</blockquote>
 <h2 id="&#x5728;centos7&#x4E2D;&#x5B89;&#x88C5;"><a href="#&#x5728;CentOs7&#x4E2D;&#x5B89;&#x88C5;" class="headerlink" title="&#x5728;CentOs7&#x4E2D;&#x5B89;&#x88C5;"></a><strong>&#x5728;CentOs7&#x4E2D;&#x5B89;&#x88C5;</strong></h2><p>&#x5B89;&#x88C5;&#x6761;&#x4EF6; &#x5185;&#x6838;&#x7248;&#x672C;CentOs6&#x6CE8;&#x610F;&#xFF0C;CentOs7&#x53EF;&#x4EE5;&#xFF0C;&#x800C;&#x4E14;CentOS7 &#x7CFB;&#x7EDF; CentOS-Extras &#x5E93;&#x4E2D;&#x5DF2;&#x5E26; Docker&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5B89;&#x88C5;&#x3002;</p>
 <blockquote>
 <p>&#x6211;&#x7684;&#x73AF;&#x5883;&#x5C31;&#x662F;&#x963F;&#x91CC;&#x4E91;&gt;CentOs7<br><a href="http://wiki.jikexueyuan.com/project/docker-technology-and-combat/centos.html" target="_blank" rel="external">http://wiki.jikexueyuan.com/project/docker-technology-and-combat/centos.html</a></p>
