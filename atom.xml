@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-07-13T08:26:24.427Z</updated>
+  <updated>2016-07-13T10:11:09.696Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>短网址讨论</title>
+    <link href="http://whisper1225.github.io/2016/07/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/"/>
+    <id>http://whisper1225.github.io/2016/07/13/短网址讨论/</id>
+    <published>2016-07-13T09:40:41.000Z</published>
+    <updated>2016-07-13T10:11:09.696Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;#x77ED;&amp;#x94FE;&amp;#x63A5;&amp;#x670D;&amp;#x52A1;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x662F;&amp;#x5426;&amp;#x53EF;&amp;#x4EE5;&amp;#x6839;&amp;#x636E;&amp;#x7B97;&amp;#x6CD5;&amp;#x8FD8;&amp;#x539F;&amp;#xFF0C;&amp;#x5982;&amp;#x679C;&amp;#x4E0D;&amp;#x80FD;&amp;#x8FD8;&amp;#x539F;&amp;#x5C31;&amp;#x9700;&amp;#x8981;&amp;#x5BF9;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6620;&amp;#x5C04;&amp;#x5173;&amp;#x7CFB;&amp;#x8FDB;&amp;#x884C;&amp;#x5B58;&amp;#x50A8; &lt;/li&gt;
+&lt;li&gt;&amp;#x8BE5;&amp;#x7B97;&amp;#x6CD5;&amp;#x662F;&amp;#x5426;&amp;#x80FD;&amp;#x591F;&amp;#x4FDD;&amp;#x8BC1;&amp;#x77ED;&amp;#x7F51;&amp;#x5740;&amp;#x552F;&amp;#x4E00;&amp;#x6027;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/me115/p/4943234.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.cnblogs.com/me115/p/4943234.html&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;短链接服务&lt;br&gt;
+    
+    </summary>
+    
+      <category term="奇技淫巧" scheme="http://whisper1225.github.io/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"/>
+    
+    
+      <category term="短网址" scheme="http://whisper1225.github.io/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/"/>
+    
+  </entry>
   
   <entry>
     <title>Java语法基础</title>
@@ -687,36 +715,6 @@
       <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
       <category term="问题记录" scheme="http://whisper1225.github.io/tags/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>胡言乱语</title>
-    <link href="http://whisper1225.github.io/2016/04/07/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
-    <id>http://whisper1225.github.io/2016/04/07/胡言乱语/</id>
-    <published>2016-04-06T16:57:06.000Z</published>
-    <updated>2016-06-24T08:42:14.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x80E1;&amp;#x8A00;&amp;#x4E71;&amp;#x8BED;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x5728;mac xos&amp;#x4E2D;&amp;#x5C45;&amp;#x7136;&amp;#x53D1;&amp;#x73B0;&amp;#x6709;&amp;#x9053;&amp;#x652F;&amp;#x6301;markdown&amp;#x4E86;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x771F;&amp;#x7684;&amp;#x505A;&amp;#x5F97;&amp;#x592A;&amp;#x4E11;&amp;#x4E86;&amp;#x3002;&amp;#x671F;&amp;#x5F85;&amp;#x6709;&amp;#x9053;&amp;#x4E91;&amp;#x7B14;&amp;#x8BB0;&amp;#x7684;markdown&amp;#x505A;&amp;#x5F97;&amp;#x8D8A;&amp;#x6765;&amp;#x8D8A;&amp;#x597D;&amp;#x770B;&lt;/li&gt;
-&lt;li&gt;hexo&amp;#x535A;&amp;#x5BA2;&amp;#x548C;CSDN&amp;#x7684;markdown&amp;#x90FD;&amp;#x662F;&amp;#x652F;&amp;#x6301;&amp;#x6269;&amp;#x5C55;&amp;#x8BED;&amp;#x6CD5;&amp;#x7684;&amp;#x3002;&amp;#x80FD;&amp;#x591F;&amp;#x76F4;&amp;#x63A5;&amp;#x5728;&amp;#x6587;&amp;#x672C;&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;&amp;#x67D0;&amp;#x4E9B;HTML&amp;#x4EE3;&amp;#x7801;&lt;/li&gt;
-&lt;li&gt;chrome&amp;#x4E2D;&amp;#x590D;&amp;#x5236;gif&amp;#x56FE;&amp;#x7247;&amp;#xFF0C;&amp;#x9009;&amp;#x4E2D;&amp;#x590D;&amp;#x5236;&amp;#xFF0C;&amp;#x4E00;&amp;#x822C;&amp;#x53EA;&amp;#x80FD;&amp;#x9009;&amp;#x4E2D;&amp;#x4E00;&amp;#x5E27;&amp;#xFF0C;&amp;#x6211;&amp;#x4EEC;&amp;#x53EF;&amp;#x901A;&amp;#x8FC7;&amp;#x62D6;&amp;#x52A8;&amp;#x65B9;&amp;#x5F0F;&amp;#x590D;&amp;#x5236;gif,&amp;#x4F46;&amp;#x662F;&amp;#x7531;&amp;#x4E8E;&amp;#x5176;&amp;#x4ED6;&amp;#x539F;&amp;#x56E0;&amp;#xFF0C;&amp;#x53EF;&amp;#x80FD;&amp;#x65E0;&amp;#x6CD5;&amp;#x5B8C;&amp;#x6574;&amp;#x590D;&amp;#x5236;GIF&amp;#x3002;&amp;#x5728;Firefox&amp;#x4E2D;&amp;#x6709;&amp;#x4E00;&amp;#x4E2A;&amp;#x811A;&amp;#x672C;&amp;#x53EF;&amp;#x4EE5; chrome&amp;#x4E2D;&amp;#x8C8C;&amp;#x4F3C;&amp;#x6CA1;&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;胡言乱语&lt;br&gt;
-    
-    </summary>
-    
-      <category term="胡思乱想" scheme="http://whisper1225.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
-    
-    
-      <category term="有道" scheme="http://whisper1225.github.io/tags/%E6%9C%89%E9%81%93/"/>
-    
-      <category term="markdown" scheme="http://whisper1225.github.io/tags/markdown/"/>
     
   </entry>
   
