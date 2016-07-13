@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-07-05T03:05:56.725Z</updated>
+  <updated>2016-07-13T07:44:14.529Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java语法基础</title>
+    <link href="http://whisper1225.github.io/2016/07/13/Java%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
+    <id>http://whisper1225.github.io/2016/07/13/Java语法基础/</id>
+    <published>2016-07-13T07:42:15.000Z</published>
+    <updated>2016-07-13T07:44:14.529Z</updated>
+    
+    <content type="html">&lt;p&gt;Java &amp;#x8BED;&amp;#x6CD5;&amp;#x57FA;&amp;#x7840;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;equals-&amp;#x548C;&quot;&gt;&lt;a href=&quot;#equals-&amp;#x548C;&quot; class=&quot;headerlink&quot; title=&quot;equals &amp;#x548C; ==&quot;&gt;&lt;/a&gt;equals &amp;#x548C; ==&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.importnew.com/6804.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x6BD4;&amp;#x8F83;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Java 语法基础&lt;br&gt;
+    
+    </summary>
+    
+      <category term="编程语言" scheme="http://whisper1225.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="Java" scheme="http://whisper1225.github.io/tags/Java/"/>
+    
+      <category term="编程语言" scheme="http://whisper1225.github.io/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>利用Python进行数据分析</title>
@@ -684,46 +712,6 @@
       <category term="有道" scheme="http://whisper1225.github.io/tags/%E6%9C%89%E9%81%93/"/>
     
       <category term="markdown" scheme="http://whisper1225.github.io/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hadoop学习笔记</title>
-    <link href="http://whisper1225.github.io/2016/04/07/Hadoop%E7%B3%BB%E5%88%97%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/"/>
-    <id>http://whisper1225.github.io/2016/04/07/Hadoop系列入门笔记/</id>
-    <published>2016-04-06T16:43:43.000Z</published>
-    <updated>2016-06-24T08:02:22.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x5927;&amp;#x6570;&amp;#x636E;&amp;#x5B66;&amp;#x4E60;&amp;#x7B14;&amp;#x8BB0;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;&amp;#x5B89;&amp;#x88C5;&amp;#x914D;&amp;#x7F6E;&quot;&gt;&lt;a href=&quot;#&amp;#x5B89;&amp;#x88C5;&amp;#x914D;&amp;#x7F6E;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5B89;&amp;#x88C5;&amp;#x914D;&amp;#x7F6E;&quot;&gt;&lt;/a&gt;&amp;#x5B89;&amp;#x88C5;&amp;#x914D;&amp;#x7F6E;&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6A21;&amp;#x5F0F;&quot;&gt;&lt;a href=&quot;#&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6A21;&amp;#x5F0F;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6A21;&amp;#x5F0F;&quot;&gt;&lt;/a&gt;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x6A21;&amp;#x5F0F;&lt;/h3&gt;&lt;p&gt;&amp;#x5C1A;&amp;#x5B66;&amp;#x5802;-&amp;#x8096;&amp;#x51B0;&lt;br&gt;&amp;#x5728;&amp;#x8BB2;node1&amp;#x7684;&amp;#x516C;&amp;#x94A5;&amp;#x5185;&amp;#x5BB9;&amp;#x76F4;&amp;#x63A5;&amp;#x590D;&amp;#x5236;&amp;#x7ED9;node&amp;#x4E2D;&amp;#x7684;&amp;#x8BA4;&amp;#x8BC1;&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#xFF0C;&amp;#x60F3;&amp;#x4EE5;&amp;#x6B64;&amp;#x5B9E;&amp;#x73B0;&amp;#x514D;&amp;#x5BC6;&amp;#x7801;&amp;#x767B;&amp;#x9646;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x6CA1;&amp;#x6709;&amp;#x6210;&amp;#x529F;&amp;#x3002;&amp;#x6700;&amp;#x540E;&amp;#x7684;&amp;#x89E3;&amp;#x51B3;&amp;#x529E;&amp;#x6CD5;&amp;#x662F;&amp;#x5728;node2,node3,&amp;#x4E2D;&amp;#x751F;&amp;#x6210;&amp;#x5BC6;&amp;#x94A5;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x5B9E;&amp;#x73B0;&amp;#x672C;&amp;#x5730;&amp;#x514D;&amp;#x5BC6;&amp;#x7801;&amp;#x767B;&amp;#x9646;&amp;#x3002;&amp;#x7136;&amp;#x540E;&amp;#x5728;node1&amp;#x751F;&amp;#x6210;&amp;#x8BA4;&amp;#x8BC1;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x76F4;&amp;#x63A5;&amp;#x5C06;&amp;#x8BE5;&amp;#x6587;&amp;#x4EF6;&amp;#x901A;&amp;#x8FC7;scp&amp;#x5C06;&amp;#x6587;&amp;#x4EF6;&amp;#x4F20;&amp;#x8F93;&amp;#x5230;node2,&amp;#x7136;&amp;#x540E;&amp;#x5C06;&amp;#x8BE5;&amp;#x5185;&amp;#x5BB9;&amp;#x91CD;&amp;#x5B9A;&amp;#x5411;&amp;#x8FFD;&amp;#x52A0;&amp;#x5230;&amp;#x8BA4;&amp;#x8BC1;&amp;#x6587;&amp;#x4EF6;&amp;#x4E2D;&amp;#x3002;OK&lt;/p&gt;
-&lt;h2 id=&quot;hdfs&quot;&gt;&lt;a href=&quot;#HDFS&quot; class=&quot;headerlink&quot; title=&quot;HDFS&quot;&gt;&lt;/a&gt;HDFS&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x7279;&amp;#x6027;&amp;#x53CA;&amp;#x6D41;&amp;#x7A0B;&quot;&gt;&lt;a href=&quot;#&amp;#x57FA;&amp;#x672C;&amp;#x7279;&amp;#x6027;&amp;#x53CA;&amp;#x6D41;&amp;#x7A0B;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x7279;&amp;#x6027;&amp;#x53CA;&amp;#x6D41;&amp;#x7A0B;&quot;&gt;&lt;/a&gt;&amp;#x57FA;&amp;#x672C;&amp;#x7279;&amp;#x6027;&amp;#x53CA;&amp;#x6D41;&amp;#x7A0B;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&amp;#x8282;&amp;#x70B9;&amp;#x4E4B;&amp;#x95F4;&amp;#x7684;&amp;#x901A;&amp;#x4FE1;&amp;#x673A;&amp;#x5236;&lt;br&gt;2.&lt;h3 id=&quot;&amp;#x8BFB;&amp;#x5199;&amp;#x539F;&amp;#x7406;&quot;&gt;&lt;a href=&quot;#&amp;#x8BFB;&amp;#x5199;&amp;#x539F;&amp;#x7406;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8BFB;&amp;#x5199;&amp;#x539F;&amp;#x7406;&quot;&gt;&lt;/a&gt;&amp;#x8BFB;&amp;#x5199;&amp;#x539F;&amp;#x7406;&lt;/h3&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;1.&amp;#x526F;&amp;#x672C;&amp;#x7684;&amp;#x8BFB;&amp;#x5199;&amp;#x662F;&amp;#x7531;&amp;#x524D;&amp;#x4E00;&amp;#x4E2A;&amp;#x8282;&amp;#x70B9;&amp;#x5F00;&amp;#x542F;&amp;#x8FDB;&amp;#x7A0B;&amp;#x8FDB;&amp;#x884C;&amp;#x7684;&amp;#xFF0C;&amp;#x5B8C;&amp;#x5168;&amp;#x4E0D;&amp;#x7528;&amp;#x5BA2;&amp;#x6237;&amp;#x7AEF;&amp;#x64CD;&amp;#x4F5C;&lt;/p&gt;
-&lt;h3 id=&quot;hdfs&amp;#x53EF;&amp;#x9760;&amp;#x6027;&amp;#x4FDD;&amp;#x8BC1;&amp;#x5173;&amp;#x952E;&amp;#x56E0;&amp;#x7D20;&quot;&gt;&lt;a href=&quot;#hdfs&amp;#x53EF;&amp;#x9760;&amp;#x6027;&amp;#x4FDD;&amp;#x8BC1;&amp;#x5173;&amp;#x952E;&amp;#x56E0;&amp;#x7D20;&quot; class=&quot;headerlink&quot; title=&quot;hdfs&amp;#x53EF;&amp;#x9760;&amp;#x6027;&amp;#x4FDD;&amp;#x8BC1;&amp;#x5173;&amp;#x952E;&amp;#x56E0;&amp;#x7D20;&quot;&gt;&lt;/a&gt;hdfs&amp;#x53EF;&amp;#x9760;&amp;#x6027;&amp;#x4FDD;&amp;#x8BC1;&amp;#x5173;&amp;#x952E;&amp;#x56E0;&amp;#x7D20;&lt;/h3&gt;&lt;h3 id=&quot;&amp;#x5E38;&amp;#x89C1;&amp;#x64CD;&amp;#x4F5C;&quot;&gt;&lt;a href=&quot;#&amp;#x5E38;&amp;#x89C1;&amp;#x64CD;&amp;#x4F5C;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5E38;&amp;#x89C1;&amp;#x64CD;&amp;#x4F5C;&quot;&gt;&lt;/a&gt;&amp;#x5E38;&amp;#x89C1;&amp;#x64CD;&amp;#x4F5C;&lt;/h3&gt;&lt;p&gt;&amp;#x5E38;&amp;#x89C1;&amp;#x64CD;&amp;#x4F5C; &amp;#x719F;&amp;#x6089;Java api&amp;#x548C;shell&amp;#x547D;&amp;#x4EE4;&amp;#x64CD;&amp;#x4F5C;&lt;/p&gt;
-&lt;h2 id=&quot;mapreduce&quot;&gt;&lt;a href=&quot;#MapReduce&quot; class=&quot;headerlink&quot; title=&quot;MapReduce&quot;&gt;&lt;/a&gt;MapReduce&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x8F93;&amp;#x5165;&amp;#x8F93;&amp;#x51FA;&amp;#x683C;&amp;#x5F0F;&quot;&gt;&lt;a href=&quot;#&amp;#x8F93;&amp;#x5165;&amp;#x8F93;&amp;#x51FA;&amp;#x683C;&amp;#x5F0F;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8F93;&amp;#x5165;&amp;#x8F93;&amp;#x51FA;&amp;#x683C;&amp;#x5F0F;&quot;&gt;&lt;/a&gt;&amp;#x8F93;&amp;#x5165;&amp;#x8F93;&amp;#x51FA;&amp;#x683C;&amp;#x5F0F;&lt;/h3&gt;&lt;h3 id=&quot;map-&amp;#x548C;-reduce-&amp;#x5927;&amp;#x5C0F;&quot;&gt;&lt;a href=&quot;#Map-&amp;#x548C;-Reduce-&amp;#x5927;&amp;#x5C0F;&quot; class=&quot;headerlink&quot; title=&quot;Map &amp;#x548C; Reduce &amp;#x5927;&amp;#x5C0F;&quot;&gt;&lt;/a&gt;Map &amp;#x548C; Reduce &amp;#x5927;&amp;#x5C0F;&lt;/h3&gt;&lt;h3 id=&quot;shuttle&amp;#x7684;&amp;#x8BE6;&amp;#x7EC6;&amp;#x8FC7;&amp;#x7A0B;&quot;&gt;&lt;a href=&quot;#shuttle&amp;#x7684;&amp;#x8BE6;&amp;#x7EC6;&amp;#x8FC7;&amp;#x7A0B;&quot; class=&quot;headerlink&quot; title=&quot;shuttle&amp;#x7684;&amp;#x8BE6;&amp;#x7EC6;&amp;#x8FC7;&amp;#x7A0B;&quot;&gt;&lt;/a&gt;shuttle&amp;#x7684;&amp;#x8BE6;&amp;#x7EC6;&amp;#x8FC7;&amp;#x7A0B;&lt;/h3&gt;&lt;h2 id=&quot;&amp;#x95EE;&amp;#x9898;&quot;&gt;&lt;a href=&quot;#&amp;#x95EE;&amp;#x9898;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x95EE;&amp;#x9898;&quot;&gt;&lt;/a&gt;&amp;#x95EE;&amp;#x9898;&lt;/h2&gt;&lt;p&gt;mapred 50030&amp;#x7AEF;&amp;#x53E3;&amp;#x67E5;&amp;#x770B; &amp;#x8FDE;&amp;#x63A5; MapRed&amp;#x7AEF;&amp;#x53E3;&amp;#x662F;9001 DFS&amp;#x7AEF;&amp;#x53E3;&amp;#x662F;9000&lt;br&gt;&lt;a href=&quot;http://www.cnblogs.com/laov/p/3497889.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#x6709;&amp;#x4EBA;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x5728;window&amp;#x4E0A;&amp;#x76F4;&amp;#x63A5;&amp;#x5B89;&amp;#x88C5;Hadoop&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;hadoop&amp;#x5B9E;&amp;#x6218;&amp;#x7BC7;&quot;&gt;&lt;a href=&quot;#Hadoop&amp;#x5B9E;&amp;#x6218;&amp;#x7BC7;&quot; class=&quot;headerlink&quot; title=&quot;Hadoop&amp;#x5B9E;&amp;#x6218;&amp;#x7BC7;&quot;&gt;&lt;/a&gt;Hadoop&amp;#x5B9E;&amp;#x6218;&amp;#x7BC7;&lt;/h1&gt;&lt;h2 id=&quot;ide&quot;&gt;&lt;a href=&quot;#IDE&quot; class=&quot;headerlink&quot; title=&quot;IDE&quot;&gt;&lt;/a&gt;IDE&lt;/h2&gt;&lt;p&gt;Hadoop&amp;#x63D0;&amp;#x4F9B;&amp;#x4E86;&amp;#x4E00;&amp;#x4E9B;&amp;#x63D2;&amp;#x4EF6;&amp;#x6765;&amp;#x5B9E;&amp;#x73B0;&amp;#x5BF9;IDE&amp;#x7684;&amp;#x652F;&amp;#x6301;&amp;#xFF0C;&amp;#x5728;&amp;#x8BE5;&amp;#x63D2;&amp;#x4EF6;&amp;#x652F;&amp;#x6301;&amp;#x76EE;&amp;#x5F55;&amp;#x7BA1;&amp;#x7406;&amp;#xFF0C;&amp;#x6587;&amp;#x4EF6;&amp;#x7BA1;&amp;#x7406;&amp;#x7B49;&amp;#x3002;&amp;#x6BD4;&amp;#x5982;&amp;#x53EF;&amp;#x4EE5;&amp;#x4ECE;&amp;#x672C;&amp;#x5730;&amp;#x4E0A;&amp;#x4F20;&amp;#x6587;&amp;#x4EF6;&amp;#x5230;hdfs.&lt;br&gt;&amp;#x7A0B;&amp;#x5E8F;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;IDE&amp;#x4E2D;&amp;#x53E6;&amp;#x5F00;&amp;#x4E00;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#x6765;&amp;#x5B9E;&amp;#x73B0;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#x8096;&amp;#x658C;&amp;#x7684;&amp;#x89C6;&amp;#x9891;&amp;#x7B2C;24&amp;#x96C6;&amp;#x662F;&amp;#x6F14;&amp;#x793A;wc&amp;#x7A0B;&amp;#x5E8F;&amp;#x7F16;&amp;#x5199;&amp;#x3002;&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;大数据学习笔记&lt;br&gt;
-    
-    </summary>
-    
-      <category term="大数据" scheme="http://whisper1225.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
-    
-    
-      <category term="Hadoop" scheme="http://whisper1225.github.io/tags/Hadoop/"/>
-    
-      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
-    
-      <category term="HDFS" scheme="http://whisper1225.github.io/tags/HDFS/"/>
-    
-      <category term="MapReduce" scheme="http://whisper1225.github.io/tags/MapReduce/"/>
     
   </entry>
   
