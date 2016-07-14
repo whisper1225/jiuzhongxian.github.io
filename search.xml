@@ -4,6 +4,14 @@
   
     
     <entry>
+      <title><![CDATA[redis学习]]></title>
+      <url>http://whisper1225.github.io/2016/07/14/redis%E5%AD%A6%E4%B9%A0/</url>
+      <content type="html"><![CDATA[<p>redis<br><a id="more"></a></p>
+<h2 id="&#x5B9E;&#x8DF5;"><a href="#&#x5B9E;&#x8DF5;" class="headerlink" title="&#x5B9E;&#x8DF5;"></a>&#x5B9E;&#x8DF5;</h2><p>redis key<br>&#x7528;String&#x7C7B;&#x578B;&#xFF0C;&#x539F;&#x59CB;url&#x4E00;&#x822C;&#x4E0D;&#x8D85;&#x8FC7;&#x4E94;&#x767E;<br>key &#x77ED;&#x94FE;&#x63A5;&#xFF0C;&#x503C;&#x4E3A;&#x539F;&#x59CB;url</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[短网址讨论]]></title>
       <url>http://whisper1225.github.io/2016/07/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/</url>
       <content type="html"><![CDATA[<p>&#x77ED;&#x94FE;&#x63A5;&#x670D;&#x52A1;<br><a id="more"></a></p>
@@ -15,8 +23,9 @@
 <blockquote>
 <font color="red"> todo:&#x81EA;&#x5DF1;&#x505A;&#x4E00;&#x4E2A;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;&#xFF0C;&#x7528;redis&#x6765;&#x505A;&#x6570;&#x636E;&#x5E93;&#x670D;&#x52A1;&#x5668;</font>
 
+
 </blockquote>
-<p><a href="http://www.cnblogs.com/me115/p/4943234.html" target="_blank" rel="external">&#x8BBE;&#x8BA1;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;</a></p>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;"><a href="#&#x53C2;&#x8003;&#x6587;&#x7AE0;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x7AE0;"></a>&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2><p><a href="http://www.cnblogs.com/me115/p/4943234.html" target="_blank" rel="external">&#x8BBE;&#x8BA1;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;</a></p>
 ]]></content>
     </entry>
     
