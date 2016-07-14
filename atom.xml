@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-07-14T03:23:32.046Z</updated>
+  <updated>2016-07-14T11:48:22.265Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>redis学习</title>
+    <title>redis 学习</title>
     <link href="http://whisper1225.github.io/2016/07/14/redis%E5%AD%A6%E4%B9%A0/"/>
     <id>http://whisper1225.github.io/2016/07/14/redis学习/</id>
     <published>2016-07-14T02:20:20.000Z</published>
-    <updated>2016-07-14T03:23:32.046Z</updated>
+    <updated>2016-07-14T11:48:22.265Z</updated>
     
     <content type="html">&lt;p&gt;redis&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;&amp;#x5B9E;&amp;#x8DF5;&quot;&gt;&lt;a href=&quot;#&amp;#x5B9E;&amp;#x8DF5;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5B9E;&amp;#x8DF5;&quot;&gt;&lt;/a&gt;&amp;#x5B9E;&amp;#x8DF5;&lt;/h2&gt;&lt;p&gt;redis key&lt;br&gt;&amp;#x7528;String&amp;#x7C7B;&amp;#x578B;&amp;#xFF0C;&amp;#x539F;&amp;#x59CB;url&amp;#x4E00;&amp;#x822C;&amp;#x4E0D;&amp;#x8D85;&amp;#x8FC7;&amp;#x4E94;&amp;#x767E;&lt;br&gt;key &amp;#x77ED;&amp;#x94FE;&amp;#x63A5;&amp;#xFF0C;&amp;#x503C;&amp;#x4E3A;&amp;#x539F;&amp;#x59CB;url&lt;/p&gt;
@@ -423,16 +423,19 @@
     <link href="http://whisper1225.github.io/2016/05/09/MySql%E4%B9%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97/"/>
     <id>http://whisper1225.github.io/2016/05/09/MySql之数据库系列/</id>
     <published>2016-05-09T09:27:22.000Z</published>
-    <updated>2016-06-26T13:33:37.609Z</updated>
+    <updated>2016-07-14T04:31:39.975Z</updated>
     
     <content type="html">&lt;p&gt;Mysql&amp;#x5B66;&amp;#x4E60;&amp;#x7B14;&amp;#x8BB0;&amp;#xFF0C;&amp;#x8BB0;&amp;#x5F55;MySQL&amp;#x5B66;&amp;#x4E60;&amp;#x7684;&amp;#x70B9;&amp;#x70B9;&amp;#x6EF4;&amp;#x6EF4;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;ALTER TABLE groups COMMENT &amp;#x2018;&amp;#x4FEE;&amp;#x6539;&amp;#x8868;&amp;#x6CE8;&amp;#x91CA;&amp;#x2019;&lt;/li&gt;
 &lt;li&gt;ALTER TABLE groups MODIFY COLUMN gname VARCHAR(100) COMMENT &amp;#x2018;&amp;#x4FEE;&amp;#x6539;&amp;#x5217;&amp;#x6CE8;&amp;#x91CA;&amp;#x2019;&lt;/li&gt;
 &lt;li&gt;SHOW FULL COLUMNS FROM groups &amp;#x2013; &amp;#x67E5;&amp;#x770B;&amp;#x5217;&amp;#x6CE8;&amp;#x91CA;&lt;/li&gt;
-&lt;li&gt;mysql&amp;#x5C45;&amp;#x7136;&amp;#x6CA1;&amp;#x6709;&amp;#x90A3;&amp;#x79CD;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;&amp;#x6307;&amp;#x5B9A;&amp;#x4F4D;&amp;#x7F6E;&amp;#x63D2;&amp;#x5165;&amp;#x5B57;&amp;#x7B26;&amp;#x4E32;&amp;#x7684;&amp;#x7684;&amp;#x51FD;&amp;#x6570;&lt;blockquote&gt;
+&lt;li&gt;&lt;p&gt;mysql&amp;#x5C45;&amp;#x7136;&amp;#x6CA1;&amp;#x6709;&amp;#x90A3;&amp;#x79CD;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;&amp;#x6307;&amp;#x5B9A;&amp;#x4F4D;&amp;#x7F6E;&amp;#x63D2;&amp;#x5165;&amp;#x5B57;&amp;#x7B26;&amp;#x4E32;&amp;#x7684;&amp;#x7684;&amp;#x51FD;&amp;#x6570;&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;&amp;#x521B;&amp;#x5EFA;&amp;#x8868;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x53EF;&amp;#x4EE5;&amp;#x901A;&amp;#x8FC7;&amp;#x6307;&amp;#x5B9A;comment&amp;#x5173;&amp;#x952E;&amp;#x4E4B;&amp;#x5185;&amp;#x5BB9;&amp;#x6765;&amp;#x6307;&amp;#x5B9A;&amp;#x6CE8;&amp;#x91CA;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x4F7F;&amp;#x7528;Navicat&amp;#x4FEE;&amp;#x6539;&amp;#x8868;&amp;#x503C;&amp;#x65F6;&amp;#x6CE8;&amp;#x610F;&amp;#xFF0C;&amp;#x4E0D;&amp;#x7BA1;&amp;#x662F;&amp;#x5220;&amp;#x9664;&amp;#x4E86;cell&amp;#x4E2D;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x8FD8;&amp;#x662F;&amp;#x624B;&amp;#x52A8;&amp;#x8F93;&amp;#x5165;NULL&amp;#xFF0C;&amp;#x4E4B;&amp;#x7C7B;&amp;#x7684;&amp;#x90FD;&amp;#x4E0D;&amp;#x884C;&amp;#xFF0C;&amp;#x624B;&amp;#x52A8;&amp;#x8F93;&amp;#x5165;&amp;#x7684;&amp;#x90FD;&amp;#x662F;&amp;#x5B57;&amp;#x7B26;&amp;#x4E32;&amp;#xFF0C;&amp;#x5982;&amp;#x679C;&amp;#x60F3;&amp;#x8BBE;&amp;#x7F6E;&amp;#x4E3A;null&amp;#xFF0C;&amp;#x5FC5;&amp;#x987B;&amp;#x901A;&amp;#x8FC7;navicat&amp;#x64CD;&amp;#x4F5C;&amp;#x6765;&amp;#x5B9E;&amp;#x73B0;&amp;#xFF0C;&amp;#x6BD4;&amp;#x5982;&amp;#x53F3;&amp;#x952E;&amp;#x4E2D;&amp;#x5C31;&amp;#x6709;&amp;#x8BBE;&amp;#x7F6E;&amp;#x6210;null&amp;#x3002;max&amp;#xFF0C;count&amp;#x4E4B;&amp;#x7C7B;&amp;#x7684;&amp;#x805A;&amp;#x5408;&amp;#x51FD;&amp;#x6570;&amp;#x4F1A;&amp;#x5FFD;&amp;#x7565;null&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
