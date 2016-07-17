@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://whisper1225.github.io/2016/01/21/hexo_gitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2016-07-17T05:15:11.420Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://whisper1225.github.io/2016/07/14/redis%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2016-07-14T11:48:22.265Z</lastmod>
@@ -82,13 +89,6 @@
     <loc>http://whisper1225.github.io/2014/04/07/Linux%E6%9D%82%E8%AE%B0/</loc>
     
     <lastmod>2016-07-11T03:14:00.676Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://whisper1225.github.io/2016/01/21/github-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%AE%9E%E5%BD%95/</loc>
-    
-    <lastmod>2016-07-06T04:06:50.436Z</lastmod>
     
   </url>
   
