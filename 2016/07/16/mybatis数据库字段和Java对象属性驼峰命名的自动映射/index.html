@@ -86,16 +86,16 @@
 
 
 
-<meta name="description" content="之前一致认为，mybaits中数据库和Java bean属性的命名的对应要不是使用 sql的列别名和属性名称保持一致，亦或者使用resutlMap来详细的指定这种映射规则。今天看到别人的代码，这两种都没有，但是居然报错，百思不得姐。后来才发现mybatis有配置能够完成数据库字段到bean驼峰命名的自动映射，真是井底之蛙。。。">
+<meta name="description" content="mybatis数据库字段和Java对象属性驼峰命名的自动映射">
 <meta property="og:type" content="article">
 <meta property="og:title" content="mybatis数据库字段和Java对象属性驼峰命名的自动映射">
-<meta property="og:url" content="http://whisper1225.github.io/2016/06/30/mybatis数据库字段和Java对象属性驼峰命名的自动映射/index.html">
+<meta property="og:url" content="http://whisper1225.github.io/2016/07/16/mybatis数据库字段和Java对象属性驼峰命名的自动映射/index.html">
 <meta property="og:site_name" content="whisper的博客">
-<meta property="og:description" content="之前一致认为，mybaits中数据库和Java bean属性的命名的对应要不是使用 sql的列别名和属性名称保持一致，亦或者使用resutlMap来详细的指定这种映射规则。今天看到别人的代码，这两种都没有，但是居然报错，百思不得姐。后来才发现mybatis有配置能够完成数据库字段到bean驼峰命名的自动映射，真是井底之蛙。。。">
-<meta property="og:updated_time" content="2016-07-29T16:40:44.576Z">
+<meta property="og:description" content="mybatis数据库字段和Java对象属性驼峰命名的自动映射">
+<meta property="og:updated_time" content="2016-07-31T05:39:02.815Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mybatis数据库字段和Java对象属性驼峰命名的自动映射">
-<meta name="twitter:description" content="之前一致认为，mybaits中数据库和Java bean属性的命名的对应要不是使用 sql的列别名和属性名称保持一致，亦或者使用resutlMap来详细的指定这种映射规则。今天看到别人的代码，这两种都没有，但是居然报错，百思不得姐。后来才发现mybatis有配置能够完成数据库字段到bean驼峰命名的自动映射，真是井底之蛙。。。">
+<meta name="twitter:description" content="mybatis数据库字段和Java对象属性驼峰命名的自动映射">
 
 
 
@@ -116,7 +116,7 @@
 
 
 
-  <link rel="canonical" href="http://whisper1225.github.io/2016/06/30/mybatis数据库字段和Java对象属性驼峰命名的自动映射/"/>
+  <link rel="canonical" href="http://whisper1225.github.io/2016/07/16/mybatis数据库字段和Java对象属性驼峰命名的自动映射/"/>
 
   <title> mybatis数据库字段和Java对象属性驼峰命名的自动映射 | whisper的博客 </title>
 </head>
@@ -312,8 +312,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-06-30T00:32:59+08:00" content="2016-06-30">
-              2016-06-30
+            <time itemprop="dateCreated" datetime="2016-07-16T00:32:59+08:00" content="2016-07-16">
+              2016-07-16
             </time>
           </span>
 
@@ -342,8 +342,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/06/30/mybatis数据库字段和Java对象属性驼峰命名的自动映射/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/30/mybatis数据库字段和Java对象属性驼峰命名的自动映射/" itemprop="commentsCount"></span>
+                <a href="/2016/07/16/mybatis数据库字段和Java对象属性驼峰命名的自动映射/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/16/mybatis数据库字段和Java对象属性驼峰命名的自动映射/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -366,7 +366,8 @@
       
 
       
-        <p>&#x4E4B;&#x524D;&#x4E00;&#x81F4;&#x8BA4;&#x4E3A;&#xFF0C;mybaits&#x4E2D;&#x6570;&#x636E;&#x5E93;&#x548C;Java bean&#x5C5E;&#x6027;&#x7684;&#x547D;&#x540D;&#x7684;&#x5BF9;&#x5E94;&#x8981;&#x4E0D;&#x662F;&#x4F7F;&#x7528; sql&#x7684;&#x5217;&#x522B;&#x540D;&#x548C;&#x5C5E;&#x6027;&#x540D;&#x79F0;&#x4FDD;&#x6301;&#x4E00;&#x81F4;&#xFF0C;&#x4EA6;&#x6216;&#x8005;&#x4F7F;&#x7528;resutlMap&#x6765;&#x8BE6;&#x7EC6;&#x7684;&#x6307;&#x5B9A;&#x8FD9;&#x79CD;&#x6620;&#x5C04;&#x89C4;&#x5219;&#x3002;<br>&#x4ECA;&#x5929;&#x770B;&#x5230;&#x522B;&#x4EBA;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x8FD9;&#x4E24;&#x79CD;&#x90FD;&#x6CA1;&#x6709;&#xFF0C;&#x4F46;&#x662F;&#x5C45;&#x7136;&#x62A5;&#x9519;&#xFF0C;&#x767E;&#x601D;&#x4E0D;&#x5F97;&#x59D0;&#x3002;&#x540E;&#x6765;&#x624D;&#x53D1;&#x73B0;mybatis&#x6709;&#x914D;&#x7F6E;&#x80FD;&#x591F;&#x5B8C;&#x6210;&#x6570;&#x636E;&#x5E93;&#x5B57;&#x6BB5;&#x5230;bean&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x7684;&#x81EA;&#x52A8;&#x6620;&#x5C04;&#xFF0C;&#x771F;&#x662F;&#x4E95;&#x5E95;&#x4E4B;&#x86D9;&#x3002;&#x3002;&#x3002;<br><a id="more"></a><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">&quot;useActualColumnNames&quot;</span> <span class="attr">value</span>=<span class="string">&quot;true&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
+        <p>mybatis&#x6570;&#x636E;&#x5E93;&#x5B57;&#x6BB5;&#x548C;Java&#x5BF9;&#x8C61;&#x5C5E;&#x6027;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x7684;&#x81EA;&#x52A8;&#x6620;&#x5C04;<br><a id="more"></a></p>
+<p>&#x4E4B;&#x524D;&#x4E00;&#x81F4;&#x8BA4;&#x4E3A;&#xFF0C;mybaits&#x4E2D;&#x6570;&#x636E;&#x5E93;&#x548C;Java bean&#x5C5E;&#x6027;&#x7684;&#x547D;&#x540D;&#x7684;&#x5BF9;&#x5E94;&#x8981;&#x4E0D;&#x662F;&#x4F7F;&#x7528; sql&#x7684;&#x5217;&#x522B;&#x540D;&#x548C;&#x5C5E;&#x6027;&#x540D;&#x79F0;&#x4FDD;&#x6301;&#x4E00;&#x81F4;&#xFF0C;&#x4EA6;&#x6216;&#x8005;&#x4F7F;&#x7528;resutlMap&#x6765;&#x8BE6;&#x7EC6;&#x7684;&#x6307;&#x5B9A;&#x8FD9;&#x79CD;&#x6620;&#x5C04;&#x89C4;&#x5219;&#x3002;<br>&#x4ECA;&#x5929;&#x770B;&#x5230;&#x522B;&#x4EBA;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x8FD9;&#x4E24;&#x79CD;&#x90FD;&#x6CA1;&#x6709;&#xFF0C;&#x4F46;&#x662F;&#x5C45;&#x7136;&#x62A5;&#x9519;&#xFF0C;&#x767E;&#x601D;&#x4E0D;&#x5F97;&#x59D0;&#x3002;&#x540E;&#x6765;&#x624D;&#x53D1;&#x73B0;mybatis&#x6709;&#x914D;&#x7F6E;&#x80FD;&#x591F;&#x5B8C;&#x6210;&#x6570;&#x636E;&#x5E93;&#x5B57;&#x6BB5;&#x5230;bean&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x7684;&#x81EA;&#x52A8;&#x6620;&#x5C04;&#xFF0C;&#x771F;&#x662F;&#x4E95;&#x5E95;&#x4E4B;&#x86D9;&#x3002;&#x3002;&#x3002;<br><!--more--><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">&quot;useActualColumnNames&quot;</span> <span class="attr">value</span>=<span class="string">&quot;true&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -403,17 +404,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/06/28/函数式编程入门/" rel="next" title="函数式编程入门">
-                <i class="fa fa-chevron-left"></i> 函数式编程入门
+              <a href="/2016/07/14/redis学习/" rel="next" title="redis 学习">
+                <i class="fa fa-chevron-left"></i> redis 学习
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/06/30/kylin初体验/" rel="prev" title="kylin">
-                kylin <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -439,8 +436,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/06/30/mybatis数据库字段和Java对象属性驼峰命名的自动映射/"
-           data-title="mybatis数据库字段和Java对象属性驼峰命名的自动映射" data-url="http://whisper1225.github.io/2016/06/30/mybatis数据库字段和Java对象属性驼峰命名的自动映射/">
+      <div class="ds-thread" data-thread-key="2016/07/16/mybatis数据库字段和Java对象属性驼峰命名的自动映射/"
+           data-title="mybatis数据库字段和Java对象属性驼峰命名的自动映射" data-url="http://whisper1225.github.io/2016/07/16/mybatis数据库字段和Java对象属性驼峰命名的自动映射/">
       </div>
     
   </div>

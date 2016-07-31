@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://whisper1225.github.io/"/>
-  <updated>2016-07-14T11:48:22.265Z</updated>
+  <updated>2016-07-31T05:39:02.815Z</updated>
   <id>http://whisper1225.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mybatis数据库字段和Java对象属性驼峰命名的自动映射</title>
+    <link href="http://whisper1225.github.io/2016/07/16/mybatis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%97%E6%AE%B5%E5%92%8CJava%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D%E7%9A%84%E8%87%AA%E5%8A%A8%E6%98%A0%E5%B0%84/"/>
+    <id>http://whisper1225.github.io/2016/07/16/mybatis数据库字段和Java对象属性驼峰命名的自动映射/</id>
+    <published>2016-07-15T16:32:59.000Z</published>
+    <updated>2016-07-31T05:39:02.815Z</updated>
+    
+    <content type="html">&lt;p&gt;mybatis&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x5B57;&amp;#x6BB5;&amp;#x548C;Java&amp;#x5BF9;&amp;#x8C61;&amp;#x5C5E;&amp;#x6027;&amp;#x9A7C;&amp;#x5CF0;&amp;#x547D;&amp;#x540D;&amp;#x7684;&amp;#x81EA;&amp;#x52A8;&amp;#x6620;&amp;#x5C04;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x4E4B;&amp;#x524D;&amp;#x4E00;&amp;#x81F4;&amp;#x8BA4;&amp;#x4E3A;&amp;#xFF0C;mybaits&amp;#x4E2D;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x548C;Java bean&amp;#x5C5E;&amp;#x6027;&amp;#x7684;&amp;#x547D;&amp;#x540D;&amp;#x7684;&amp;#x5BF9;&amp;#x5E94;&amp;#x8981;&amp;#x4E0D;&amp;#x662F;&amp;#x4F7F;&amp;#x7528; sql&amp;#x7684;&amp;#x5217;&amp;#x522B;&amp;#x540D;&amp;#x548C;&amp;#x5C5E;&amp;#x6027;&amp;#x540D;&amp;#x79F0;&amp;#x4FDD;&amp;#x6301;&amp;#x4E00;&amp;#x81F4;&amp;#xFF0C;&amp;#x4EA6;&amp;#x6216;&amp;#x8005;&amp;#x4F7F;&amp;#x7528;resutlMap&amp;#x6765;&amp;#x8BE6;&amp;#x7EC6;&amp;#x7684;&amp;#x6307;&amp;#x5B9A;&amp;#x8FD9;&amp;#x79CD;&amp;#x6620;&amp;#x5C04;&amp;#x89C4;&amp;#x5219;&amp;#x3002;&lt;br&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x770B;&amp;#x5230;&amp;#x522B;&amp;#x4EBA;&amp;#x7684;&amp;#x4EE3;&amp;#x7801;&amp;#xFF0C;&amp;#x8FD9;&amp;#x4E24;&amp;#x79CD;&amp;#x90FD;&amp;#x6CA1;&amp;#x6709;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5C45;&amp;#x7136;&amp;#x62A5;&amp;#x9519;&amp;#xFF0C;&amp;#x767E;&amp;#x601D;&amp;#x4E0D;&amp;#x5F97;&amp;#x59D0;&amp;#x3002;&amp;#x540E;&amp;#x6765;&amp;#x624D;&amp;#x53D1;&amp;#x73B0;mybatis&amp;#x6709;&amp;#x914D;&amp;#x7F6E;&amp;#x80FD;&amp;#x591F;&amp;#x5B8C;&amp;#x6210;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x5B57;&amp;#x6BB5;&amp;#x5230;bean&amp;#x9A7C;&amp;#x5CF0;&amp;#x547D;&amp;#x540D;&amp;#x7684;&amp;#x81EA;&amp;#x52A8;&amp;#x6620;&amp;#x5C04;&amp;#xFF0C;&amp;#x771F;&amp;#x662F;&amp;#x4E95;&amp;#x5E95;&amp;#x4E4B;&amp;#x86D9;&amp;#x3002;&amp;#x3002;&amp;#x3002;&lt;br&gt;&lt;!--more--&gt;&lt;br&gt;&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;property&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;useActualColumnNames&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;value&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mybatis数据库字段和Java对象属性驼峰命名的自动映射&lt;br&gt;
+    
+    </summary>
+    
+      <category term="后台" scheme="http://whisper1225.github.io/categories/%E5%90%8E%E5%8F%B0/"/>
+    
+    
+      <category term="orm" scheme="http://whisper1225.github.io/tags/orm/"/>
+    
+      <category term="框架" scheme="http://whisper1225.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="mybatis" scheme="http://whisper1225.github.io/tags/mybatis/"/>
+    
+      <category term="驼峰命名" scheme="http://whisper1225.github.io/tags/%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>redis 学习</title>
@@ -241,35 +271,6 @@
       <category term="kylin" scheme="http://whisper1225.github.io/tags/kylin/"/>
     
       <category term="数据分析" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mybatis数据库字段和Java对象属性驼峰命名的自动映射</title>
-    <link href="http://whisper1225.github.io/2016/06/30/mybatis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%97%E6%AE%B5%E5%92%8CJava%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D%E7%9A%84%E8%87%AA%E5%8A%A8%E6%98%A0%E5%B0%84/"/>
-    <id>http://whisper1225.github.io/2016/06/30/mybatis数据库字段和Java对象属性驼峰命名的自动映射/</id>
-    <published>2016-06-29T16:32:59.000Z</published>
-    <updated>2016-07-29T16:40:44.576Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x4E4B;&amp;#x524D;&amp;#x4E00;&amp;#x81F4;&amp;#x8BA4;&amp;#x4E3A;&amp;#xFF0C;mybaits&amp;#x4E2D;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x548C;Java bean&amp;#x5C5E;&amp;#x6027;&amp;#x7684;&amp;#x547D;&amp;#x540D;&amp;#x7684;&amp;#x5BF9;&amp;#x5E94;&amp;#x8981;&amp;#x4E0D;&amp;#x662F;&amp;#x4F7F;&amp;#x7528; sql&amp;#x7684;&amp;#x5217;&amp;#x522B;&amp;#x540D;&amp;#x548C;&amp;#x5C5E;&amp;#x6027;&amp;#x540D;&amp;#x79F0;&amp;#x4FDD;&amp;#x6301;&amp;#x4E00;&amp;#x81F4;&amp;#xFF0C;&amp;#x4EA6;&amp;#x6216;&amp;#x8005;&amp;#x4F7F;&amp;#x7528;resutlMap&amp;#x6765;&amp;#x8BE6;&amp;#x7EC6;&amp;#x7684;&amp;#x6307;&amp;#x5B9A;&amp;#x8FD9;&amp;#x79CD;&amp;#x6620;&amp;#x5C04;&amp;#x89C4;&amp;#x5219;&amp;#x3002;&lt;br&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x770B;&amp;#x5230;&amp;#x522B;&amp;#x4EBA;&amp;#x7684;&amp;#x4EE3;&amp;#x7801;&amp;#xFF0C;&amp;#x8FD9;&amp;#x4E24;&amp;#x79CD;&amp;#x90FD;&amp;#x6CA1;&amp;#x6709;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5C45;&amp;#x7136;&amp;#x62A5;&amp;#x9519;&amp;#xFF0C;&amp;#x767E;&amp;#x601D;&amp;#x4E0D;&amp;#x5F97;&amp;#x59D0;&amp;#x3002;&amp;#x540E;&amp;#x6765;&amp;#x624D;&amp;#x53D1;&amp;#x73B0;mybatis&amp;#x6709;&amp;#x914D;&amp;#x7F6E;&amp;#x80FD;&amp;#x591F;&amp;#x5B8C;&amp;#x6210;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x5B57;&amp;#x6BB5;&amp;#x5230;bean&amp;#x9A7C;&amp;#x5CF0;&amp;#x547D;&amp;#x540D;&amp;#x7684;&amp;#x81EA;&amp;#x52A8;&amp;#x6620;&amp;#x5C04;&amp;#xFF0C;&amp;#x771F;&amp;#x662F;&amp;#x4E95;&amp;#x5E95;&amp;#x4E4B;&amp;#x86D9;&amp;#x3002;&amp;#x3002;&amp;#x3002;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;property&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;useActualColumnNames&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;value&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前一致认为，mybaits中数据库和Java bean属性的命名的对应要不是使用 sql的列别名和属性名称保持一致，亦或者使用resutlMap来详细的指定这种映射规则。&lt;br&gt;今天看到别人的代码，这两种都没有，但是居然报错，百思不得姐。后来才发现mybatis有配置能够完成数据库字段到bean驼峰命名的自动映射，真是井底之蛙。。。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="后台" scheme="http://whisper1225.github.io/categories/%E5%90%8E%E5%8F%B0/"/>
-    
-    
-      <category term="orm" scheme="http://whisper1225.github.io/tags/orm/"/>
-    
-      <category term="框架" scheme="http://whisper1225.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
-    
-      <category term="mybatis" scheme="http://whisper1225.github.io/tags/mybatis/"/>
-    
-      <category term="驼峰命名" scheme="http://whisper1225.github.io/tags/%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D/"/>
     
   </entry>
   
