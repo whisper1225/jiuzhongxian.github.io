@@ -12,24 +12,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[短网址讨论]]></title>
-      <url>http://whisper1225.github.io/2016/07/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/</url>
-      <content type="html"><![CDATA[<p>&#x77ED;&#x94FE;&#x63A5;&#x670D;&#x52A1;<br><a id="more"></a></p>
-<h1 id="&#x57FA;&#x672C;&#x539F;&#x7406;"><a href="#&#x57FA;&#x672C;&#x539F;&#x7406;" class="headerlink" title="&#x57FA;&#x672C;&#x539F;&#x7406;"></a>&#x57FA;&#x672C;&#x539F;&#x7406;</h1><p>&#x5BF9;&#x4E00;&#x4E2A;&#x7F51;&#x5740;&#x505A;md5&#x751F;&#x6210;32&#x4F4D;&#x6570;&#x5B57;&#xFF0C;&#x5C06;&#x8BE5;32&#x4F4D;&#x6570;&#x5B57;&#x5206;&#x6210;4&#x7EC4;&#x3002;<br>&#x4E00;&#x7EC4;8&#x4E2A;&#x5B57;&#x8282;32&#x4F4D;&#xFF0C;&#x540C;111&#x2026;&#xFF08;&#x5171;30&#x4F4D;&#x4E0E;&#x8FD0;&#x7B97;&#xFF09;&#xFF0C;&#x5FFD;&#x7565;&#x8D85;&#x8FC7;30&#x4F4D;&#x7684;&#xFF0C;&#x5F97;&#x5230;30&#x4F4D;&#x3002;<br>&#x5BF9;30&#x4F4D;&#x5747;&#x5206;&#x4E3A;6&#x7EC4;&#xFF0C;&#x6BCF;&#x7EC4;&#x4E94;&#x4F4D;&#xFF0C;&#x5C06;&#x8FD9;&#x4E94;&#x4F4D;&#x6240;&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x6BCD;&#x6216;&#x6570;&#x5B57;&#x53D6;&#x51FA;&#xFF0C;&#x516D;&#x7EC4;&#x5C06;&#x4F1A;&#x6709;&#x516D;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x3002;<br>&#x5982;&#x679C;&#x91C7;&#x53D6;32&#x8FDB;&#x5236;&#xFF0C;&#x5E94;&#x8BE5;&#x80FD;&#x8868;&#x793A;6000w&#x6761;&#x77ED;&#x7F51;&#x5740;&#x3002;&#x5F53;&#x7136;&#x4E5F;&#x53EF;&#x4EE5;&#x91C7;&#x7528;64&#x8FDB;&#x5236;&#x3002;<br>&#x6700;&#x7EC8;&#x6211;&#x4EEC;&#x4F1A;&#x5F97;&#x5230;4&#x7EC4;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6BCF;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x516D;&#x4E2A;&#x5B57;&#x7B26;&#x3002;</p>
-<ol>
-<li>&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x7B97;&#x6CD5;&#x8FD8;&#x539F;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x80FD;&#x8FD8;&#x539F;&#x5C31;&#x9700;&#x8981;&#x5BF9;&#x8FD9;&#x4E2A;&#x6620;&#x5C04;&#x5173;&#x7CFB;&#x8FDB;&#x884C;&#x5B58;&#x50A8; </li>
-<li>&#x8BE5;&#x7B97;&#x6CD5;&#x662F;&#x5426;&#x80FD;&#x591F;&#x4FDD;&#x8BC1;&#x77ED;&#x7F51;&#x5740;&#x552F;&#x4E00;&#x6027;</li>
-</ol>
-<blockquote>
-<font color="red"> todo:&#x81EA;&#x5DF1;&#x505A;&#x4E00;&#x4E2A;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;&#xFF0C;&#x7528;redis&#x6765;&#x505A;&#x6570;&#x636E;&#x5E93;&#x670D;&#x52A1;&#x5668;</font>
-
-
-</blockquote>
-<h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;"><a href="#&#x53C2;&#x8003;&#x6587;&#x7AE0;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x7AE0;"></a>&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2><p><a href="http://www.cnblogs.com/me115/p/4943234.html" target="_blank" rel="external">&#x8BBE;&#x8BA1;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[爬虫学习笔记]]></title>
       <url>http://whisper1225.github.io/2016/07/01/%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
       <content type="html"><![CDATA[<p>&#x722C;&#x866B;&#x5B66;&#x4E60;<br><a id="more"></a></p>
@@ -96,6 +78,24 @@
     </entry>
     
     <entry>
+      <title><![CDATA[短网址讨论]]></title>
+      <url>http://whisper1225.github.io/2016/05/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/</url>
+      <content type="html"><![CDATA[<p>&#x77ED;&#x94FE;&#x63A5;&#x670D;&#x52A1;<br><a id="more"></a></p>
+<h1 id="&#x57FA;&#x672C;&#x539F;&#x7406;"><a href="#&#x57FA;&#x672C;&#x539F;&#x7406;" class="headerlink" title="&#x57FA;&#x672C;&#x539F;&#x7406;"></a>&#x57FA;&#x672C;&#x539F;&#x7406;</h1><p>&#x5BF9;&#x4E00;&#x4E2A;&#x7F51;&#x5740;&#x505A;md5&#x751F;&#x6210;32&#x4F4D;&#x6570;&#x5B57;&#xFF0C;&#x5C06;&#x8BE5;32&#x4F4D;&#x6570;&#x5B57;&#x5206;&#x6210;4&#x7EC4;&#x3002;<br>&#x4E00;&#x7EC4;8&#x4E2A;&#x5B57;&#x8282;32&#x4F4D;&#xFF0C;&#x540C;111&#x2026;&#xFF08;&#x5171;30&#x4F4D;&#x4E0E;&#x8FD0;&#x7B97;&#xFF09;&#xFF0C;&#x5FFD;&#x7565;&#x8D85;&#x8FC7;30&#x4F4D;&#x7684;&#xFF0C;&#x5F97;&#x5230;30&#x4F4D;&#x3002;<br>&#x5BF9;30&#x4F4D;&#x5747;&#x5206;&#x4E3A;6&#x7EC4;&#xFF0C;&#x6BCF;&#x7EC4;&#x4E94;&#x4F4D;&#xFF0C;&#x5C06;&#x8FD9;&#x4E94;&#x4F4D;&#x6240;&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x6BCD;&#x6216;&#x6570;&#x5B57;&#x53D6;&#x51FA;&#xFF0C;&#x516D;&#x7EC4;&#x5C06;&#x4F1A;&#x6709;&#x516D;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x3002;<br>&#x5982;&#x679C;&#x91C7;&#x53D6;32&#x8FDB;&#x5236;&#xFF0C;&#x5E94;&#x8BE5;&#x80FD;&#x8868;&#x793A;6000w&#x6761;&#x77ED;&#x7F51;&#x5740;&#x3002;&#x5F53;&#x7136;&#x4E5F;&#x53EF;&#x4EE5;&#x91C7;&#x7528;64&#x8FDB;&#x5236;&#x3002;<br>&#x6700;&#x7EC8;&#x6211;&#x4EEC;&#x4F1A;&#x5F97;&#x5230;4&#x7EC4;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6BCF;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x516D;&#x4E2A;&#x5B57;&#x7B26;&#x3002;</p>
+<ol>
+<li>&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x7B97;&#x6CD5;&#x8FD8;&#x539F;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x80FD;&#x8FD8;&#x539F;&#x5C31;&#x9700;&#x8981;&#x5BF9;&#x8FD9;&#x4E2A;&#x6620;&#x5C04;&#x5173;&#x7CFB;&#x8FDB;&#x884C;&#x5B58;&#x50A8; </li>
+<li>&#x8BE5;&#x7B97;&#x6CD5;&#x662F;&#x5426;&#x80FD;&#x591F;&#x4FDD;&#x8BC1;&#x77ED;&#x7F51;&#x5740;&#x552F;&#x4E00;&#x6027;</li>
+</ol>
+<blockquote>
+<font color="red"> todo:&#x81EA;&#x5DF1;&#x505A;&#x4E00;&#x4E2A;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;&#xFF0C;&#x7528;redis&#x6765;&#x505A;&#x6570;&#x636E;&#x5E93;&#x670D;&#x52A1;&#x5668;</font>
+
+
+</blockquote>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;"><a href="#&#x53C2;&#x8003;&#x6587;&#x7AE0;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x7AE0;"></a>&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2><p><a href="http://www.cnblogs.com/me115/p/4943234.html" target="_blank" rel="external">&#x8BBE;&#x8BA1;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[MySql之数据库系列]]></title>
       <url>http://whisper1225.github.io/2016/05/09/MySql%E4%B9%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E5%88%97/</url>
       <content type="html"><![CDATA[<p>Mysql&#x5B66;&#x4E60;&#x7B14;&#x8BB0;&#xFF0C;&#x8BB0;&#x5F55;MySQL&#x5B66;&#x4E60;&#x7684;&#x70B9;&#x70B9;&#x6EF4;&#x6EF4;<br><a id="more"></a></p>
@@ -121,6 +121,7 @@
 <ol>
 <li>sku&#x4E0E;spu<br>&#x5F71;&#x54CD;&#x5230;&#x9500;&#x552E;&#x3001;&#x5E93;&#x5B58;&#x7684;&#x662F;sku&#xFF0C;<br>spu&#x662F;&#x6807;&#x51C6;&#x54C1;&#x7684;&#x610F;&#x601D;</li>
 </ol>
+<p>&#x5F85;&#x7EED;</p>
 ]]></content>
     </entry>
     
