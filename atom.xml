@@ -222,25 +222,6 @@
   </entry>
   
   <entry>
-    <title>hdfs学习笔记</title>
-    <link href="http://whisper1225.github.io/2016/05/31/hdfs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://whisper1225.github.io/2016/05/31/hdfs学习笔记/</id>
-    <published>2016-05-31T09:14:35.000Z</published>
-    <updated>2016-07-31T09:16:13.920Z</updated>
-    
-    <content type="html">&lt;p&gt;hdfs&amp;#x5B66;&amp;#x4E60;&amp;#x7B14;&amp;#x8BB0;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;hdfs学习笔记&lt;br&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>短网址讨论</title>
     <link href="http://whisper1225.github.io/2016/05/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/"/>
     <id>http://whisper1225.github.io/2016/05/13/短网址讨论/</id>
@@ -308,6 +289,25 @@
       <category term="mysql" scheme="http://whisper1225.github.io/tags/mysql/"/>
     
       <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hdfs学习笔记</title>
+    <link href="http://whisper1225.github.io/2016/05/07/hdfs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://whisper1225.github.io/2016/05/07/hdfs学习笔记/</id>
+    <published>2016-05-07T09:14:35.000Z</published>
+    <updated>2016-07-31T09:20:04.432Z</updated>
+    
+    <content type="html">&lt;p&gt;hdfs&amp;#x5B66;&amp;#x4E60;&amp;#x7B14;&amp;#x8BB0;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;hdfs学习笔记&lt;br&gt;
+    
+    </summary>
+    
     
   </entry>
   
