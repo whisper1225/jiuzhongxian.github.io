@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://whisper1225.github.io/2016/05/31/hdfs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2016-07-31T09:16:13.920Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://whisper1225.github.io/2016/05/01/mapreduce%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2016-07-31T09:15:20.269Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://whisper1225.github.io/2016/04/27/%E4%B8%9A%E5%8A%A1%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     
     <lastmod>2016-07-31T05:46:58.447Z</lastmod>
@@ -65,16 +79,16 @@
   </url>
   
   <url>
-    <loc>http://whisper1225.github.io/2016/04/09/%E4%BA%BA%E4%BA%BA%E9%83%BD%E6%98%AF%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/</loc>
+    <loc>http://whisper1225.github.io/2016/01/26/%E9%87%8D%E6%B8%A9git/</loc>
     
-    <lastmod>2016-07-31T05:30:01.080Z</lastmod>
+    <lastmod>2016-07-31T05:32:53.796Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://whisper1225.github.io/2016/01/26/%E9%87%8D%E6%B8%A9git/</loc>
+    <loc>http://whisper1225.github.io/2016/04/09/%E4%BA%BA%E4%BA%BA%E9%83%BD%E6%98%AF%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/</loc>
     
-    <lastmod>2016-07-31T05:28:51.454Z</lastmod>
+    <lastmod>2016-07-31T05:30:01.080Z</lastmod>
     
   </url>
   

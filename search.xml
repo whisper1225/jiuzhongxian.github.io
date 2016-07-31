@@ -78,6 +78,13 @@
     </entry>
     
     <entry>
+      <title><![CDATA[hdfs学习笔记]]></title>
+      <url>http://whisper1225.github.io/2016/05/31/hdfs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<p>hdfs&#x5B66;&#x4E60;&#x7B14;&#x8BB0;<br><a id="more"></a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[短网址讨论]]></title>
       <url>http://whisper1225.github.io/2016/05/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/</url>
       <content type="html"><![CDATA[<p>&#x77ED;&#x94FE;&#x63A5;&#x670D;&#x52A1;<br><a id="more"></a></p>
@@ -111,6 +118,13 @@
 <li><p>&#x4F7F;&#x7528;Navicat&#x4FEE;&#x6539;&#x8868;&#x503C;&#x65F6;&#x6CE8;&#x610F;&#xFF0C;&#x4E0D;&#x7BA1;&#x662F;&#x5220;&#x9664;&#x4E86;cell&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x8FD8;&#x662F;&#x624B;&#x52A8;&#x8F93;&#x5165;NULL&#xFF0C;&#x4E4B;&#x7C7B;&#x7684;&#x90FD;&#x4E0D;&#x884C;&#xFF0C;&#x624B;&#x52A8;&#x8F93;&#x5165;&#x7684;&#x90FD;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5982;&#x679C;&#x60F3;&#x8BBE;&#x7F6E;&#x4E3A;null&#xFF0C;&#x5FC5;&#x987B;&#x901A;&#x8FC7;navicat&#x64CD;&#x4F5C;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x6BD4;&#x5982;&#x53F3;&#x952E;&#x4E2D;&#x5C31;&#x6709;&#x8BBE;&#x7F6E;&#x6210;null&#x3002;max&#xFF0C;count&#x4E4B;&#x7C7B;&#x7684;&#x805A;&#x5408;&#x51FD;&#x6570;&#x4F1A;&#x5FFD;&#x7565;null</p>
 </li>
 </ol>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[mapreduce学习笔记]]></title>
+      <url>http://whisper1225.github.io/2016/05/01/mapreduce%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<p>mapreduce&#x5B66;&#x4E60;&#x7B14;&#x8BB0;<br><a id="more"></a></p>
 ]]></content>
     </entry>
     
