@@ -46,32 +46,6 @@
   </entry>
   
   <entry>
-    <title>redis 学习</title>
-    <link href="http://whisper1225.github.io/2016/07/14/redis%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://whisper1225.github.io/2016/07/14/redis学习/</id>
-    <published>2016-07-14T02:20:20.000Z</published>
-    <updated>2016-07-14T11:48:22.265Z</updated>
-    
-    <content type="html">&lt;p&gt;redis&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;&amp;#x5B9E;&amp;#x8DF5;&quot;&gt;&lt;a href=&quot;#&amp;#x5B9E;&amp;#x8DF5;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5B9E;&amp;#x8DF5;&quot;&gt;&lt;/a&gt;&amp;#x5B9E;&amp;#x8DF5;&lt;/h2&gt;&lt;p&gt;redis key&lt;br&gt;&amp;#x7528;String&amp;#x7C7B;&amp;#x578B;&amp;#xFF0C;&amp;#x539F;&amp;#x59CB;url&amp;#x4E00;&amp;#x822C;&amp;#x4E0D;&amp;#x8D85;&amp;#x8FC7;&amp;#x4E94;&amp;#x767E;&lt;br&gt;key &amp;#x77ED;&amp;#x94FE;&amp;#x63A5;&amp;#xFF0C;&amp;#x503C;&amp;#x4E3A;&amp;#x539F;&amp;#x59CB;url&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;redis&lt;br&gt;
-    
-    </summary>
-    
-      <category term="数据库" scheme="http://whisper1225.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-      <category term="数据库" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-      <category term="redis" scheme="http://whisper1225.github.io/tags/redis/"/>
-    
-  </entry>
-  
-  <entry>
     <title>短网址讨论</title>
     <link href="http://whisper1225.github.io/2016/07/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/"/>
     <id>http://whisper1225.github.io/2016/07/13/短网址讨论/</id>
@@ -102,48 +76,6 @@
     
     
       <category term="短网址" scheme="http://whisper1225.github.io/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用Python进行数据分析</title>
-    <link href="http://whisper1225.github.io/2016/07/04/%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    <id>http://whisper1225.github.io/2016/07/04/利用Python进行数据分析/</id>
-    <published>2016-07-04T14:58:40.000Z</published>
-    <updated>2016-07-05T03:05:56.725Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x5229;&amp;#x7528;Python&amp;#x8FDB;&amp;#x884C;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&amp;#x5176;&amp;#x5B9E;&amp;#x5B66;&amp;#x4E60;&amp;#x5DE5;&amp;#x4F5C;&amp;#x4E2D;&amp;#x78B0;&amp;#x5230;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&amp;#x8BB8;&amp;#x591A;&amp;#x591A;&amp;#x662F;sql&amp;#x76F4;&amp;#x63A5;&amp;#x641E;&amp;#x5B9A;&amp;#x4E86;&amp;#x3002;&amp;#x4F46;&amp;#x662F;sql&amp;#x7684;&amp;#x7075;&amp;#x6D3B;&amp;#x6027;&amp;#x8FD8;&amp;#x662F;&amp;#x4E0D;&amp;#x5F31;&amp;#x771F;&amp;#x6B63;&amp;#x7684;&amp;#x7F16;&amp;#x7A0B;&amp;#x8BED;&amp;#x8A00;&amp;#x7075;&amp;#x6D3B;&amp;#xFF0C;&amp;#x5176;&amp;#x79D1;&amp;#x5B66;&amp;#x8BA1;&amp;#x7B97;&amp;#x65B9;&amp;#x6CD5;&amp;#x4E5F;&amp;#x663E;&amp;#x5F97;&amp;#x5355;&amp;#x8584;&amp;#xFF0C;&amp;#x8FDC;&amp;#x4E0D;&amp;#x5982;Python&amp;#x7684;&amp;#x79D1;&amp;#x5B66;&amp;#x8BA1;&amp;#x7B97;&amp;#x5305;&amp;#x4E30;&amp;#x5BCC;&amp;#x3002;&lt;br&gt;&amp;#x6BD4;&amp;#x5982;&amp;#x4E4B;&amp;#x524D;&amp;#x5728;&amp;#x7279;&amp;#x5F81;&amp;#x96C6;&amp;#x4E2D;&amp;#x4E00;&amp;#x822C;&amp;#x4F1A;&amp;#x6709;&amp;#x524D;&amp;#x4E00;&amp;#x5929;&amp;#x3001;&amp;#x524D;&amp;#x4E24;&amp;#x5929;&amp;#x3001;&amp;#x524D;&amp;#x4E09;&amp;#x5929;&amp;#x7684;&amp;#x4E09;&amp;#x5217;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5982;&amp;#x679C;&amp;#x6211;&amp;#x4EEC;&amp;#x9700;&amp;#x8981;&amp;#x8BA1;&amp;#x7B97;&amp;#x8FD9;&amp;#x4E09;&amp;#x5217;&amp;#x7684;&amp;#x65B9;&amp;#x5DEE;&amp;#x4EC0;&amp;#x4E48;&amp;#x7684;&amp;#x5C31;&amp;#x4E0D;&amp;#x597D;&amp;#x7B97;&amp;#x4E86;&amp;#x3002;&amp;#x6709;&amp;#x4E9B;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x662F;&amp;#x652F;&amp;#x6301;&amp;#x7684;&amp;#x6BD4;&amp;#x5982;postgrep&amp;#x3002;&amp;#x4F46;&amp;#x662F;&amp;#x5982;&amp;#x679C;&amp;#x518D;&amp;#x8981;&amp;#x6C42;&amp;#x4E00;&amp;#x4E2A;&amp;#x4E2D;&amp;#x4F4D;&amp;#x6570;&amp;#x3002;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5C31;&amp;#x4E0D;&amp;#x597D;&amp;#x5F04;&amp;#x4E86;&amp;#x3002;&amp;#x4F46;&amp;#x662F;Python&amp;#x7684;&amp;#x79D1;&amp;#x5B66;&amp;#x8BA1;&amp;#x7B97;&amp;#x5305;&amp;#x53EF;&amp;#x4EE5;&amp;#x8F7B;&amp;#x677E;&amp;#x641E;&amp;#x5B9A;&amp;#x3002;&amp;#x540C;&amp;#x65F6;&amp;#x753B;&amp;#x56FE;&amp;#x4E5F;&amp;#x975E;&amp;#x5E38;&amp;#x65B9;&amp;#x4FBF;&amp;#x3002;&lt;/p&gt;
-&lt;h1 id=&quot;numpy&quot;&gt;&lt;a href=&quot;#Numpy&quot; class=&quot;headerlink&quot; title=&quot;Numpy&quot;&gt;&lt;/a&gt;Numpy&lt;/h1&gt;&lt;p&gt;&amp;#x5176;&amp;#x5B9E;&amp;#x5C31;&amp;#x662F;&amp;#x4E2A;N &amp;#x7EF4;&amp;#x6570;&amp;#x7EC4;&amp;#x5BB9;&amp;#x5668; &amp;#x540C;&amp;#x65F6;&amp;#x63D0;&amp;#x4F9B;&amp;#x4E86;&amp;#x77E9;&amp;#x9635;&amp;#x8FD0;&amp;#x7B97;&lt;/p&gt;
-&lt;h2 id=&quot;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5207;&amp;#x7247;&quot;&gt;&lt;a href=&quot;#&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5207;&amp;#x7247;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5207;&amp;#x7247;&quot;&gt;&lt;/a&gt;&amp;#x7D22;&amp;#x5F15;&amp;#x548C;&amp;#x5207;&amp;#x7247;&lt;/h2&gt;&lt;p&gt;&amp;#x53EF;&amp;#x4EE5;&amp;#x6307;&amp;#x5B9A;&amp;#x7D22;&amp;#x5F15;&amp;#xFF0C;&amp;#x9ED8;&amp;#x8BA4;&amp;#x5C31;&amp;#x662F;&amp;#x7C7B;&amp;#x4F3C;&amp;#x5176;&amp;#x4ED6;&amp;#x8BED;&amp;#x8A00;&amp;#x90A3;&amp;#x79CD;&amp;#x4ECE;&amp;#x96F6;&amp;#x5F00;&amp;#x59CB;&amp;#x7684;&amp;#x6570;&amp;#x5B57;&amp;#x7D22;&amp;#x5F15;&lt;/p&gt;
-&lt;h2 id=&quot;&amp;#x5176;&amp;#x4ED6;&quot;&gt;&lt;a href=&quot;#&amp;#x5176;&amp;#x4ED6;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5176;&amp;#x4ED6;&quot;&gt;&lt;/a&gt;&amp;#x5176;&amp;#x4ED6;&lt;/h2&gt;&lt;h3 id=&quot;arangexrangerange&quot;&gt;&lt;a href=&quot;#arange-xrange-range&quot; class=&quot;headerlink&quot; title=&quot;arange/xrange/range&quot;&gt;&lt;/a&gt;arange/xrange/range&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;range&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;Python&amp;#x7684;&amp;#x5185;&amp;#x5EFA;&amp;#x51FD;&amp;#x6570;&amp;#xFF0C;&amp;#x63D0;&amp;#x4F9B;&amp;#x8303;&amp;#x56F4;&amp;#x548C;&amp;#x6B65;&amp;#x957F;&amp;#x4F5C;&amp;#x4E3A;&amp;#x53C2;&amp;#x6570;&amp;#xFF0C;&amp;#x8FD4;&amp;#x56DE;&amp;#x4E00;&amp;#x4E2A;list&lt;/li&gt;
-&lt;li&gt;arange&amp;#x662F;Numpy&amp;#x7684;&amp;#x51FD;&amp;#x6570;&amp;#xFF0C;&amp;#x53C2;&amp;#x6570;&amp;#x540C;&amp;#x4E0A;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x8FD4;&amp;#x56DE;&amp;#x4E00;&amp;#x4E2A;&amp;#x4EE5;&amp;#x4E3A;&amp;#x4E00;&amp;#x7EF4;&amp;#x6570;&amp;#x7EC4;&lt;/li&gt;
-&lt;li&gt;xrange&amp;#x8FD4;&amp;#x56DE;&amp;#x7684;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;list&amp;#x751F;&amp;#x6210;&amp;#x5668;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&quot;pandas&quot;&gt;&lt;a href=&quot;#pandas&quot; class=&quot;headerlink&quot; title=&quot;pandas&quot;&gt;&lt;/a&gt;pandas&lt;/h1&gt;&lt;h2 id=&quot;&amp;#x5207;&amp;#x7247;&quot;&gt;&lt;a href=&quot;#&amp;#x5207;&amp;#x7247;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5207;&amp;#x7247;&quot;&gt;&lt;/a&gt;&amp;#x5207;&amp;#x7247;&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x5217;&quot;&gt;&lt;a href=&quot;#&amp;#x5217;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5217;&quot;&gt;&lt;/a&gt;&amp;#x5217;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&amp;#x901A;&amp;#x8FC7;&amp;#x7D22;&amp;#x5F15;&amp;#xFF1A;df.col1&amp;#x6216;&amp;#x8005;df[&amp;#x2018;col1&amp;#x2019;],&amp;#x5982;&amp;#x679C;&amp;#x662F;&amp;#x591A;&amp;#x5217;&amp;#x5E94;&amp;#x5F53;&amp;#x662F;&amp;#x5217;&amp;#x8868;&amp;#x7684;&amp;#x5F62;&amp;#x5F0F;&amp;#x51FA;&amp;#x73B0;df[[&amp;#x2018;col1&amp;#x2019;,&amp;#x2019;col2&amp;#x2019;]]&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;&amp;#x884C;&quot;&gt;&lt;a href=&quot;#&amp;#x884C;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x884C;&quot;&gt;&lt;/a&gt;&amp;#x884C;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&amp;#x901A;&amp;#x8FC7;&amp;#x7D22;&amp;#x5F15;&amp;#x540D; df&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;&amp;#x7B5B;&amp;#x9009;&amp;#x6761;&amp;#x4EF6;&quot;&gt;&lt;a href=&quot;#&amp;#x7B5B;&amp;#x9009;&amp;#x6761;&amp;#x4EF6;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7B5B;&amp;#x9009;&amp;#x6761;&amp;#x4EF6;&quot;&gt;&lt;/a&gt;&amp;#x7B5B;&amp;#x9009;&amp;#x6761;&amp;#x4EF6;&lt;/h2&gt;&lt;h2 id=&quot;&amp;#x5206;&amp;#x7EC4;&quot;&gt;&lt;a href=&quot;#&amp;#x5206;&amp;#x7EC4;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5206;&amp;#x7EC4;&quot;&gt;&lt;/a&gt;&amp;#x5206;&amp;#x7EC4;&lt;/h2&gt;&lt;p&gt;groupby &amp;#x8FD4;&amp;#x56DE;&amp;#x4E00;&amp;#x4E2A;groupby&amp;#x5BF9;&amp;#x8C61; &amp;#x5176;&amp;#x5B9E;&amp;#x53EF;&amp;#x4EE5;&amp;#x7B80;&amp;#x5355;&amp;#x7406;&amp;#x89E3;&amp;#x4E3A;&amp;#x4E00;&amp;#x4E2A;&amp;#x542B;&amp;#x6709;&amp;#x5206;&amp;#x7EC4;&amp;#x4FE1;&amp;#x606F;&amp;#x7684;dataFrame,&amp;#x8FD9;&amp;#x610F;&amp;#x5473;&amp;#x7740;&lt;br&gt;df.groupby()&amp;#x4E4B;&amp;#x540E;&amp;#x53EF;&amp;#x4EE5;&amp;#x7EE7;&amp;#x7EED;&amp;#x5207;&amp;#x7247;.df.groupby([&amp;#x2018;dim1&amp;#x2019;,&amp;#x2019;dim2&amp;#x2019;])[[&amp;#x2018;col1&amp;#x2019;,&amp;#x2019;col2&amp;#x2019;]]&lt;br&gt;&amp;#x4ECE;&amp;#x4E0A;&amp;#x9762;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x770B;&amp;#x51FA;&amp;#xFF0C;&amp;#x591A;&amp;#x7EF4;&amp;#x5EA6;&amp;#x5206;&amp;#x7EC4;&amp;#xFF0C;&amp;#x5206;&amp;#x7EC4;&amp;#x540E;&amp;#x53EA;&amp;#x67E5;&amp;#x770B;&amp;#x6307;&amp;#x5B9A;&amp;#x5217;&amp;#x7684;&amp;#x5199;&amp;#x6CD5;&amp;#x3002;&lt;br&gt;&amp;#x5F53;&amp;#x7136;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x4F7F;&amp;#x7528;&amp;#x51FD;&amp;#x6570;&amp;#x8FDB;&amp;#x884C;&amp;#x5206;&amp;#x7EC4;,&amp;#x6BD4;&amp;#x5982;sql&amp;#x4E2D;&amp;#x5E38;&amp;#x5199;&amp;#x7684; if(var == 1,&amp;#x2019;&amp;#x662F;&amp;#x2019;,&amp;#x2019;&amp;#x5426;&amp;#x2019;),&amp;#x8FD9;&amp;#x91CC;&amp;#x6362;&amp;#x6210;lambda&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&amp;#x5373;&amp;#x53EF;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#x5176;&amp;#x5B9E;&amp;#x5206;&amp;#x7EC4;&amp;#x5217;&amp;#x672C;&amp;#x8D28;&amp;#x8981;&amp;#x6C42;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x548C;&amp;#x6E90;&amp;#x6570;&amp;#x636E;&amp;#x5217;&amp;#x7B49;&amp;#x957F;&amp;#x7684;Serial,&amp;#x5982;&amp;#x679C;&amp;#x4F7F;&amp;#x7528;&amp;#x6E90;df&amp;#x4E2D;&amp;#x7684;&amp;#x5217;&amp;#xFF0C;&amp;#x76F4;&amp;#x63A5;&amp;#x63D0;&amp;#x4F9B;&amp;#x5217;&amp;#x540D;&amp;#x5373;&amp;#x53EF;&amp;#xFF1B;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x81EA;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E2A;&amp;#x4EE5;&amp;#x4E3A;&amp;#x6570;&amp;#x7EC4;&amp;#x7528;&amp;#x6765;&amp;#x5206;&amp;#x7EC4;&amp;#x3002;&lt;br&gt;&amp;#x7279;&amp;#x522B;&amp;#x6CE8;&amp;#x610F;&amp;#xFF1A;&amp;#x4F7F;&amp;#x7528;&amp;#x5B57;&amp;#x7B26;&amp;#x4E32;&amp;#x5217;&amp;#x540D;&amp;#x4F5C;&amp;#x5206;&amp;#x7EC4;&amp;#x952E;&amp;#xFF0C;&amp;#x524D;&amp;#x9762;&amp;#x66FE;&amp;#x63D0;&amp;#x5230;&amp;#x8FC7;&amp;#x53EF;&amp;#x4EE5;&amp;#x4F7F;&amp;#x7528;&amp;#x5B57;&amp;#x7B26;&amp;#x4E32;&amp;#x5F62;&amp;#x5F0F;&amp;#x7684;&amp;#x5217;&amp;#x540D;&amp;#x4F5C;&amp;#x4E3A;&amp;#x5206;&amp;#x7EC4;&amp;#x952E;&amp;#xFF0C;&lt;br&gt;&amp;#x4F46;&amp;#x4E0A;&amp;#x9762;&amp;#x4F8B;&amp;#x5B50;&amp;#x4E2D;&amp;#x90FD;&amp;#x6CA1;&amp;#x6709;&amp;#x7528;&amp;#x3002;&amp;#x662F;&amp;#x56E0;&amp;#x4E3A;&amp;#x8FD9;&amp;#x79CD;&amp;#x65B9;&amp;#x6CD5;&amp;#x867D;&amp;#x7136;&amp;#x65B9;&amp;#x4FBF;&amp;#xFF0C;&amp;#x5374;&amp;#x5B58;&amp;#x5728;&amp;#x9690;&amp;#x60A3;&amp;#x2014;&amp;#x2014;&amp;#x4F7F;&amp;#x7528;&amp;#x8FD9;&amp;#x79CD;&amp;#x65B9;&amp;#x6CD5;&amp;#x65F6;&amp;#xFF0C;&amp;#x8C03;&amp;#x7528;&amp;#x8005;&amp;#x5FC5;&amp;#x987B;&amp;#x662F; DataFrame &amp;#x5BF9;&amp;#x8C61;&amp;#x81EA;&amp;#x8EAB;&amp;#x800C;&amp;#x4E0D;&amp;#x53EF;&amp;#x4EE5;&amp;#x662F; DataFrame &amp;#x7684;&amp;#x7D22;&amp;#x5F15;&amp;#x5F62;&amp;#x5F0F;&amp;#x3002;&lt;br&gt;&amp;#x5373; df.groupby([&amp;#x2018;key1&amp;#x2019;,&amp;#x2019;key2&amp;#x2019;])[&amp;#x2018;data1&amp;#x2019;] &amp;#x662F; ok &amp;#x7684;&amp;#xFF0C;&amp;#x4F46; df[&amp;#x2018;data1&amp;#x2019;].groupby(&amp;#x2018;key1&amp;#x2019;) &amp;#x4F1A;&amp;#x62A5;&amp;#x9519;&amp;#x3002;&amp;#x4F7F;&amp;#x7528;&amp;#x65F6;&amp;#x5F53;&amp;#x6CE8;&amp;#x610F;&amp;#x533A;&amp;#x5206;&amp;#x3002;&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;利用Python进行数据分析&lt;br&gt;
-    
-    </summary>
-    
-      <category term="大数据" scheme="http://whisper1225.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
-    
-    
-      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
-    
-      <category term="数据分析" scheme="http://whisper1225.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
@@ -684,6 +616,70 @@
       <category term="Hadoop" scheme="http://whisper1225.github.io/tags/Hadoop/"/>
     
       <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大数据problem记录</title>
+    <link href="http://whisper1225.github.io/2016/04/08/%E5%A4%A9%E9%97%AE/"/>
+    <id>http://whisper1225.github.io/2016/04/08/天问/</id>
+    <published>2016-04-08T02:08:07.000Z</published>
+    <updated>2016-06-24T08:46:10.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;#x95EE;&amp;#x9898;&amp;#x96C6;&amp;#x9526;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;hadoop&amp;#x7BC7;&quot;&gt;&lt;a href=&quot;#Hadoop&amp;#x7BC7;&quot; class=&quot;headerlink&quot; title=&quot;Hadoop&amp;#x7BC7;&quot;&gt;&lt;/a&gt;Hadoop&amp;#x7BC7;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&amp;#x6392;&amp;#x5E8F;&amp;#x7684;&amp;#x610F;&amp;#x4E49;&amp;#x5230;&amp;#x5E95;&amp;#x5728;&amp;#x54EA;&amp;#x91CC;&amp;#xFF1F;&lt;/li&gt;
+&lt;li&gt;&amp;#x6BCF;&amp;#x4E2A;&amp;#x8282;&amp;#x70B9;&amp;#x4E00;&amp;#x822C;&amp;#x662F;100map &amp;#x6BCF;&amp;#x4E2A;block&amp;#x4E00;&amp;#x4E2A;map&lt;/li&gt;
+&lt;li&gt;mapred&amp;#x7684;master jobtracker &amp;#x4EE5;&amp;#x53CA;tasktracker&amp;#x4E0E;hdfs&amp;#x6709;&amp;#x5173;&amp;#x7CFB;&amp;#x5417;  &amp;#x6709;&amp;#x6CA1;&amp;#x6709;&amp;#x90A3;&amp;#x79CD;&amp;#x5BF9;&amp;#x5E94;&amp;#x5173;&amp;#x7CFB;&lt;/li&gt;
+&lt;li&gt;pkg&amp;#x683C;&amp;#x5F0F;&amp;#x7684;&amp;#x600E;&amp;#x4E48;&amp;#x5B89;&amp;#x88C5;&lt;/li&gt;
+&lt;li&gt;reduceTask&amp;#x4EFB;&amp;#x52A1;&amp;#x4E2A;&amp;#x6570;&amp;#x600E;&amp;#x4E48;&amp;#x7406;&amp;#x89E3;&amp;#x3002;&amp;#x5206;&amp;#x533A;&amp;#x4E2A;&amp;#x6570;&amp;#x5C06;&amp;#x4F1A;&amp;#x51B3;&amp;#x5B9A;reduce&amp;#x7684;&amp;#x4E2A;&amp;#x6570;&amp;#x3002;&amp;#x5982;&amp;#x679C;&amp;#x6CA1;&amp;#x6709;&amp;#x8BBE;&amp;#x7F6E;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5206;&amp;#x533A;&amp;#x90A3;&amp;#x4E48;&amp;#xFF0C;&amp;#x9ED8;&amp;#x8BA4;reduceTask&amp;#x4E2A;&amp;#x6570;&amp;#x5C06;&amp;#x4F1A;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x3002;&amp;#x8FD9;&amp;#x4E48;&amp;#x7406;&amp;#x89E3;&amp;#x6B63;&amp;#x786E;&amp;#x5417;&amp;#xFF1F;&amp;#x8FD9;&amp;#x79CD;&amp;#x60C5;&amp;#x51B5;&amp;#x4E0B;&amp;#x5982;&amp;#x679C;&amp;#x6211;&amp;#x4EEC;&amp;#x5728;&amp;#x7A0B;&amp;#x5E8F;&amp;#x4E2D;&amp;#x663E;&amp;#x793A;&amp;#x7684;&amp;#x8BBE;&amp;#x7F6E;NumReduceTasks&amp;#x6570;&amp;#x76EE;&amp;#x3002;&amp;#x6700;&amp;#x7EC8;&amp;#x662F;&amp;#x4EE5;&amp;#x8FD9;&amp;#x4E2A;&amp;#x4E3A;&amp;#x51C6;&amp;#xFF1F;&lt;/li&gt;
+&lt;li&gt;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;Mapres&amp;#x53EA;&amp;#x9002;&amp;#x5408;&amp;#x5904;&amp;#x7406;&amp;#x4E00;&amp;#x4E9B;&amp;#x6279;&amp;#x91CF;&amp;#x4EFB;&amp;#x52A1; Hive&amp;#x57FA;&amp;#x4E8E;mapred&amp;#x548C;hdfs&amp;#x2014;&amp;#x2014;&amp;#x300B;Hive&amp;#x6267;&amp;#x884C;&amp;#x65F6;&amp;#x95F4;&amp;#x957F;&amp;#xFF0C;&amp;#x5C31;&amp;#x7B97;&amp;#x5728;&amp;#x5C0F;&amp;#x7684;&amp;#x8868;&amp;#x5728;Hive&amp;#x4E0A;&amp;#x6267;&amp;#x884C;&amp;#x67E5;&amp;#x8BE2;&amp;#xFF0C;&amp;#x65F6;&amp;#x95F4;&amp;#x4E5F;&amp;#x662F;&amp;#x5206;&amp;#x7EA7;&amp;#x522B;&amp;#x7684;&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;ad_hoc&amp;#x95EE;&amp;#x9898;&amp;#x5230;&amp;#x5E95;&amp;#x662F;&amp;#x4EC0;&amp;#x4E48;&lt;br&gt;8.sql&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#x4E2D;count(*) &amp;#x548C;count(1)&amp;#x4E0E;count(&amp;#x5217;&amp;#x540D;)&amp;#xFF0C;&amp;#x524D;&amp;#x4E24;&amp;#x8005;&amp;#x6CA1;&amp;#x6709;&amp;#x4EC0;&amp;#x4E48;&amp;#x5927;&amp;#x7684;&amp;#x533A;&amp;#x522B;&amp;#x597D;&amp;#x50CF;&amp;#x662F;sql&amp;#x4F18;&amp;#x5316;&amp;#x3002;&amp;#x540E;&amp;#x8005;&amp;#x662F;&amp;#x53EA;&amp;#x7EDF;&amp;#x8BA1;&amp;#x8BE5;&amp;#x5217;&amp;#x503C;&amp;#x4E0D;&amp;#x4E3A;NULL&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#x3002;&amp;#x524D;&amp;#x9762;&amp;#x4E24;&amp;#x8005;&amp;#x5177;&amp;#x4F53;&amp;#x7684;&amp;#x533A;&amp;#x522B;&amp;#x8FD8;&amp;#x662F;&amp;#x6709;&amp;#x5F85;&amp;#x4E00;&amp;#x7814;&amp;#x7A76;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问题集锦&lt;br&gt;
+    
+    </summary>
+    
+      <category term="大数据" scheme="http://whisper1225.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+      <category term="大数据" scheme="http://whisper1225.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+      <category term="问题记录" scheme="http://whisper1225.github.io/tags/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>胡言乱语</title>
+    <link href="http://whisper1225.github.io/2016/04/07/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
+    <id>http://whisper1225.github.io/2016/04/07/胡言乱语/</id>
+    <published>2016-04-06T16:57:06.000Z</published>
+    <updated>2016-06-24T08:42:14.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;#x80E1;&amp;#x8A00;&amp;#x4E71;&amp;#x8BED;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x5728;mac xos&amp;#x4E2D;&amp;#x5C45;&amp;#x7136;&amp;#x53D1;&amp;#x73B0;&amp;#x6709;&amp;#x9053;&amp;#x652F;&amp;#x6301;markdown&amp;#x4E86;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x771F;&amp;#x7684;&amp;#x505A;&amp;#x5F97;&amp;#x592A;&amp;#x4E11;&amp;#x4E86;&amp;#x3002;&amp;#x671F;&amp;#x5F85;&amp;#x6709;&amp;#x9053;&amp;#x4E91;&amp;#x7B14;&amp;#x8BB0;&amp;#x7684;markdown&amp;#x505A;&amp;#x5F97;&amp;#x8D8A;&amp;#x6765;&amp;#x8D8A;&amp;#x597D;&amp;#x770B;&lt;/li&gt;
+&lt;li&gt;hexo&amp;#x535A;&amp;#x5BA2;&amp;#x548C;CSDN&amp;#x7684;markdown&amp;#x90FD;&amp;#x662F;&amp;#x652F;&amp;#x6301;&amp;#x6269;&amp;#x5C55;&amp;#x8BED;&amp;#x6CD5;&amp;#x7684;&amp;#x3002;&amp;#x80FD;&amp;#x591F;&amp;#x76F4;&amp;#x63A5;&amp;#x5728;&amp;#x6587;&amp;#x672C;&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;&amp;#x67D0;&amp;#x4E9B;HTML&amp;#x4EE3;&amp;#x7801;&lt;/li&gt;
+&lt;li&gt;chrome&amp;#x4E2D;&amp;#x590D;&amp;#x5236;gif&amp;#x56FE;&amp;#x7247;&amp;#xFF0C;&amp;#x9009;&amp;#x4E2D;&amp;#x590D;&amp;#x5236;&amp;#xFF0C;&amp;#x4E00;&amp;#x822C;&amp;#x53EA;&amp;#x80FD;&amp;#x9009;&amp;#x4E2D;&amp;#x4E00;&amp;#x5E27;&amp;#xFF0C;&amp;#x6211;&amp;#x4EEC;&amp;#x53EF;&amp;#x901A;&amp;#x8FC7;&amp;#x62D6;&amp;#x52A8;&amp;#x65B9;&amp;#x5F0F;&amp;#x590D;&amp;#x5236;gif,&amp;#x4F46;&amp;#x662F;&amp;#x7531;&amp;#x4E8E;&amp;#x5176;&amp;#x4ED6;&amp;#x539F;&amp;#x56E0;&amp;#xFF0C;&amp;#x53EF;&amp;#x80FD;&amp;#x65E0;&amp;#x6CD5;&amp;#x5B8C;&amp;#x6574;&amp;#x590D;&amp;#x5236;GIF&amp;#x3002;&amp;#x5728;Firefox&amp;#x4E2D;&amp;#x6709;&amp;#x4E00;&amp;#x4E2A;&amp;#x811A;&amp;#x672C;&amp;#x53EF;&amp;#x4EE5; chrome&amp;#x4E2D;&amp;#x8C8C;&amp;#x4F3C;&amp;#x6CA1;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;胡言乱语&lt;br&gt;
+    
+    </summary>
+    
+      <category term="胡思乱想" scheme="http://whisper1225.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+    
+      <category term="有道" scheme="http://whisper1225.github.io/tags/%E6%9C%89%E9%81%93/"/>
+    
+      <category term="markdown" scheme="http://whisper1225.github.io/tags/markdown/"/>
     
   </entry>
   

@@ -12,14 +12,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[redis 学习]]></title>
-      <url>http://whisper1225.github.io/2016/07/14/redis%E5%AD%A6%E4%B9%A0/</url>
-      <content type="html"><![CDATA[<p>redis<br><a id="more"></a></p>
-<h2 id="&#x5B9E;&#x8DF5;"><a href="#&#x5B9E;&#x8DF5;" class="headerlink" title="&#x5B9E;&#x8DF5;"></a>&#x5B9E;&#x8DF5;</h2><p>redis key<br>&#x7528;String&#x7C7B;&#x578B;&#xFF0C;&#x539F;&#x59CB;url&#x4E00;&#x822C;&#x4E0D;&#x8D85;&#x8FC7;&#x4E94;&#x767E;<br>key &#x77ED;&#x94FE;&#x63A5;&#xFF0C;&#x503C;&#x4E3A;&#x539F;&#x59CB;url</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[短网址讨论]]></title>
       <url>http://whisper1225.github.io/2016/07/13/%E7%9F%AD%E7%BD%91%E5%9D%80%E8%AE%A8%E8%AE%BA/</url>
       <content type="html"><![CDATA[<p>&#x77ED;&#x94FE;&#x63A5;&#x670D;&#x52A1;<br><a id="more"></a></p>
@@ -34,30 +26,6 @@
 
 </blockquote>
 <h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;"><a href="#&#x53C2;&#x8003;&#x6587;&#x7AE0;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x7AE0;"></a>&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2><p><a href="http://www.cnblogs.com/me115/p/4943234.html" target="_blank" rel="external">&#x8BBE;&#x8BA1;&#x77ED;&#x7F51;&#x5740;&#x670D;&#x52A1;</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[利用Python进行数据分析]]></title>
-      <url>http://whisper1225.github.io/2016/07/04/%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</url>
-      <content type="html"><![CDATA[<p>&#x5229;&#x7528;Python&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5206;&#x6790;<br><a id="more"></a><br>&#x5176;&#x5B9E;&#x5B66;&#x4E60;&#x5DE5;&#x4F5C;&#x4E2D;&#x78B0;&#x5230;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x8BB8;&#x591A;&#x591A;&#x662F;sql&#x76F4;&#x63A5;&#x641E;&#x5B9A;&#x4E86;&#x3002;&#x4F46;&#x662F;sql&#x7684;&#x7075;&#x6D3B;&#x6027;&#x8FD8;&#x662F;&#x4E0D;&#x5F31;&#x771F;&#x6B63;&#x7684;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7075;&#x6D3B;&#xFF0C;&#x5176;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x65B9;&#x6CD5;&#x4E5F;&#x663E;&#x5F97;&#x5355;&#x8584;&#xFF0C;&#x8FDC;&#x4E0D;&#x5982;Python&#x7684;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x5305;&#x4E30;&#x5BCC;&#x3002;<br>&#x6BD4;&#x5982;&#x4E4B;&#x524D;&#x5728;&#x7279;&#x5F81;&#x96C6;&#x4E2D;&#x4E00;&#x822C;&#x4F1A;&#x6709;&#x524D;&#x4E00;&#x5929;&#x3001;&#x524D;&#x4E24;&#x5929;&#x3001;&#x524D;&#x4E09;&#x5929;&#x7684;&#x4E09;&#x5217;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8BA1;&#x7B97;&#x8FD9;&#x4E09;&#x5217;&#x7684;&#x65B9;&#x5DEE;&#x4EC0;&#x4E48;&#x7684;&#x5C31;&#x4E0D;&#x597D;&#x7B97;&#x4E86;&#x3002;&#x6709;&#x4E9B;&#x6570;&#x636E;&#x5E93;&#x662F;&#x652F;&#x6301;&#x7684;&#x6BD4;&#x5982;postgrep&#x3002;&#x4F46;&#x662F;&#x5982;&#x679C;&#x518D;&#x8981;&#x6C42;&#x4E00;&#x4E2A;&#x4E2D;&#x4F4D;&#x6570;&#x3002;&#x8FD9;&#x4E2A;&#x5C31;&#x4E0D;&#x597D;&#x5F04;&#x4E86;&#x3002;&#x4F46;&#x662F;Python&#x7684;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x5305;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x641E;&#x5B9A;&#x3002;&#x540C;&#x65F6;&#x753B;&#x56FE;&#x4E5F;&#x975E;&#x5E38;&#x65B9;&#x4FBF;&#x3002;</p>
-<h1 id="numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h1><p>&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x4E2A;N &#x7EF4;&#x6570;&#x7EC4;&#x5BB9;&#x5668; &#x540C;&#x65F6;&#x63D0;&#x4F9B;&#x4E86;&#x77E9;&#x9635;&#x8FD0;&#x7B97;</p>
-<h2 id="&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;"><a href="#&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;" class="headerlink" title="&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;"></a>&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;</h2><p>&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#xFF0C;&#x9ED8;&#x8BA4;&#x5C31;&#x662F;&#x7C7B;&#x4F3C;&#x5176;&#x4ED6;&#x8BED;&#x8A00;&#x90A3;&#x79CD;&#x4ECE;&#x96F6;&#x5F00;&#x59CB;&#x7684;&#x6570;&#x5B57;&#x7D22;&#x5F15;</p>
-<h2 id="&#x5176;&#x4ED6;"><a href="#&#x5176;&#x4ED6;" class="headerlink" title="&#x5176;&#x4ED6;"></a>&#x5176;&#x4ED6;</h2><h3 id="arangexrangerange"><a href="#arange-xrange-range" class="headerlink" title="arange/xrange/range"></a>arange/xrange/range</h3><ol>
-<li>range&#x662F;&#x4E00;&#x4E2A;Python&#x7684;&#x5185;&#x5EFA;&#x51FD;&#x6570;&#xFF0C;&#x63D0;&#x4F9B;&#x8303;&#x56F4;&#x548C;&#x6B65;&#x957F;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#xFF0C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;list</li>
-<li>arange&#x662F;Numpy&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x53C2;&#x6570;&#x540C;&#x4E0A;&#xFF0C;&#x4F46;&#x662F;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x4EE5;&#x4E3A;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;</li>
-<li>xrange&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x4E00;&#x4E2A;list&#x751F;&#x6210;&#x5668;</li>
-</ol>
-<h1 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h1><h2 id="&#x5207;&#x7247;"><a href="#&#x5207;&#x7247;" class="headerlink" title="&#x5207;&#x7247;"></a>&#x5207;&#x7247;</h2><h3 id="&#x5217;"><a href="#&#x5217;" class="headerlink" title="&#x5217;"></a>&#x5217;</h3><ol>
-<li>&#x901A;&#x8FC7;&#x7D22;&#x5F15;&#xFF1A;df.col1&#x6216;&#x8005;df[&#x2018;col1&#x2019;],&#x5982;&#x679C;&#x662F;&#x591A;&#x5217;&#x5E94;&#x5F53;&#x662F;&#x5217;&#x8868;&#x7684;&#x5F62;&#x5F0F;&#x51FA;&#x73B0;df[[&#x2018;col1&#x2019;,&#x2019;col2&#x2019;]]</li>
-</ol>
-<h3 id="&#x884C;"><a href="#&#x884C;" class="headerlink" title="&#x884C;"></a>&#x884C;</h3><ol>
-<li>&#x901A;&#x8FC7;&#x7D22;&#x5F15;&#x540D; df</li>
-</ol>
-<h2 id="&#x7B5B;&#x9009;&#x6761;&#x4EF6;"><a href="#&#x7B5B;&#x9009;&#x6761;&#x4EF6;" class="headerlink" title="&#x7B5B;&#x9009;&#x6761;&#x4EF6;"></a>&#x7B5B;&#x9009;&#x6761;&#x4EF6;</h2><h2 id="&#x5206;&#x7EC4;"><a href="#&#x5206;&#x7EC4;" class="headerlink" title="&#x5206;&#x7EC4;"></a>&#x5206;&#x7EC4;</h2><p>groupby &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;groupby&#x5BF9;&#x8C61; &#x5176;&#x5B9E;&#x53EF;&#x4EE5;&#x7B80;&#x5355;&#x7406;&#x89E3;&#x4E3A;&#x4E00;&#x4E2A;&#x542B;&#x6709;&#x5206;&#x7EC4;&#x4FE1;&#x606F;&#x7684;dataFrame,&#x8FD9;&#x610F;&#x5473;&#x7740;<br>df.groupby()&#x4E4B;&#x540E;&#x53EF;&#x4EE5;&#x7EE7;&#x7EED;&#x5207;&#x7247;.df.groupby([&#x2018;dim1&#x2019;,&#x2019;dim2&#x2019;])[[&#x2018;col1&#x2019;,&#x2019;col2&#x2019;]]<br>&#x4ECE;&#x4E0A;&#x9762;&#x4E5F;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#xFF0C;&#x591A;&#x7EF4;&#x5EA6;&#x5206;&#x7EC4;&#xFF0C;&#x5206;&#x7EC4;&#x540E;&#x53EA;&#x67E5;&#x770B;&#x6307;&#x5B9A;&#x5217;&#x7684;&#x5199;&#x6CD5;&#x3002;<br>&#x5F53;&#x7136;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x5206;&#x7EC4;,&#x6BD4;&#x5982;sql&#x4E2D;&#x5E38;&#x5199;&#x7684; if(var == 1,&#x2019;&#x662F;&#x2019;,&#x2019;&#x5426;&#x2019;),&#x8FD9;&#x91CC;&#x6362;&#x6210;lambda&#x8868;&#x8FBE;&#x5F0F;&#x5373;&#x53EF;</p>
-<blockquote>
-<p>&#x5176;&#x5B9E;&#x5206;&#x7EC4;&#x5217;&#x672C;&#x8D28;&#x8981;&#x6C42;&#x662F;&#x4E00;&#x4E2A;&#x548C;&#x6E90;&#x6570;&#x636E;&#x5217;&#x7B49;&#x957F;&#x7684;Serial,&#x5982;&#x679C;&#x4F7F;&#x7528;&#x6E90;df&#x4E2D;&#x7684;&#x5217;&#xFF0C;&#x76F4;&#x63A5;&#x63D0;&#x4F9B;&#x5217;&#x540D;&#x5373;&#x53EF;&#xFF1B;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x4E49;&#x4E2A;&#x4EE5;&#x4E3A;&#x6570;&#x7EC4;&#x7528;&#x6765;&#x5206;&#x7EC4;&#x3002;<br>&#x7279;&#x522B;&#x6CE8;&#x610F;&#xFF1A;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5217;&#x540D;&#x4F5C;&#x5206;&#x7EC4;&#x952E;&#xFF0C;&#x524D;&#x9762;&#x66FE;&#x63D0;&#x5230;&#x8FC7;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5F62;&#x5F0F;&#x7684;&#x5217;&#x540D;&#x4F5C;&#x4E3A;&#x5206;&#x7EC4;&#x952E;&#xFF0C;<br>&#x4F46;&#x4E0A;&#x9762;&#x4F8B;&#x5B50;&#x4E2D;&#x90FD;&#x6CA1;&#x6709;&#x7528;&#x3002;&#x662F;&#x56E0;&#x4E3A;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x867D;&#x7136;&#x65B9;&#x4FBF;&#xFF0C;&#x5374;&#x5B58;&#x5728;&#x9690;&#x60A3;&#x2014;&#x2014;&#x4F7F;&#x7528;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x65F6;&#xFF0C;&#x8C03;&#x7528;&#x8005;&#x5FC5;&#x987B;&#x662F; DataFrame &#x5BF9;&#x8C61;&#x81EA;&#x8EAB;&#x800C;&#x4E0D;&#x53EF;&#x4EE5;&#x662F; DataFrame &#x7684;&#x7D22;&#x5F15;&#x5F62;&#x5F0F;&#x3002;<br>&#x5373; df.groupby([&#x2018;key1&#x2019;,&#x2019;key2&#x2019;])[&#x2018;data1&#x2019;] &#x662F; ok &#x7684;&#xFF0C;&#x4F46; df[&#x2018;data1&#x2019;].groupby(&#x2018;key1&#x2019;) &#x4F1A;&#x62A5;&#x9519;&#x3002;&#x4F7F;&#x7528;&#x65F6;&#x5F53;&#x6CE8;&#x610F;&#x533A;&#x5206;&#x3002;</p>
-</blockquote>
 ]]></content>
     </entry>
     
@@ -882,6 +850,14 @@
     </entry>
     
     <entry>
+      <title><![CDATA[redis 学习]]></title>
+      <url>http://whisper1225.github.io/2016/03/14/redis%E5%AD%A6%E4%B9%A0/</url>
+      <content type="html"><![CDATA[<p>redis<br><a id="more"></a></p>
+<h2 id="&#x5B9E;&#x8DF5;"><a href="#&#x5B9E;&#x8DF5;" class="headerlink" title="&#x5B9E;&#x8DF5;"></a>&#x5B9E;&#x8DF5;</h2><p>redis key<br>&#x7528;String&#x7C7B;&#x578B;&#xFF0C;&#x539F;&#x59CB;url&#x4E00;&#x822C;&#x4E0D;&#x8D85;&#x8FC7;&#x4E94;&#x767E;<br>key &#x77ED;&#x94FE;&#x63A5;&#xFF0C;&#x503C;&#x4E3A;&#x539F;&#x59CB;url</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于编码的碎碎念]]></title>
       <url>http://whisper1225.github.io/2016/03/05/%E5%85%B3%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
       <content type="html"><![CDATA[<p>&#x5173;&#x4E8E;&#x7F16;&#x7801;&#x7684;&#x4E00;&#x4E9B;&#x80E1;&#x601D;&#x4E71;&#x60F3;<br><a id="more"></a></p>
@@ -1053,6 +1029,30 @@
 <li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">&#x8FD9;&#x4E2A;&#x662F;&#x8865;&#x5145;&#x7684;&#xFF0C;&#x4E4B;&#x524D;&#x56E0;&#x4E3A;&#x8FD9;&#x7BC7;&#x535A;&#x5BA2;&#x9875;&#x9762;&#x592A;&#x4E11;&#xFF0C;&#x6CA1;&#x7EC6;&#x770B;</a><br>&#x4F46;&#x662F;&#x8FD9;&#x4E2A;&#x4ECB;&#x7ECD;&#x4E86;&#x4E00;&#x4E2A;&#x7F51;&#x7AD9;&#x6240;&#x9700;&#x8981;&#x7684;&#x5404;&#x4E2A;&#x65B9;&#x9762;&#xFF0C;&#x5305;&#x62EC;&#x641C;&#x7D22;&#x5F15;&#x64CE;&#x4F18;&#x5316;&#x3002;&#x5410;&#x8840;&#x63A8;&#x8350;&#xFF01;</li>
 <li><a href="http://www.voidking.com/2015/05/31/deve-hexo-theme-optimize/#&#x6DFB;&#x52A0;&#x5934;&#x50CF;" target="_blank" rel="external">&#x4E3B;&#x9898;&#x4F18;&#x5316;&#x65B9;&#x9762;&#xFF0C;&#x4EAE;&#x70B9;&#x662F;&#x53F3;&#x8FB9;&#x7684;&#x90A3;&#x4E2A;&#x6587;&#x7AE0;&#x76EE;&#x5F55;toc&#x56E0;&#x4E3A;&#x6587;&#x4EF6;&#x5939;&#x7ED3;&#x6784;&#x7684;&#x53D8;&#x5316;&#xFF0C;&#x6211;&#x6CA1;&#x6709;&#x7167;&#x7740;&#x505A;&#x51FA;&#x6765;</a></li>
 </ol>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[利用Python进行数据分析]]></title>
+      <url>http://whisper1225.github.io/2015/12/04/%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</url>
+      <content type="html"><![CDATA[<p>&#x5229;&#x7528;Python&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5206;&#x6790;<br><a id="more"></a><br>&#x5176;&#x5B9E;&#x5B66;&#x4E60;&#x5DE5;&#x4F5C;&#x4E2D;&#x78B0;&#x5230;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x8BB8;&#x591A;&#x591A;&#x662F;sql&#x76F4;&#x63A5;&#x641E;&#x5B9A;&#x4E86;&#x3002;&#x4F46;&#x662F;sql&#x7684;&#x7075;&#x6D3B;&#x6027;&#x8FD8;&#x662F;&#x4E0D;&#x5F31;&#x771F;&#x6B63;&#x7684;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7075;&#x6D3B;&#xFF0C;&#x5176;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x65B9;&#x6CD5;&#x4E5F;&#x663E;&#x5F97;&#x5355;&#x8584;&#xFF0C;&#x8FDC;&#x4E0D;&#x5982;Python&#x7684;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x5305;&#x4E30;&#x5BCC;&#x3002;<br>&#x6BD4;&#x5982;&#x4E4B;&#x524D;&#x5728;&#x7279;&#x5F81;&#x96C6;&#x4E2D;&#x4E00;&#x822C;&#x4F1A;&#x6709;&#x524D;&#x4E00;&#x5929;&#x3001;&#x524D;&#x4E24;&#x5929;&#x3001;&#x524D;&#x4E09;&#x5929;&#x7684;&#x4E09;&#x5217;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8BA1;&#x7B97;&#x8FD9;&#x4E09;&#x5217;&#x7684;&#x65B9;&#x5DEE;&#x4EC0;&#x4E48;&#x7684;&#x5C31;&#x4E0D;&#x597D;&#x7B97;&#x4E86;&#x3002;&#x6709;&#x4E9B;&#x6570;&#x636E;&#x5E93;&#x662F;&#x652F;&#x6301;&#x7684;&#x6BD4;&#x5982;postgrep&#x3002;&#x4F46;&#x662F;&#x5982;&#x679C;&#x518D;&#x8981;&#x6C42;&#x4E00;&#x4E2A;&#x4E2D;&#x4F4D;&#x6570;&#x3002;&#x8FD9;&#x4E2A;&#x5C31;&#x4E0D;&#x597D;&#x5F04;&#x4E86;&#x3002;&#x4F46;&#x662F;Python&#x7684;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x5305;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x641E;&#x5B9A;&#x3002;&#x540C;&#x65F6;&#x753B;&#x56FE;&#x4E5F;&#x975E;&#x5E38;&#x65B9;&#x4FBF;&#x3002;</p>
+<h1 id="numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h1><p>&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x4E2A;N &#x7EF4;&#x6570;&#x7EC4;&#x5BB9;&#x5668; &#x540C;&#x65F6;&#x63D0;&#x4F9B;&#x4E86;&#x77E9;&#x9635;&#x8FD0;&#x7B97;</p>
+<h2 id="&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;"><a href="#&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;" class="headerlink" title="&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;"></a>&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;</h2><p>&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#xFF0C;&#x9ED8;&#x8BA4;&#x5C31;&#x662F;&#x7C7B;&#x4F3C;&#x5176;&#x4ED6;&#x8BED;&#x8A00;&#x90A3;&#x79CD;&#x4ECE;&#x96F6;&#x5F00;&#x59CB;&#x7684;&#x6570;&#x5B57;&#x7D22;&#x5F15;</p>
+<h2 id="&#x5176;&#x4ED6;"><a href="#&#x5176;&#x4ED6;" class="headerlink" title="&#x5176;&#x4ED6;"></a>&#x5176;&#x4ED6;</h2><h3 id="arangexrangerange"><a href="#arange-xrange-range" class="headerlink" title="arange/xrange/range"></a>arange/xrange/range</h3><ol>
+<li>range&#x662F;&#x4E00;&#x4E2A;Python&#x7684;&#x5185;&#x5EFA;&#x51FD;&#x6570;&#xFF0C;&#x63D0;&#x4F9B;&#x8303;&#x56F4;&#x548C;&#x6B65;&#x957F;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#xFF0C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;list</li>
+<li>arange&#x662F;Numpy&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x53C2;&#x6570;&#x540C;&#x4E0A;&#xFF0C;&#x4F46;&#x662F;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x4EE5;&#x4E3A;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;</li>
+<li>xrange&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x4E00;&#x4E2A;list&#x751F;&#x6210;&#x5668;</li>
+</ol>
+<h1 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h1><h2 id="&#x5207;&#x7247;"><a href="#&#x5207;&#x7247;" class="headerlink" title="&#x5207;&#x7247;"></a>&#x5207;&#x7247;</h2><h3 id="&#x5217;"><a href="#&#x5217;" class="headerlink" title="&#x5217;"></a>&#x5217;</h3><ol>
+<li>&#x901A;&#x8FC7;&#x7D22;&#x5F15;&#xFF1A;df.col1&#x6216;&#x8005;df[&#x2018;col1&#x2019;],&#x5982;&#x679C;&#x662F;&#x591A;&#x5217;&#x5E94;&#x5F53;&#x662F;&#x5217;&#x8868;&#x7684;&#x5F62;&#x5F0F;&#x51FA;&#x73B0;df[[&#x2018;col1&#x2019;,&#x2019;col2&#x2019;]]</li>
+</ol>
+<h3 id="&#x884C;"><a href="#&#x884C;" class="headerlink" title="&#x884C;"></a>&#x884C;</h3><ol>
+<li>&#x901A;&#x8FC7;&#x7D22;&#x5F15;&#x540D; df</li>
+</ol>
+<h2 id="&#x7B5B;&#x9009;&#x6761;&#x4EF6;"><a href="#&#x7B5B;&#x9009;&#x6761;&#x4EF6;" class="headerlink" title="&#x7B5B;&#x9009;&#x6761;&#x4EF6;"></a>&#x7B5B;&#x9009;&#x6761;&#x4EF6;</h2><h2 id="&#x5206;&#x7EC4;"><a href="#&#x5206;&#x7EC4;" class="headerlink" title="&#x5206;&#x7EC4;"></a>&#x5206;&#x7EC4;</h2><p>groupby &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;groupby&#x5BF9;&#x8C61; &#x5176;&#x5B9E;&#x53EF;&#x4EE5;&#x7B80;&#x5355;&#x7406;&#x89E3;&#x4E3A;&#x4E00;&#x4E2A;&#x542B;&#x6709;&#x5206;&#x7EC4;&#x4FE1;&#x606F;&#x7684;dataFrame,&#x8FD9;&#x610F;&#x5473;&#x7740;<br>df.groupby()&#x4E4B;&#x540E;&#x53EF;&#x4EE5;&#x7EE7;&#x7EED;&#x5207;&#x7247;.df.groupby([&#x2018;dim1&#x2019;,&#x2019;dim2&#x2019;])[[&#x2018;col1&#x2019;,&#x2019;col2&#x2019;]]<br>&#x4ECE;&#x4E0A;&#x9762;&#x4E5F;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#xFF0C;&#x591A;&#x7EF4;&#x5EA6;&#x5206;&#x7EC4;&#xFF0C;&#x5206;&#x7EC4;&#x540E;&#x53EA;&#x67E5;&#x770B;&#x6307;&#x5B9A;&#x5217;&#x7684;&#x5199;&#x6CD5;&#x3002;<br>&#x5F53;&#x7136;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x5206;&#x7EC4;,&#x6BD4;&#x5982;sql&#x4E2D;&#x5E38;&#x5199;&#x7684; if(var == 1,&#x2019;&#x662F;&#x2019;,&#x2019;&#x5426;&#x2019;),&#x8FD9;&#x91CC;&#x6362;&#x6210;lambda&#x8868;&#x8FBE;&#x5F0F;&#x5373;&#x53EF;</p>
+<blockquote>
+<p>&#x5176;&#x5B9E;&#x5206;&#x7EC4;&#x5217;&#x672C;&#x8D28;&#x8981;&#x6C42;&#x662F;&#x4E00;&#x4E2A;&#x548C;&#x6E90;&#x6570;&#x636E;&#x5217;&#x7B49;&#x957F;&#x7684;Serial,&#x5982;&#x679C;&#x4F7F;&#x7528;&#x6E90;df&#x4E2D;&#x7684;&#x5217;&#xFF0C;&#x76F4;&#x63A5;&#x63D0;&#x4F9B;&#x5217;&#x540D;&#x5373;&#x53EF;&#xFF1B;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x4E49;&#x4E2A;&#x4EE5;&#x4E3A;&#x6570;&#x7EC4;&#x7528;&#x6765;&#x5206;&#x7EC4;&#x3002;<br>&#x7279;&#x522B;&#x6CE8;&#x610F;&#xFF1A;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5217;&#x540D;&#x4F5C;&#x5206;&#x7EC4;&#x952E;&#xFF0C;&#x524D;&#x9762;&#x66FE;&#x63D0;&#x5230;&#x8FC7;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5F62;&#x5F0F;&#x7684;&#x5217;&#x540D;&#x4F5C;&#x4E3A;&#x5206;&#x7EC4;&#x952E;&#xFF0C;<br>&#x4F46;&#x4E0A;&#x9762;&#x4F8B;&#x5B50;&#x4E2D;&#x90FD;&#x6CA1;&#x6709;&#x7528;&#x3002;&#x662F;&#x56E0;&#x4E3A;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x867D;&#x7136;&#x65B9;&#x4FBF;&#xFF0C;&#x5374;&#x5B58;&#x5728;&#x9690;&#x60A3;&#x2014;&#x2014;&#x4F7F;&#x7528;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x65F6;&#xFF0C;&#x8C03;&#x7528;&#x8005;&#x5FC5;&#x987B;&#x662F; DataFrame &#x5BF9;&#x8C61;&#x81EA;&#x8EAB;&#x800C;&#x4E0D;&#x53EF;&#x4EE5;&#x662F; DataFrame &#x7684;&#x7D22;&#x5F15;&#x5F62;&#x5F0F;&#x3002;<br>&#x5373; df.groupby([&#x2018;key1&#x2019;,&#x2019;key2&#x2019;])[&#x2018;data1&#x2019;] &#x662F; ok &#x7684;&#xFF0C;&#x4F46; df[&#x2018;data1&#x2019;].groupby(&#x2018;key1&#x2019;) &#x4F1A;&#x62A5;&#x9519;&#x3002;&#x4F7F;&#x7528;&#x65F6;&#x5F53;&#x6CE8;&#x610F;&#x533A;&#x5206;&#x3002;</p>
+</blockquote>
 ]]></content>
     </entry>
     
